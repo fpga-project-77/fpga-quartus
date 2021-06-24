@@ -12,8 +12,8 @@
 
 
 // [3:0]busMUX		(2**4)
-//  AR  DR  RP  RT  RM1 RK1 RN1 RM2 RK2 RN2 C1  C2  C3  AC
-//  14	13  12  11  10  9   8   7   6   5   4   3   2   1   
+//  MEM     AR  DR  RP  RT  RM1 RK1 RN1 RM2 RK2 RN2 C1  C2  C3  AC
+//  15      14	13  12  11  10  9   8   7   6   5   4   3   2   1   
 
 
 // [5:0]INC        
@@ -43,6 +43,7 @@ module controlunit (
     output reg memREAD,
     output reg memWRITE,
     output reg [15:0] wEN,
+    output reg selAR,
     output reg [3:0] busMUX,
     output reg [5:0] INC,
 	output reg [4:0] RST,
@@ -63,6 +64,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -76,6 +78,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -88,6 +91,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0100_0000_0000_0000;         //IR WRITE
+            selAR <= 0;
             busMUX <= 0;
             INC <= 6'b10_0000;
             RST <= 0;
@@ -172,6 +176,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -190,6 +195,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -208,6 +214,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -226,6 +233,7 @@ always @(posedge Clk) begin
         //     memREAD <= 0;              
         //     memWRITE <= 0;
         //     wEN <= 0;
+        //    selAR <= 0;
         //     busMUX <= 0;
         //     INC <= 0;
         //     RST <= 0;
@@ -243,6 +251,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -255,6 +264,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0010_0000_0000_0000;     
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -279,6 +289,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 6'b10_0000;
             RST <= 0;
@@ -291,6 +302,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -303,6 +315,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0010_0000_0000_0000; 
+            selAR <= 1;
             busMUX <= 0;
             INC <= 6'b10_0000;
             RST <= 0;
@@ -315,6 +328,7 @@ always @(posedge Clk) begin
             memREAD <= 1;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -327,7 +341,8 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0001_0000_0000_0000;
-            busMUX <= 0;
+            selAR <= 0;
+            busMUX <= 15;
             INC <= 0;
             RST <= 0;
             compMUX <= 0;
@@ -347,6 +362,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0010_0000_0000;
+            selAR <= 0;
             busMUX <= 13;       //1100
             INC <= 0;
             RST <= 0;
@@ -359,6 +375,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0001_0000_0000;;
+            selAR <= 0;
             busMUX <= 13;
             INC <= 0;
             RST <= 0;
@@ -371,6 +388,7 @@ always @(posedge Clk) begin
             memREAD <= 1;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_1000_0000;
+            selAR <= 0;
             busMUX <= 13;
             INC <= 0;
             RST <= 0;
@@ -383,6 +401,7 @@ always @(posedge Clk) begin
             memREAD <= 1;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -395,7 +414,8 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0001_0000_0000_0000;
-            busMUX <= 0;
+            selAR <= 0;
+            busMUX <= 15;
             INC <= 0;
             RST <= 0;
             compMUX <= 0;
@@ -407,6 +427,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0010_0000_0000_0000;
+            selAR <= 0;
             busMUX <= 4;
             INC <= 0;
             RST <= 0;
@@ -419,6 +440,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0010_0000_0000_0000;
+            selAR <= 0;
             busMUX <= 3;
             INC <= 0;
             RST <= 0;
@@ -431,6 +453,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0001_0000_0000_0000;
+            selAR <= 0;
             busMUX <= 11;
             INC <= 0;
             RST <= 0;
@@ -443,6 +466,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0010_0000_0000_0000;
+            selAR <= 0;
             busMUX <= 2;
             INC <= 0;
             RST <= 0;
@@ -455,6 +479,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 1;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 13;
             INC <= 0;
             RST <= 0;
@@ -467,6 +492,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 0;
@@ -478,6 +504,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0010_0000_0000_0000;
+            selAR <= 1;
             busMUX <= 0;
             INC <= 6'b10_0000;
             RST <= 0;
@@ -498,6 +525,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_1000;
+            selAR <= 0;
             busMUX <= 14;                               //14 = 4'b1100
             INC <= 0;
             RST <= 0;
@@ -510,6 +538,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_0100;
+            selAR <= 0;
             busMUX <= 14;
             INC <= 0;
             RST <= 0;
@@ -522,6 +551,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_0010;
+            selAR <= 0;
             busMUX <= 14;
             INC <= 0;
             RST <= 0;
@@ -535,6 +565,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 5'b11111;
@@ -547,6 +578,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 5'b00010;
@@ -559,6 +591,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 0;
             RST <= 5'b00100;
@@ -571,6 +604,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_1000_0000_0000;
+            selAR <= 0;
             busMUX <= 1;
             INC <= 0;
             RST <= 0;
@@ -583,6 +617,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0100_0000_0000;
+            selAR <= 0;
             busMUX <= 1;
             INC <= 0;
             RST <= 0;
@@ -595,6 +630,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_1000;
+            selAR <= 0;
             busMUX <= 1;
             INC <= 0;
             RST <= 0;
@@ -607,6 +643,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_0001;
+            selAR <= 0;
             busMUX <= 4;
             INC <= 0;
             RST <= 0;
@@ -619,6 +656,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_0001;
+            selAR <= 0;
             busMUX <= 13;
             INC <= 0;
             RST <= 0;
@@ -631,6 +669,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_0001;
+            selAR <= 0;
             busMUX <= 12;
             INC <= 0;
             RST <= 0;
@@ -643,6 +682,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_0001;
+            selAR <= 0;
             busMUX <= 11;
             INC <= 0;
             RST <= 0;
@@ -655,6 +695,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_0001;
+            selAR <= 0;
             busMUX <= 10;
             INC <= 0;
             RST <= 0;
@@ -667,6 +708,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_0001;
+            selAR <= 0;
             busMUX <= 7;
             INC <= 0;
             RST <= 0;
@@ -691,6 +733,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 6'b00_0001;
             RST <= 0;
@@ -703,6 +746,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 6'b01_0000;
             RST <= 0;
@@ -715,6 +759,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 6'b00_1000;
             RST <= 0;
@@ -727,6 +772,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
+            selAR <= 0;
             busMUX <= 0;
             INC <= 6'b00_0100;
             RST <= 0;
