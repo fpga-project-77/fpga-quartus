@@ -35,10 +35,12 @@
 
 //NEXT INSTRUCTION
 
-module controlunit (
+module controlunit 
+#(parameter WIDTH = 8)
+(
     input Clk,
     input z,
-    input [7:0] REG_IR,
+    input [WIDTH-1:0] REG_IR,
     output reg iROMREAD,
     output reg memREAD,
     output reg memWRITE,
@@ -52,8 +54,8 @@ module controlunit (
 );
 
 reg [7:0]NEXT_STATE;
-reg [7:0]INS;
-reg [7:0]MEM_READ;
+reg [WIDTH-1:0]INS;
+reg [WIDTH-1:0]MEM_READ;
 
 
 //DEFINE ALL THE STATES OF THE CONTROL UNIT

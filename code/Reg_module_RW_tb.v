@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module AR_tb ();
+module Reg_module_RW_tb ();
 
     localparam CLK_PERIOD = 20;
     reg Clk;
@@ -14,12 +14,11 @@ module AR_tb ();
     end
 
     localparam WIDTH = 8;
-    reg [WIDTH-1:0] BusOut, IOut;
-    reg WEN;
-    reg selAR;
+    reg [WIDTH-1:0] BusOut;
+    reg WEN, RST;
     wire [WIDTH-1:0] dout;
 
-    AR #(.WIDTH(WIDTH)) dut (.Clk(Clk), .WEN(WEN), .BusOut(BusOut), .IOut(IOut), .selAR(selAR), .dout(dout));
+    Reg_module_RW #(.WIDTH(WIDTH)) dut (.Clk(Clk), .WEN(WEN), .RST(RST), .BusOut(BusOut), .dout(dout));
     
 
     initial begin
@@ -28,36 +27,27 @@ module AR_tb ();
         @(posedge Clk);
         WEN <= 0;
         BusOut <= 8'b10101010;
-        IOut <= 8'b10001000;
-        selAR <= 1'b0; 
-    
+        RST <= 0;
       
 
         #(CLK_PERIOD*2);
         @(posedge Clk);
         WEN <= 1;
-        BusOut <= 8'b10101010;
-        IOut <= 8'b10001000;
-        selAR <= 1'b0;
-        
+        BusOut = 8'b10000100;
+        RST <= 0;
 
         #(CLK_PERIOD);
         @(posedge Clk);
-        WEN <= 1;
-        BusOut <= 8'b10101010;
-        IOut <= 8'b10001000;
-        selAR <= 1'b1;
- 
+        WEN <= 0;
+        BusOut = 8'b10000100;
+        RST <= 1;
      
 
         repeat(5) @(posedge Clk) begin
+            BusOut<= $random;
             WEN <= $random;
-            BusOut <= $random;
-            IOut <= $random;
-            selAR <= $random;
+            RST <= $random;
             $display("%8b", BusOut);
-            $display("%8b", IOut);
-
         end
         
 
@@ -69,4 +59,3 @@ module AR_tb ();
 
     
 endmodule
-
