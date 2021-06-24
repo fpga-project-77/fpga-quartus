@@ -114,14 +114,55 @@ always @(posedge Clk) begin
                         `JMP_K : NEXT_STATE <= `JMPK_1;
                         `JMP_N : NEXT_STATE <= `JMPN_1; 
                     endcase
+                end
                 `COPY : NEXT_STATE <= `COPY_1;
-
-                RESET : begin
+                `LOAD : begin
                     case (INS[3:0])
-
+                       `LOAD_C1 : NEXT_STATE <= `LOADC1_1;
+                       `LOAD_C2 : NEXT_STATE <= `LOADC2_1;
                     endcase
                 end
-                
+                `STORE : NEXT_STATE <= `STORE_1;
+                `ASSIGN : NEXT_STATE <= `ASSIGN_1;
+                `RESET : begin
+                    case (INS[3:0])
+                        `RESET_ALL : NEXT_STATE <= `RESETALL_1;
+                        `RESET_N2 : NEXT_STATE <= `RESETN2_1;
+                        `RESET_K2 : NEXT_STATE <= `RESETK2_1;
+                    endcase
+                end
+                `MOVE : begin
+                    case (INS[3:0])
+                        `MOVE_RP : NEXT_STATE <= `MOVEP_1;
+                        `MOVE_RT : NEXT_STATE <= `MOVET_1;
+                        `MOVE_RC1 : NEXT_STATE <= `MOVEC1_1;
+                    endcase
+                end
+                `SET : begin
+                    case (INS[3:0])
+                        `SETC1 : NEXT_STATE <= `SETC1_1;
+                        `SETDR : NEXT_STATE <= `SETDR_1;
+                    endcase
+                end
+                `MUL : NEXT_STATE <= `MUL_1;
+                `ADD : begin
+                    case (INS[3:0])
+                        `ADD_RT : NEXT_STATE <= `ADDRT_1;
+                        `ADD_RM1 : NEXT_STATE <= `ADDRM1_1;
+                        `ADD_RM2 : NEXT_STATE <= `ADDRM2_1;
+                    endcase
+                end
+                `ADD : begin
+                    case (INS[3:0])
+                        `INC_C2 : NEXT_STATE <= `INCC2_1;
+                        `INC_C3 : NEXT_STATE <= `INCC3_1;
+                        `INC_M2 : NEXT_STATE <= `INCM2_1;
+                        `INC_K2 : NEXT_STATE <= `INCK2_1;
+                        `INC_N2 : NEXT_STATE <= `INCN2_1;
+                    endcase
+                end 
+
+                // TODO : END OPERATION                             
                 end 
             endcase
         end
@@ -231,7 +272,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
         `NJMP_1 : begin   //NO`JMP                    PC <= PC + 1
             iROMREAD <= 0;
@@ -243,7 +284,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
         `COPY_1 : begin   //`COPY_1                     READ_IROM[PC]
             iROMREAD <= 1;
@@ -311,7 +352,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
         `COPYK_5 : begin       //`COPY K1               REG K1 <= DR
             iROMREAD <= 0;
@@ -323,7 +364,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
         `COPYN_5 : begin       //`COPY N1               REG N1 <= DR
             iROMREAD <= 0;
@@ -335,7 +376,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
         `LOAD_2 : begin       //`LOAD_2                    MEM_READ[AR]
             iROMREAD <= 0;
@@ -359,7 +400,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
         `LOADC1_1 : begin       //`LOAD_C1                   AR <= C1
             iROMREAD <= 0;
@@ -419,9 +460,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        ASSIGN_1 : begin       //ASSIGN_1                   READ_IROM[PC]
+        `ASSIGN_1 : begin       //ASSIGN_1                   READ_IROM[PC]
             iROMREAD <= 1;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -431,9 +472,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= ASSIGN_2;
+            NEXT_STATE <= `ASSIGN_2;
         end
-        ASSIGN_2 : begin       //ASSIGN_3                AR <= IROM[PC], PC <= PC+1
+        `ASSIGN_2 : begin       //ASSIGN_3                AR <= IROM[PC], PC <= PC+1
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0010_0000_0000_0000;
@@ -443,16 +484,16 @@ always @(posedge Clk) begin
             compMUX <= 0;
             aluOP <= 0;
             if (INS[1:0]==2'b00) begin             //00 --> ASSIGN C1, 01 --> ASSIGN C2, 10 --> ASSIGN C3
-                NEXT_STATE <= ASSIGNC1_3;
+                NEXT_STATE <= `ASSIGNC1_3;
             end
             else if (INS[1:0]==2'b01) begin             
-                NEXT_STATE <= ASSIGNC2_3;
+                NEXT_STATE <= `ASSIGNC2_3;
             end
             else if (INS[1:0]==2'b10) begin             
-                NEXT_STATE <= ASSIGNC3_3;
+                NEXT_STATE <= `ASSIGNC3_3;
 				end
         end 
-		  ASSIGNC1_3 : begin       //ASSIGN_C1                   C1 <= AR
+	    `ASSIGNC1_3 : begin       //ASSIGN_C1                   C1 <= AR
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -462,9 +503,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
 		  end 
-		ASSIGNC2_3 : begin       //ASSIGN_C2                   C2 <= AR
+		`ASSIGNC2_3 : begin       //ASSIGN_C2                   C2 <= AR
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -474,9 +515,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        ASSIGNC3_3 : begin       //ASSIGN_C3                   C3 <= AR
+        `ASSIGNC3_3 : begin       //ASSIGN_C3                   C3 <= AR
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -486,10 +527,10 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
         end
-        RESETALL_1 : begin       //RESET_ALL
+        `RESETALL_1 : begin       //RESET_ALL
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -499,9 +540,9 @@ always @(posedge Clk) begin
             RST <= 5'b11111;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        RESETN2_1 : begin       //RESET REG N2
+        `RESETN2_1 : begin       //RESET REG N2
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -511,9 +552,9 @@ always @(posedge Clk) begin
             RST <= 5'b00010;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        RESETK2_1 : begin       //RESET REG K2
+        `RESETK2_1 : begin       //RESET REG K2
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -523,9 +564,9 @@ always @(posedge Clk) begin
             RST <= 5'b00100;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        MOVEP_1 : begin       //MOVE TO REG P               REG P <= AC
+        `MOVEP_1 : begin       //MOVE TO REG P               REG P <= AC
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -535,9 +576,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        MOVET_1 : begin       //MOVE TO REG T             REG T <= AC
+        `MOVET_1 : begin       //MOVE TO REG T             REG T <= AC
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -547,9 +588,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        MOVEC1_1 : begin       //MOVE TO REG C1                C1 <= AC
+        `MOVEC1_1 : begin       //MOVE TO REG C1                C1 <= AC
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -559,9 +600,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        SETC1_1 : begin       //SET AC AS C1               SET, AC <= C1
+        `SETC1_1 : begin       //SET AC AS C1               SET, AC <= C1
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -571,9 +612,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 3'b001;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        SETDR_1 : begin       //SET AC AS DR                SET, AC <= DR
+        `SETDR_1 : begin       //SET AC AS DR                SET, AC <= DR
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -583,9 +624,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 3'b001;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        MUL_1 : begin       //MUL REG P                 AC <= REG_P * AC
+        `MUL_1 : begin       //MUL REG P                 AC <= REG_P * AC
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -595,9 +636,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 3'b010;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        ADDRT_1 : begin       //ADD REG_T                AC <= REG_1 + AC
+        `ADDRT_1 : begin       //ADD REG_T                AC <= REG_1 + AC
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -607,9 +648,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 3'b100;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        ADDRM1_1 : begin       //ADD REG_M1                AC <= REG_M1 + AC
+        `ADDRM1_1 : begin       //ADD REG_M1                AC <= REG_M1 + AC
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -619,9 +660,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 3'b100;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        ADDRM2_1 : begin       //ADD REG_M2                AC <= REG_M2 + AC
+        `ADDRM2_1 : begin       //ADD REG_M2                AC <= REG_M2 + AC
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -631,9 +672,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 3'b100;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        INCC2_1 : begin       //INC REG C2               REG C2 <= C2+1
+        `INCC2_1 : begin       //INC REG C2               REG C2 <= C2+1
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -643,9 +684,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        INCC3_1 : begin       //INC REG C3                REG C3 <= C3+1
+        `INCC3_1 : begin       //INC REG C3                REG C3 <= C3+1
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -655,9 +696,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        INCM2_1 : begin       //INC reg m2                REG M2 <= M2+1
+        `INCM2_1 : begin       //INC reg m2                REG M2 <= M2+1
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -667,9 +708,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        INCK2_1 : begin       //INC REG K2               REG K2 <= K2+1
+        `INCK2_1 : begin       //INC REG K2               REG K2 <= K2+1
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -679,9 +720,9 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
-        INCN2_1 : begin       //INC REG N2               REG N2 <= N2+1
+        `INCN2_1 : begin       //INC REG N2               REG N2 <= N2+1
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -691,7 +732,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
         end
     endcase
         

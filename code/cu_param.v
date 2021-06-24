@@ -28,7 +28,7 @@
 `define LOAD_C1 4'h0
 `define LOAD_C2 4'h1
 
-//ASSIGN PARAM
+//ASSIGN PARAM  !!!!not needed for CU
 `define ASSIGN_C1 4'h0
 `define ASSIGN_C2 4'h1
 `define ASSIGN_C3 4'h2
@@ -43,14 +43,14 @@
 `define MOVE_RT 4'h1
 `define MOVE_RC1 4'h2
 
+//SET PARAM
+`define SETC1 4'h0
+`define SETDR 4'h1
+
 //ADD PARAM 
 `define ADD_RT  4'h0
 `define ADD_RM1  4'h1
 `define ADD_RM2 4'h2
-
-//SET PARAM
-`define SETC1_1 4'h0
-`define SETDR_1 4'h1
 
 //INC PARAM
 `define INC_C2 4'h0
@@ -95,7 +95,7 @@
 
 `define ASSIGN_1 8'h70
 `define ASSIGN_2 8'h71
-`define ASSIGNc1_3 8'h72
+`define ASSIGNC1_3 8'h72
 `define ASSIGNC2_3 8'h73
 `define ASSIGNC3_3 8'h74
 
@@ -106,6 +106,9 @@
 `define MOVEP_1 8'h90
 `define MOVET_1 8'h91
 `define MOVEC1_1 8'h92
+
+`define SETC1_1 4'h0
+`define SETDR_1 4'h1
 
 `define MUL_1 8'hB0
 
