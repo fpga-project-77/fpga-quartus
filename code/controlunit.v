@@ -33,22 +33,25 @@
 
 //NEXT INSTRUCTION
 
-module controller (
-    input Clk, z;
-    input [7:0] INS;
-    output reg insRead;
-    output reg memREAD;
-    output reg memWRITE;
-    output reg [15:0] wEN;
-    output reg [3:0] busMUX;
-    output reg [5:0] INC;
-    output reg [2:0] compMUX;
-    output reg [2:0] aluOP;
+module controlunit (
+    input Clk,
+    input z,
+    input [7:0] REG_IR,
+    output reg insREAD,
+    output reg memREAD,
+    output reg memWRITE,
+    output reg [15:0] wEN,
+    output reg [3:0] busMUX,
+    output reg [5:0] INC,
+	 output reg [4:0] RST,
+    output reg [2:0] compMUX,
+    output reg [2:0] aluOP
 );
 
 reg [7:0]NEXT_STATE;
-reg [7:0]INS <= INS;
+reg [7:0]INS;
 reg [7:0]MEM_READ;
+
 
 //DEFINE ALL THE STATES OF THE CONTROL UNIT
 always @(posedge Clk) begin
@@ -67,7 +70,7 @@ always @(posedge Clk) begin
 
         end
         8'h10 : begin   //FETCH_1
-            insREAD <= 1;
+            insREAD <= 1;       
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 0;
@@ -88,8 +91,22 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= INS;                      //NEXT INSTRUCTION
+            NEXT_STATE <= 8'h12;
         end
+        8'h12 : begin //FETCH_3
+            insREAD <= 0;
+            memREAD <= 0;              
+            memWRITE <= 0;
+            wEN <= 0;         
+            busMUX <= 0;
+            INC <= 6'b10_0000;
+            RST <= 0;
+            compMUX <= 0;
+            aluOP <= 0;
+            //NEXT_STATE <= INS[7:4]+4'b0000;                      XT INSTRUCTION
+            NEXT_STATE <= INS;
+        end
+        
         8'h20 : begin   //JMP_M                     REG M1 - REG M2
             insREAD <= 0;
             memREAD <= 0;              
@@ -100,13 +117,13 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 3'b100;
             aluOP <= 0;
-            NEXT_STATE <= ZERO_CHECK;
-            // if (z) begin
-            //     NEXT_STATE <= 8'h30;
-            // end  
-            // else begin
-            //     NEXT_STATE <= 8'h23;
-            // end  
+            //NEXT_STATE <= ZERO_CHECK;
+            if (z) begin
+                NEXT_STATE <= 8'h30;
+            end  
+            else begin
+                NEXT_STATE <= 8'h24;
+            end  
         end
         8'h21 : begin   //JMP_K                     REG K1 - REG K2
             insREAD <= 0;
@@ -118,13 +135,13 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 3'b010;
             aluOP <= 0;
-            NEXT_STATE <= ZERO_CHECK;
-            // if (z) begin
-            //     NEXT_STATE <= 8'h30;
-            // end  
-            // else begin
-            //     NEXT_STATE <= 8'h23;
-            // end  
+            //NEXT_STATE <= ZERO_CHECK;
+            if (z) begin
+                NEXT_STATE <= 8'h30;
+            end  
+            else begin
+                NEXT_STATE <= 8'h24;
+            end  
         end
         8'h22 : begin   //JMP_N                     REG N1 - REG N2
             insREAD <= 0;
@@ -136,31 +153,31 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 3'b001;
             aluOP <= 0;
-            NEXT_STATE <= ZERO_CHECK;
-            // if (z) begin
-            //     NEXT_STATE <= 8'h30;
-            // end  
-            // else begin
-            //     NEXT_STATE <= 8'h23;
-            // end  
-        end
-        8'h23 : begin       //JMP_2                 ZERO CHECK
-            insREAD <= 0;
-            memREAD <= 0;              
-            memWRITE <= 0;
-            wEN <= 0;
-            busMUX <= 0;
-            INC <= 0;
-            RST <= 0;
-            compMUX <= 0;
-            aluOP <= 0;
+            //NEXT_STATE <= ZERO_CHECK;
             if (z) begin
                 NEXT_STATE <= 8'h30;
             end  
             else begin
                 NEXT_STATE <= 8'h24;
-            end
+            end  
         end
+        // 8'h23 : begin       //JMP_2                 ZERO CHECK
+        //     insREAD <= 0;
+        //     memREAD <= 0;              
+        //     memWRITE <= 0;
+        //     wEN <= 0;
+        //     busMUX <= 0;
+        //     INC <= 0;
+        //     RST <= 0;
+        //     compMUX <= 0;
+        //     aluOP <= 0;
+        //     if (z) begin
+        //         NEXT_STATE <= 8'h30;
+        //     end  
+        //     else begin
+        //         NEXT_STATE <= 8'h24;
+        //     end
+        // end
         8'h24 : begin       //JMP_3                 READ_IROM[PC]
             insREAD <= 1;
             memREAD <= 0;              
@@ -189,7 +206,7 @@ always @(posedge Clk) begin
             insREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 16'b1000_0000_0000_00000;
+            wEN <= 16'b1000_0000_0000_0000;
             busMUX <= 14;
             INC <= 0;
             RST <= 0;
@@ -238,7 +255,7 @@ always @(posedge Clk) begin
             memREAD <= 1;              
             memWRITE <= 0;
             wEN <= 0;
-            busMUX <= 14;
+            busMUX <= 0;
             INC <= 0;
             RST <= 0;
             compMUX <= 0;
@@ -255,7 +272,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            if (INS[1:0]==2'b00) begin             //00 --> M, 01 --> K, 10 --> N
+            if (INS[1:0]==2'b00) begin             //00 --> M, 01 --> K, 10 --> N   //0100_00[00]
                 NEXT_STATE <= 8'h44;
             end
             else if (INS[1:0]==2'b01) begin
@@ -293,7 +310,7 @@ always @(posedge Clk) begin
             insREAD <= 0;
             memREAD <= 1;              
             memWRITE <= 0;
-            wEN <= 16b'0000_0000_1000_0000;
+            wEN <= 16'b0000_0000_1000_0000;
             busMUX <= 13;
             INC <= 0;
             RST <= 0;
@@ -306,7 +323,7 @@ always @(posedge Clk) begin
             memREAD <= 1;              
             memWRITE <= 0;
             wEN <= 0;
-            busMUX <= 14;
+            busMUX <= 0;
             INC <= 0;
             RST <= 0;
             compMUX <= 0;
@@ -378,7 +395,7 @@ always @(posedge Clk) begin
             memREAD <= 0;              
             memWRITE <= 1;
             wEN <= 0;
-            busMUX <= 14;
+            busMUX <= 0;
             INC <= 0;
             RST <= 0;
             compMUX <= 0;
@@ -414,20 +431,21 @@ always @(posedge Clk) begin
             end
             else if (INS[1:0]==2'b10) begin             
                 NEXT_STATE <= 8'h74;
-            end
-        8'h72 : begin       //ASSIGN_C1                   C1 <= AR
+				end
+        end 
+		  8'h72 : begin       //ASSIGN_C1                   C1 <= AR
             insREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
             wEN <= 16'b0000_0000_0000_1000;
-            busMUX <= 14;
+            busMUX <= 14;                               //14 = 4'b1100
             INC <= 0;
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
             NEXT_STATE <= 8'h10;
-        end
-        8'h73 : begin       //ASSIGN_C2                   C2 <= AR
+		  end 
+		  8'h73 : begin       //ASSIGN_C2                   C2 <= AR
             insREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -494,7 +512,7 @@ always @(posedge Clk) begin
             wEN <= 0;
             busMUX <= 0;
             INC <= 0;
-            RST <= 5'00100;
+            RST <= 5'b00100;
             compMUX <= 0;
             aluOP <= 0;
             NEXT_STATE <= 8'h10;
@@ -568,7 +586,7 @@ always @(posedge Clk) begin
             INC <= 0;
             RST <= 0;
             compMUX <= 0;
-            aluOP <= 3' b010;
+            aluOP <= 3'b010;
             NEXT_STATE <= 8'h10;
         end
         8'hC0 : begin       //ADD REG_T                AC <= REG_1 + AC
@@ -666,7 +684,6 @@ always @(posedge Clk) begin
             compMUX <= 0;
             aluOP <= 0;
             NEXT_STATE <= 8'h10;
-        end
         end
     endcase
         
