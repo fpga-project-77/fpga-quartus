@@ -33,16 +33,17 @@
 
 //NEXT INSTRUCTION
 
-module main (
+module controlunit (
     input Clk,
     input z,
     input [7:0] REG_IR,
-    output reg insRead,
+    output reg insREAD,
     output reg memREAD,
     output reg memWRITE,
     output reg [15:0] wEN,
     output reg [3:0] busMUX,
     output reg [5:0] INC,
+	 output reg [4:0] RST,
     output reg [2:0] compMUX,
     output reg [2:0] aluOP
 );
@@ -116,7 +117,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 3'b100;
             aluOP <= 0;
-            NEXT_STATE <= ZERO_CHECK;
+            //NEXT_STATE <= ZERO_CHECK;
             if (z) begin
                 NEXT_STATE <= 8'h30;
             end  
@@ -134,7 +135,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 3'b010;
             aluOP <= 0;
-            NEXT_STATE <= ZERO_CHECK;
+            //NEXT_STATE <= ZERO_CHECK;
             if (z) begin
                 NEXT_STATE <= 8'h30;
             end  
@@ -152,7 +153,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 3'b001;
             aluOP <= 0;
-            NEXT_STATE <= ZERO_CHECK;
+            //NEXT_STATE <= ZERO_CHECK;
             if (z) begin
                 NEXT_STATE <= 8'h30;
             end  
@@ -430,8 +431,9 @@ always @(posedge Clk) begin
             end
             else if (INS[1:0]==2'b10) begin             
                 NEXT_STATE <= 8'h74;
-            end
-        8'h72 : begin       //ASSIGN_C1                   C1 <= AR
+				end
+        end 
+		  8'h72 : begin       //ASSIGN_C1                   C1 <= AR
             insREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -442,8 +444,8 @@ always @(posedge Clk) begin
             compMUX <= 0;
             aluOP <= 0;
             NEXT_STATE <= 8'h10;
-        end
-        8'h73 : begin       //ASSIGN_C2                   C2 <= AR
+		  end 
+		  8'h73 : begin       //ASSIGN_C2                   C2 <= AR
             insREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -510,7 +512,7 @@ always @(posedge Clk) begin
             wEN <= 0;
             busMUX <= 0;
             INC <= 0;
-            RST <= 5'00100;
+            RST <= 5'b00100;
             compMUX <= 0;
             aluOP <= 0;
             NEXT_STATE <= 8'h10;
@@ -682,7 +684,6 @@ always @(posedge Clk) begin
             compMUX <= 0;
             aluOP <= 0;
             NEXT_STATE <= 8'h10;
-        end
         end
     endcase
         
