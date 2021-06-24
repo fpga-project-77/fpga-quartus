@@ -1,5 +1,5 @@
-
 `include "cu_param.v"
+
 //Control unit outputs
 // iROMREAD
 // memREAD             //AR read, memory read, DR write
@@ -36,7 +36,6 @@
 //NEXT INSTRUCTION
 
 module controlunit 
-
 #(parameter WIDTH = 8)
 (
     input Clk,
@@ -169,7 +168,8 @@ always @(posedge Clk) begin
                     endcase
                 end 
 
-                // TODO : END OPERATION 
+                // TODO : END OPERATION                             
+                end 
             endcase
         end
         
@@ -560,6 +560,7 @@ always @(posedge Clk) begin
             compMUX <= 0;
             aluOP <= 0;
             NEXT_STATE <= `FETCH_1;
+        end
         end
         `RESETALL_1 : begin       //RESET_ALL
             iROMREAD <= 0;
