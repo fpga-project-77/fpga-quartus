@@ -25,13 +25,14 @@ module controlunit_tb ();
 	wire [4:0] RST;
     wire [2:0] compMUX;
     wire [2:0] aluOP;
-
-    controlunit dut (.Clk(Clk), .z(zFlag), .INS(INS), .iROMREAD(iROMREAD), .memREAD(memREAD), .memWRITE(memWRITE), .wEN(wEN), .selAR(selAR), .busMUX(busMUX), .INC(INC), .RST(RST), .compMUX(compMUX), .aluOP(aluOP)) ;
+    wire coreS;
+    controlunit dut (.Clk(Clk), .z(zFlag), .INS(INS), .iROMREAD(iROMREAD), .memREAD(memREAD), .memWRITE(memWRITE), .wEN(wEN), .selAR(selAR), .busMUX(busMUX), .INC(INC), .RST(RST), .compMUX(compMUX), .aluOP(aluOP),.coreS(coreS)) ;
     
 
     initial begin
         #(CLK_PERIOD*2)
         INS <= 8'b00100000;
+        
 
         #(CLK_PERIOD);
         @(posedge Clk);
@@ -50,7 +51,10 @@ module controlunit_tb ();
 
         #(CLK_PERIOD*5)
         
-    
+        @(posedge Clk);
+        INS <= 8'b1100_0000;  //END_OP
+        zFlag=1;
+
         repeat(5) @(posedge Clk) begin
             INS <= $random;
             zFlag <= $random;
