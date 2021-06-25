@@ -46,11 +46,10 @@ module controlunit (
     output reg selAR,
     output reg [3:0] busMUX,
     output reg [5:0] INC,
-	output reg [4:0] RST,
+	 output reg [4:0] RST,
     output reg [2:0] compMUX,
-    output reg [2:0] aluOP
-    output reg coreS;
-);
+    output reg [2:0] aluOP,
+    output reg coreS);
 
 
 reg [7:0]NEXT_STATE=`FETCH_1;
@@ -170,7 +169,7 @@ always @(posedge Clk) begin
                         `INC_N2 : NEXT_STATE <= `INCN2_1;
                     endcase
                 end
-                `END : NEXT_STATE <= `ENDOP_1 
+                `END : NEXT_STATE <= `ENDOP_1;
 
                 // TODO : END OPERATION                             
             endcase
