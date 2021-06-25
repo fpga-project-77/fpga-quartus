@@ -1,5 +1,6 @@
-//  PC  IR  AR  DR  RP  RT  RM1 RK1 RN1 RM2 RK2 RN2 C1  C2  C3  AC
-//  15  14  13  12  11  10  9   8   7   6   5   4   3   2   1   0
+//`include "proc_pram.v"
+//  MEM AR  DR  RP  RT  RM1 RK1 RN1 RM2 RK2 RN2 C1  C2  C3  AC
+//  15   14  13  12  11  10  9   8   7   6   5   4   3   2   1   
 
 module Bus_mux(MEM, AR, DR, RP, RT, RM1, RK1, RN1, RM2, RK2, RN2, C1,  C2,  C3,  AC, mux_sel, Bus_select);
 input [3:0] mux_sel;
