@@ -83,7 +83,7 @@ mux_3to1_8bit  COMPMUX1 (.mux_inN(RN1_OUT), .mux_inK(RK1_OUT), .mux_inM(RM1_OUT)
 mux_3to1_8bit  COMPMUX2 (.mux_inN(RN2_OUT), .mux_inK(RK2_OUT), .mux_inM(RM2_OUT), .mux_sel(compMUX), .mux_out(COMP_IN2));
 Comp #(.WIDTH(WIDTH)) COMP (.R1(COMP_IN1), .R2(COMP_IN2), .z(zFlag));
 
-Bus_mux dut(.MEM(DRAM_dataIn), .AR(AR_OUT), .DR(DR_OUT), .RP(RP_OUT), .RT(RT_OUT), .RM1(RM1_OUT), .RK1(RK1_OUT), .RN1(RN1_OUT), .RM2(RM2_OUT), .RK2(RK2_OUT), .RN2(RN2_OUT), .C1(C1_OUT), .C2(C2_OUT), .C3(C3_OUT), .AC(AC_OUT), .mux_sel(busMUX), .Bus_select(BUSMUX_OUT));
+Bus_mux BUSMUX(.MEM(DRAM_dataIn), .AR(AR_OUT), .DR(DR_OUT), .RP(RP_OUT), .RT(RT_OUT), .RM1(RM1_OUT), .RK1(RK1_OUT), .RN1(RN1_OUT), .RM2(RM2_OUT), .RK2(RK2_OUT), .RN2(RN2_OUT), .C1(C1_OUT), .C2(C2_OUT), .C3(C3_OUT), .AC(AC_OUT), .mux_sel(busMUX), .Bus_select(BUSMUX_OUT));
 //CU
 controlunit #(.WIDTH(WIDTH)) CU (.Clk(Clk), .z(zFlag), .INS(INS), .iROMREAD(iROMREAD), .memREAD(memREAD), .memWRITE(memWRITE), .wEN(wEN), .selAR(selAR), .busMUX(busMUX), .INC(INC), .RST(RST), .compMUX(compMUX), .aluOP(aluOP));
 
