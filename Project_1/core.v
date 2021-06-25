@@ -1,6 +1,6 @@
 `include "proc_param.v"
 
-module processor 
+module core 
 
 #(parameter WIDTH = 8)(
     input Clk,
