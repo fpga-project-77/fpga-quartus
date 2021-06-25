@@ -42,7 +42,7 @@ module controlunit (
     output reg iROMREAD,
     output reg memREAD,
     output reg memWRITE,
-    output reg [15:0] wEN,
+    output reg [13:0] wEN,
     output reg selAR,
     output reg [3:0] busMUX,
     output reg [5:0] INC,
@@ -73,7 +73,7 @@ always @(posedge Clk) begin
             NEXT_STATE <= FETCH_1;
 
         end
-        FETCH_1 : begin   //FETCH_1
+        `FETCH_1 : begin   //FETCH_1
             iROMREAD <= 1;       
             memREAD <= 0;              
             memWRITE <= 0;
@@ -86,7 +86,7 @@ always @(posedge Clk) begin
             aluOP <= 0;
             NEXT_STATE <= FETCH_2;
         end
-        FETCH_2 : begin //FETCH_2
+        `FETCH_2 : begin //FETCH_2
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
@@ -99,7 +99,7 @@ always @(posedge Clk) begin
             aluOP <= 0;
             NEXT_STATE <= FETCH_3;
         end
-        FETCH_3 : begin //FETCH_3                 IR HAS ALREADY GOT THE INS
+        `FETCH_3 : begin //FETCH_3                 IR HAS ALREADY GOT THE INS
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
