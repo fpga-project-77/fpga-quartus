@@ -1,3 +1,4 @@
+//`include "proc_pram.v"
 module AR //write enable /IR, AR, Rp, Rt, Rk1, Rm1, Rn1, C1
 #(parameter WIDTH = 8)
 (
