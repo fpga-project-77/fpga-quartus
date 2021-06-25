@@ -38,7 +38,7 @@
 module controlunit (
     input Clk,
     input z,
-    input [7:0] INS, //REG_IR
+    input [7:0] REG_IR,
     output reg iROMREAD,
     output reg memREAD,
     output reg memWRITE,
@@ -51,16 +51,15 @@ module controlunit (
     output reg [2:0] aluOP
 );
 
-reg [7:0]NEXT_STATE=`FETCH_1;
-reg [7:0]STATE=`FETCH_1;
-//reg [7:0]INS;
-//reg [7:0]MEM_READ;
+reg [7:0]NEXT_STATE;
+wire [7:0]INS;
+reg [7:0]MEM_READ;
 
+assign INS = REG_IR;
 
 //DEFINE ALL THE STATES OF THE CONTROL UNIT
 always @(posedge Clk) begin
-    STATE=NEXT_STATE;
-    case(STATE) 
+    case(NEXT_STATE) 
         `NOOP_1 : begin       //NO_OP
             iROMREAD <= 0;
             memREAD <= 0;              
@@ -168,7 +167,7 @@ always @(posedge Clk) begin
                     endcase
                 end 
 
-                // TODO : END OPERATION   //SUG:Take an input as p_STATE and set it DONE at the ENDOP otherwise its state is BUSY.                          
+                // TODO : END OPERATION                             
             endcase
         end
         
@@ -375,7 +374,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 13'b0_0000_0010_0000;;
+            wEN <= 13'b0_0000_0010_0000;
             selAR <= 0;
             busMUX <= 13;
             INC <= 0;
@@ -519,7 +518,8 @@ always @(posedge Clk) begin
             end
             else if (INS[1:0]==2'b10) begin             
                 NEXT_STATE <= `ASSIGNC3_3;
-			end
+				end
+        end 
 	    `ASSIGNC1_3 : begin       //ASSIGN_C1                   C1 <= AR
             iROMREAD <= 0;
             memREAD <= 0;              
@@ -558,7 +558,6 @@ always @(posedge Clk) begin
             compMUX <= 0;
             aluOP <= 0;
             NEXT_STATE <= `FETCH_1;
-        end
         end
         `RESETALL_1 : begin       //RESET_ALL
             iROMREAD <= 0;
