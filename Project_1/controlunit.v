@@ -70,7 +70,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_1;
+            NEXT_STATE <= `FETCH_1;
 
         end
         `FETCH_1 : begin   //FETCH_1
@@ -84,7 +84,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_2;
+            NEXT_STATE <= `FETCH_2;
         end
         `FETCH_2 : begin //FETCH_2
             iROMREAD <= 0;
@@ -97,7 +97,7 @@ always @(posedge Clk) begin
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
-            NEXT_STATE <= FETCH_3;
+            NEXT_STATE <= `FETCH_3;
         end
         `FETCH_3 : begin //FETCH_3                 IR HAS ALREADY GOT THE INS
             iROMREAD <= 0;
@@ -167,7 +167,6 @@ always @(posedge Clk) begin
                 end 
 
                 // TODO : END OPERATION                             
-                end 
             endcase
         end
         
@@ -518,8 +517,7 @@ always @(posedge Clk) begin
             end
             else if (INS[1:0]==2'b10) begin             
                 NEXT_STATE <= `ASSIGNC3_3;
-				end
-        end 
+			end
 	    `ASSIGNC1_3 : begin       //ASSIGN_C1                   C1 <= AR
             iROMREAD <= 0;
             memREAD <= 0;              
