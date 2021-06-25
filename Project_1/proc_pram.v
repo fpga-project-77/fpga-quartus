@@ -31,3 +31,31 @@
 `define RN2_RST 1
 `define AC_RST 0
 
+
+//aluOP
+`define SET 3'b001
+`define MUL 3'b010
+`define ADD 3'b100
+
+//selAR
+`define SIROM 1'b1
+`define SBUS 1'b0
+
+//busMUX
+//  MEM AR  DR  RP  RT  RM1 RK1 RN1 RM2 RK2 RN2 C1  C2  C3  AC
+//  15   14  13  12  11  10  9   8   7   6   5   4   3   2   1  
+`define SAC 4'b0001
+`define SC3 4'b0010
+`define SC2 4'b0011
+`define SC1 4'b0100
+`define SRN2 4'b0101
+`define SRK2 4'b0110
+`define SM2 4'b0111
+`define SN1 4'b1000
+`define SK1 4'b1001
+`define SM1 4'b1010
+`define SRT 4'b1011
+`define SRP 4'b1100
+`define SDR 4'b1101
+`define SAR 4'b1110
+`define SMEM 4'b1111
