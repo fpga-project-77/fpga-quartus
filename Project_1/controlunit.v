@@ -42,18 +42,24 @@ module controlunit (
     output reg iROMREAD,
     output reg memREAD,
     output reg memWRITE,
-    output reg [13:0] wEN,
+    output reg [12:0] wEN,
     output reg selAR,
     output reg [3:0] busMUX,
     output reg [5:0] INC,
 	output reg [4:0] RST,
     output reg [2:0] compMUX,
     output reg [2:0] aluOP
+    output reg coreS;
 );
 
+<<<<<<< HEAD
+reg [7:0]NEXT_STATE=`FETCH_1;
+reg [7:0]STATE=`FETCH_1;
+=======
 reg [7:0]NEXT_STATE;
 wire [7:0]INS;
 reg [7:0]MEM_READ;
+>>>>>>> 2ac1af7f35b7fe7c6490ece355f924730d4cb822
 
 assign INS = REG_IR;
 
@@ -106,7 +112,7 @@ always @(posedge Clk) begin
             memWRITE <= 0;
             wEN <= 0;         
             busMUX <= 0;
-            INC <= 6'b10_0000;
+            INC <= 0; //fault
             RST <= 0;
             compMUX <= 0;
             aluOP <= 0;
@@ -785,5 +791,3 @@ always @(posedge Clk) begin
         
 end
 endmodule
-
-
