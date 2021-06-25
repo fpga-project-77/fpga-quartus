@@ -1,4 +1,4 @@
-`include "proc_pram.v"
+`include "proc_param.v"
 
 module processor 
 
@@ -21,26 +21,26 @@ wire zFlag;
 wire selAR;
 wire [3:0]busMUX;
 
-reg [WIDTH-1:0]INS;  // instruction from iROM
-reg [WIDTH-1:0] COMP_IN1;
-reg [WIDTH-1:0] COMP_IN2;
-reg [WIDTH-1:0]PC_OUT;
-reg [WIDTH-1:0]AR_OUT;
-reg [WIDTH-1:0]DR_OUT;
-reg [WIDTH-1:0]RP_OUT;
-reg [WIDTH-1:0]RT_OUT;
-reg [WIDTH-1:0]RM1_OUT;
-reg [WIDTH-1:0]RK1_OUT;
-reg [WIDTH-1:0]RN1_OUT;
-reg [WIDTH-1:0]RM2_OUT;
-reg [WIDTH-1:0]RK2_OUT;
-reg [WIDTH-1:0]RN2_OUT;
-reg [WIDTH-1:0]RC1_OUT;
-reg [WIDTH-1:0]RC2_OUT;
-reg [WIDTH-1:0]RC3_OUT;
-reg [WIDTH-1:0]AC_OUT;
+wire [WIDTH-1:0]INS;  // instruction from iROM
+wire [WIDTH-1:0] COMP_IN1;
+wire [WIDTH-1:0] COMP_IN2;
+wire [WIDTH-1:0]PC_OUT;
+wire [WIDTH-1:0]AR_OUT;
+wire [WIDTH-1:0]DR_OUT;
+wire [WIDTH-1:0]RP_OUT;
+wire [WIDTH-1:0]RT_OUT;
+wire [WIDTH-1:0]RM1_OUT;
+wire [WIDTH-1:0]RK1_OUT;
+wire [WIDTH-1:0]RN1_OUT;
+wire [WIDTH-1:0]RM2_OUT;
+wire [WIDTH-1:0]RK2_OUT;
+wire [WIDTH-1:0]RN2_OUT;
+wire [WIDTH-1:0]RC1_OUT;
+wire [WIDTH-1:0]RC2_OUT;
+wire [WIDTH-1:0]RC3_OUT;
+wire [WIDTH-1:0]AC_OUT;
 
-reg [WIDTH-1:0]BUSMUX_OUT;
+wire [WIDTH-1:0]BUSMUX_OUT;
 //PC                                                    15                 5
 Reg_module_WI #(.WIDTH(WIDTH)) PC (.Clk(Clk), .WEN(wEN[`PC_W]), .INC(INC[`PC_INC]), .BusOut(AR_OUT), .dout(PC_OUT));
 //IR                Reg_module_W                         14
@@ -85,7 +85,8 @@ Comp #(.WIDTH(WIDTH)) COMP (.R1(COMP_IN1), .R2(COMP_IN2), .z(zFlag));
 
 Bus_mux BUSMUX(.MEM(DRAM_dataIn), .AR(AR_OUT), .DR(DR_OUT), .RP(RP_OUT), .RT(RT_OUT), .RM1(RM1_OUT), .RK1(RK1_OUT), .RN1(RN1_OUT), .RM2(RM2_OUT), .RK2(RK2_OUT), .RN2(RN2_OUT), .C1(C1_OUT), .C2(C2_OUT), .C3(C3_OUT), .AC(AC_OUT), .mux_sel(busMUX), .Bus_select(BUSMUX_OUT));
 //CU
-controlunit #(.WIDTH(WIDTH)) CU (.Clk(Clk), .z(zFlag), .INS(INS), .iROMREAD(iROMREAD), .memREAD(memREAD), 
+//controlunit #(.WIDTH(WIDTH)) CU (.Clk(Clk), .z(zFlag), .INS(INS), .iROMREAD(iROMREAD), .memREAD(memREAD), 
+controlunit CU (.Clk(Clk), .z(zFlag), .REG_IR(INS), .iROMREAD(iROMREAD), .memREAD(memREAD), 
                 .memWRITE(memWRITE), .wEN(wEN), .selAR(selAR), .busMUX(busMUX), .INC(INC), .RST(RST), 
                 .compMUX(compMUX), .aluOP(aluOP));
 
