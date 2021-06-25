@@ -10,13 +10,7 @@ reg [WIDTH-1:0] value;
 
 always @(posedge Clk) 
 begin
-    if(WEN==1) begin
-        // if (selAR == 1) begin
-        //    value <= IOut; 
-        // end  
-        // else if (selAR == 0) begin
-        //    value <= BusOut;
-        // end  
+    if(WEN==1) begin 
         case(selAR)
             1'b1:
                 value <= IOut;
