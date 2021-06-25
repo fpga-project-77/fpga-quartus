@@ -38,7 +38,7 @@
 module controlunit (
     input Clk,
     input z,
-    input [7:0] REG_IR,
+    input [7:0] INS,
     output reg iROMREAD,
     output reg memREAD,
     output reg memWRITE,
@@ -52,20 +52,15 @@ module controlunit (
     output reg coreS;
 );
 
-<<<<<<< HEAD
+
 reg [7:0]NEXT_STATE=`FETCH_1;
 reg [7:0]STATE=`FETCH_1;
-=======
-reg [7:0]NEXT_STATE;
-wire [7:0]INS;
-reg [7:0]MEM_READ;
->>>>>>> 2ac1af7f35b7fe7c6490ece355f924730d4cb822
 
-assign INS = REG_IR;
 
 //DEFINE ALL THE STATES OF THE CONTROL UNIT
 always @(posedge Clk) begin
-    case(NEXT_STATE) 
+    STATE = NEXT_STATE;
+    case(STATE) 
         `NOOP_1 : begin       //NO_OP
             iROMREAD <= 0;
             memREAD <= 0;              
