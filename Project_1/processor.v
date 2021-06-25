@@ -47,7 +47,6 @@ Reg_module_WI #(.WIDTH(WIDTH)) PC (.Clk(Clk), .WEN(wEN[`PC_W]), .INC(INC[`PC_INC
 Reg_module_W #(.WIDTH(WIDTH)) IR (.Clk(Clk), .WEN(wEN[`IR_W]), .BusOut(IROM_dataIn), .dout(INS));
 
 //AR                NOT DONE!!                                     13
-//Reg_module_W #(.WIDTH(WIDTH)) AR (.Clk(Clk), .WEN(wEN[`AR_W]), .BusOut(??), .dout(AR_OUT));
 AR #(.WIDTH(WIDTH)) AR (.Clk(Clk), .WEN(wEN[`AR_W]), .BusOut(BUSMUX_OUT), .IOut(INS), .selAR(selAR), .dout(AR_OUT));
 
 //DR                                                    12
@@ -55,7 +54,6 @@ Reg_module_W #(.WIDTH(WIDTH)) DR (.Clk(Clk), .WEN(wEN[`DR_W]), .BusOut(BUSMUX_OU
 //RP                                                    11
 Reg_module_W #(.WIDTH(WIDTH)) RP (.Clk(Clk), .WEN(wEN[`RP_W]), .BusOut(BUSMUX_OUT), .dout(RP_OUT));
 //RT            to be changed Reg_module_RW             10
-//Reg_module_W #(.WIDTH(WIDTH)) RT (.Clk(Clk), .WEN(wEN[`RT_W]), .BusOut(BUSMUX_OUT), .dout(RT_OUT));
 Reg_module_RW #(.WIDTH(WIDTH)) RT (.Clk(Clk), .WEN(wEN[`RT_W]), .RST(RST[`RT_RST]), .BusOut(BUSMUX_OUT), .dout(RT_OUT));   
 //RM1                                                   9
 Reg_module_W #(.WIDTH(WIDTH)) RM1 (.Clk(Clk), .WEN(wEN[`RM1_W]), .BusOut(BUSMUX_OUT), .dout(RM1_OUT));
@@ -109,7 +107,6 @@ Reg_module_WI #(.WIDTH(WIDTH)) RC2 (.Clk(Clk), .WEN(wEN[`RC2_W]), .INC(INC[`RC2_
 //RC3                                                   1                   0
 Reg_module_WI #(.WIDTH(WIDTH)) RC3 (.Clk(Clk), .WEN(wEN[`RC3_W]), .INC(INC[`RC3_INC]), .BusOut(BUSMUX_OUT), .dout(RC3_OUT));
 //AC            to be changed Reg_module_RW             0
-//Reg_module_W #(.WIDTH(WIDTH)) AC (.Clk(Clk), .WEN(wEN[`AC_W]), .BusOut(ALU_OUT), .dout(AC_OUT));
 Reg_module_RW #(.WIDTH(WIDTH)) AC (.Clk(Clk), .WEN(wEN[`AC_W]), .RST(RST[`AC_RST]), .BusOut(ALU_OUT), .dout(AC_OUT));   
 
 //ALU
@@ -119,9 +116,9 @@ mux_3to1_8bit  COMPMUX1 (.mux_inN(RN1_OUT), .mux_inK(RK1_OUT), .mux_inM(RM1_OUT)
 mux_3to1_8bit  COMPMUX2 (.mux_inN(RN2_OUT), .mux_inK(RK2_OUT), .mux_inM(RM2_OUT), .mux_sel(compMUX), .mux_out(COMP_IN2));
 Comp #(.WIDTH(WIDTH)) COMP (.R1(COMP_IN1), .R2(COMP_IN2), .z(zFlag));
 
-Bus_mux dut(.MEM(MEM), .AR(AR_OUT), .DR(DR_OUT), .RP(RP_OUT), .RT(RT_OUT), .RM1(RM1_OUT), .RK1(RK1_OUT), .RN1(RN1_OUT), .RM2(RM2_OUT), .RK2(RK2_OUT), .RN2(RN2_OUT), .C1(C1_OUT), .C2(C2_OUT), .C3(C3_OUT), .AC(AC_OUT), .mux_sel(mux_sel), .Bus_select(Bus_select));
+Bus_mux BUSMUX(.MEM(DRAM_dataIn), .AR(AR_OUT), .DR(DR_OUT), .RP(RP_OUT), .RT(RT_OUT), .RM1(RM1_OUT), .RK1(RK1_OUT), .RN1(RN1_OUT), .RM2(RM2_OUT), .RK2(RK2_OUT), .RN2(RN2_OUT), .C1(C1_OUT), .C2(C2_OUT), .C3(C3_OUT), .AC(AC_OUT), .mux_sel(busMUX), .Bus_select(BUSMUX_OUT));
 //CU
-controlunit #(.WIDTH(WIDTH)) CU (.Clk(Clk), .z(zFlag), .REG_IR(INS), .iROMREAD(iROMREAD), .memREAD(memREAD), .memWRITE(memWRITE), .wEN(wEN), .selAR(selAR), .busMUX(busMUX), .INC(INC), .RST(RST), .compMUX(compMUX), .aluOP(aluOP));
+controlunit #(.WIDTH(WIDTH)) CU (.Clk(Clk), .z(zFlag), .INS(INS), .iROMREAD(iROMREAD), .memREAD(memREAD), .memWRITE(memWRITE), .wEN(wEN), .selAR(selAR), .busMUX(busMUX), .INC(INC), .RST(RST), .compMUX(compMUX), .aluOP(aluOP));
 
 
 assign IROM_addr = PC_OUT;

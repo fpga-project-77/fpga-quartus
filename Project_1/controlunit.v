@@ -38,7 +38,7 @@
 module controlunit (
     input Clk,
     input z,
-    input [7:0] REG_IR,
+    input [7:0] INS, //REG_IR
     output reg iROMREAD,
     output reg memREAD,
     output reg memWRITE,
@@ -51,14 +51,16 @@ module controlunit (
     output reg [2:0] aluOP
 );
 
-reg [7:0]NEXT_STATE;
-reg [7:0]INS;
-reg [7:0]MEM_READ;
+reg [7:0]NEXT_STATE=`FETCH_1;
+reg [7:0]STATE=`FETCH_1;
+//reg [7:0]INS;
+//reg [7:0]MEM_READ;
 
 
 //DEFINE ALL THE STATES OF THE CONTROL UNIT
 always @(posedge Clk) begin
-    case(NEXT_STATE) 
+    STATE=NEXT_STATE;
+    case(STATE) 
         `NOOP_1 : begin       //NO_OP
             iROMREAD <= 0;
             memREAD <= 0;              
@@ -166,7 +168,7 @@ always @(posedge Clk) begin
                     endcase
                 end 
 
-                // TODO : END OPERATION                             
+                // TODO : END OPERATION   //SUG:Take an input as p_STATE and set it DONE at the ENDOP otherwise its state is BUSY.                          
             endcase
         end
         
