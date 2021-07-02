@@ -13,16 +13,10 @@ module processor_tb();
 
     processor # (.WIDTH(8)) proc( .clk(Clk), .proc_state(proc_state));
 
-    // initial begin
-    //     // #(CLK_PERIOD * 1000);
-    //     if(proc_state) begin
-    //         $stop;           
-    //     end
-
-    // end
-    initial begin
-        while(proc_state == 0)#(CLK_PERIOD)
-
-        $stop;
+    always @(posedge Clk) begin
+        if (proc_state == 1)begin
+            $stop;
+        end
     end
+
 endmodule
