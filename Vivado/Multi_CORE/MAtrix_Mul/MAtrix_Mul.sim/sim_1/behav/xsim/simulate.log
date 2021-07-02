@@ -1,0 +1,4 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+WARNING: File D:\Academic\ACA\SEM5 TRONIC ACA\SEMESTER 5\CSD\FPGA\00 - Git\fpga-quartus\Multi_CORE\MULTI_CORE_edit\ins_mem.txt referenced on D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Vivado/Multi_CORE/MULTI_CORE_edit/ins_mem.v at line 14 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File D:\Academic\ACA\SEM5 TRONIC ACA\SEMESTER 5\CSD\FPGA\00 - Git\fpga-quartus\Multi_CORE\MULTI_CORE_edit\data_mem.txt referenced on D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Vivado/Multi_CORE/MULTI_CORE_edit/data_mem.v at line 23 cannot be opened for reading. Please ensure that this file is available in the current working directory.

@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../MULTI_CORE_edit/AR.v" \
+"../../../../../MULTI_CORE_edit/Alu.v" \
+"../../../../../MULTI_CORE_edit/Bus_mux.v" \
+"../../../../../MULTI_CORE_edit/Comp.v" \
+"../../../../../MULTI_CORE_edit/PC.v" \
+"../../../../../MULTI_CORE_edit/Reg_module_RI.v" \
+"../../../../../MULTI_CORE_edit/Reg_module_RW.v" \
+"../../../../../MULTI_CORE_edit/Reg_module_W.v" \
+"../../../../../MULTI_CORE_edit/Reg_module_WI.v" \
+"../../../../../MULTI_CORE_edit/controlunit.v" \
+"../../../../../MULTI_CORE_edit/core.v" \
+"../../../../../MULTI_CORE_edit/data_mem.v" \
+"../../../../../MULTI_CORE_edit/dmem_controller.v" \
+"../../../../../MULTI_CORE_edit/imem_controller.v" \
+"../../../../../MULTI_CORE_edit/ins_mem.v" \
+"../../../../../MULTI_CORE_edit/mux_3to1_8bit.v" \
+"../../../../../MULTI_CORE_edit/processor.v" \
+"../../../../../MULTI_CORE_edit/processor_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
