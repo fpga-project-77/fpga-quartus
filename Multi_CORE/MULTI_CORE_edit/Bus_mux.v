@@ -2,12 +2,15 @@
 //  MEM AR  DR  RP  RT  RM1 RK1 RN1 RM2 RK2 RN2 C1  C2  C3  AC
 //  15   14  13  12  11  10  9   8   7   6   5   4   3   2   1   
 
-module Bus_mux(MEM, AR, DR, RP, RT, RM1, RK1, RN1, RM2, RK2, RN2, C1,  C2,  C3,  AC, RR, mux_sel, Bus_select);
+module Bus_mux
+#(parameter WIDTH = 8)
+(MEM, AR, DR, RP, RT, RM1, RK1, RN1, RM2, RK2, RN2, C1,  C2,  C3,  AC, RR, RT4, mux_sel, Bus_select);
+
 input [4:0] mux_sel;
-input [7:0] MEM, AR, DR, RP, RT, RM1, RK1, RN1, RM2, RK2, RN2, C1,  C2,  C3,  AC, RR;
-output [7:0] Bus_select;
+input [WIDTH-1:0] MEM, AR, DR, RP, RT, RM1, RK1, RN1, RM2, RK2, RN2, C1,  C2,  C3,  AC, RR, RT4;
+output [WIDTH-1:0] Bus_select;
 // The output is defined as register 
-reg [7:0] select;
+reg [WIDTH-1:0] select;
 always @(*)
 begin
     case(mux_sel)
@@ -44,6 +47,8 @@ begin
             select <= MEM;
         5'b10000:
             select <= RR;
+        5'b10001:
+            select <= RT4;
         
     endcase   
 end 

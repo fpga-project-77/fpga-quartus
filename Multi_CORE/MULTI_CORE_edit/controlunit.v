@@ -5,15 +5,15 @@
 // memREAD             //AR read, memory read, DR write
 // memWRITE
 
-// [13:0]wEN
+// [14:0]wEN
 //REGISTERS: 
-//  Rr  PC  IR  AR  DR  RP  RT  RM1 RK1 RN1 C1  C2  C3  AC
-//  13  12 _11	10  9   8  _7   6   5   4  _3   2   1   0
+// RT4  Rr  PC  IR  AR  DR  RP  RT  RM1 RK1 RN1 C1  C2  C3  AC
+// 14   13  12 _11	10  9   8  _7   6   5   4  _3   2   1   0
 
 
 // [4:0]busMUX		(2**4)
-//  Rr  MEM     AR  DR  RP  RT  RM1 RK1 RN1 RM2 RK2 RN2 C1  C2  C3  AC
-//  16   15      14	13  12  11  10  9   8   7   6   5   4   3   2   1   
+// RT4    Rr  MEM   AR  DR  RP  RT  RM1 RK1 RN1 RM2 RK2 RN2 C1  C2  C3  AC
+// 17     16   15   14	13  12  11  10  9   8   7   6   5   4   3   2   1   
 
 
 // [5:0]INC        
@@ -35,16 +35,18 @@
 
 //NEXT INSTRUCTION
 
-module controlunit (
+module controlunit 
+#(parameter WIDTH = 8)
+(
     input Clk,
     input z,
-    input [7:0] INS,
+    input [WIDTH-1:0] INS,
     input memAV,                        //DATA MEMORY AVAILABLE
     input imemAV,
     output reg iROMREAD,
     output reg memREAD,
     output reg memWRITE,
-    output reg [13:0] wEN,
+    output reg [14:0] wEN,
     output reg selAR,
     output reg coreINC_AR,
     output reg [4:0] busMUX,
@@ -52,7 +54,8 @@ module controlunit (
 	output reg [4:0] RST,
     output reg [2:0] compMUX,
     output reg [3:0] aluOP,
-    output reg coreS);
+    output reg coreS
+);
 
 
 reg [7:0]NEXT_STATE=`FETCH_1;
@@ -110,7 +113,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_1000_0000_0000;         //IR WRITE
+            wEN <= 15'b000_1000_0000_0000;         //IR WRITE
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 0;
@@ -205,7 +208,7 @@ always @(posedge Clk) begin
                 end
                 `END : NEXT_STATE <= `ENDOP_1;
                 `CHK_IDLE : NEXT_STATE <= `CHKIDLE_1;
-
+                `GET_C1 : NEXT_STATE <= `GETC1_1;
                 // TODO : END OPERATION                             
             endcase
         end
@@ -319,7 +322,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0100_0000_0000;     
+            wEN <= 15'b000_0100_0000_0000;     
             selAR <= 1;
             coreINC_AR <= 0; 
             busMUX <= 0;
@@ -334,7 +337,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b01_0000_0000_0000;
+            wEN <= 15'b001_0000_0000_0000;
             selAR <= 0;
             busMUX <= 14;
             INC <= 0;
@@ -380,7 +383,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0100_0000_0000; 
+            wEN <= 15'b000_0100_0000_0000; 
             selAR <= 1;
             coreINC_AR <= 0; 
             busMUX <= 0;
@@ -389,7 +392,7 @@ always @(posedge Clk) begin
             compMUX <= 0;
             aluOP <= 0;
             coreS <= 0;
-            if (INS[1:0]==2'b00) begin             //00 --> M, 01 --> K, 10 --> N   //0100_00[00]
+            if (INS[3:0]== `COPY_M || INS[3:0]== `COPY_T) begin             //00 --> M, 01 --> K, 10 --> N   //0100_00[00]
                 NEXT_STATE <= `COPYM_3A;
             end
             else begin
@@ -436,7 +439,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0010_0000_0000;
+            wEN <= 15'b000_0010_0000_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 4'b1111;
@@ -445,24 +448,27 @@ always @(posedge Clk) begin
             compMUX <= 0;
             aluOP <= 0;
             coreS <= 0;
-            if (INS[1:0]== `COPY_M) begin             //00 --> M, 01 --> K, 10 --> N   //0100_00[00]
+            if (INS[3:0]== `COPY_M) begin             //00 --> M, 01 --> K, 10 --> N   //0100_00[00]
                 NEXT_STATE <= `COPYM_5;
             end
-            else if (INS[1:0]== `COPY_K) begin
+            else if (INS[3:0]== `COPY_K) begin
                 NEXT_STATE <= `COPYK_5;
             end
-            else if (INS[1:0]== `COPY_N) begin
+            else if (INS[3:0]== `COPY_N) begin
                 NEXT_STATE <= `COPYN_5;
             end
-            else if (INS[1:0]== `COPY_R) begin        // new edited COPYRr_1
+            else if (INS[3:0]== `COPY_R) begin        // new edited COPYRr_1
                 NEXT_STATE <= `COPYR_5;
+            end
+            else if (INS[3:0]== `COPY_T) begin        // for RT4 
+                NEXT_STATE <= `COPYRT4_5;
             end
         end
         `COPYM_5 : begin       //`COPY M1               REG M1 <= DR
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0100_0000;
+            wEN <= 15'b000_0000_0100_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 4'b1101;       //1100
@@ -478,7 +484,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0010_0000;
+            wEN <= 15'b000_0000_0010_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 4'b1101;
@@ -494,7 +500,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 1;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0001_0000;
+            wEN <= 15'b000_0000_0001_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 13;
@@ -510,7 +516,23 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 1;              
             memWRITE <= 0;
-            wEN <= 14'b10_0000_0000_0000;
+            wEN <= 15'b010_0000_0000_0000;
+            selAR <= 0;
+            coreINC_AR <= 0; 
+            busMUX <= 13;
+            INC <= 0;
+            RST <= 0;
+            compMUX <= 0;
+            aluOP <= 0;
+            coreS <= 0;
+            NEXT_STATE <= `FETCH_1;
+            iROMREAD <= 1;           // iROM read before FETCH_1
+        end
+        `COPYRT4_5 : begin       //`COPY RT4               RT4 <= DR
+            iROMREAD <= 0;
+            memREAD <= 1;              
+            memWRITE <= 0;
+            wEN <= 15'b100_0000_0000_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 13;
@@ -546,7 +568,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0010_0000_0000;
+            wEN <= 15'b000_0010_0000_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 15;
@@ -562,7 +584,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0100_0000_0000;
+            wEN <= 15'b000_0100_0000_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 4;
@@ -577,7 +599,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0100_0000_0000;
+            wEN <= 15'b000_0100_0000_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 3;
@@ -592,7 +614,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0010_0000_0000;
+            wEN <= 15'b000_0010_0000_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 11;
@@ -607,7 +629,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0100_0000_0000;
+            wEN <= 15'b000_0100_0000_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 2;
@@ -659,7 +681,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0100_0000_0000;
+            wEN <= 15'b000_0100_0000_0000;
             selAR <= 1;
             coreINC_AR <= 0; 
             busMUX <= 0;
@@ -682,7 +704,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_1000;
+            wEN <= 15'b000_0000_0000_1000;
             selAR <= 0;
             coreINC_AR <= 1; 
             busMUX <= 14;                               //14 = 4'b1100
@@ -697,7 +719,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_1000;
+            wEN <= 15'b000_0000_0000_1000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 14;                               //14 = 4'b1100
@@ -713,7 +735,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_0100;
+            wEN <= 15'b000_0000_0000_0100;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 14;
@@ -729,7 +751,7 @@ always @(posedge Clk) begin
         //     iROMREAD <= 0;
         //     memREAD <= 0;              
         //     memWRITE <= 0;
-        //     wEN <= 14'b00_0000_0000_0010;
+        //     wEN <= 15'b000_0000_0000_0010;
         //     selAR <= 0;
         //     coreINC_AR <= 0; 
         //     busMUX <= 14;
@@ -809,7 +831,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0001_0000_0000;
+            wEN <= 15'b000_0001_0000_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 1;
@@ -825,7 +847,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_1000_0000;
+            wEN <= 15'b000_0000_1000_0000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 1;
@@ -841,7 +863,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_1000;
+            wEN <= 15'b000_0000_0000_1000;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 1;
@@ -857,7 +879,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_0010;
+            wEN <= 15'b000_0000_0000_0010;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 1;
@@ -873,7 +895,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_0001;
+            wEN <= 15'b000_0000_0000_0001;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 4;
@@ -889,7 +911,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_0001;
+            wEN <= 15'b000_0000_0000_0001;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 13;
@@ -905,7 +927,7 @@ always @(posedge Clk) begin
         //     iROMREAD <= 0;
         //     memREAD <= 0;              
         //     memWRITE <= 0;
-        //     wEN <= 14'b00_0000_0000_0001;
+        //     wEN <= 15'b000_0000_0000_0001;
         //     selAR <= 0;
         //     coreINC_AR <= 0; 
         //     busMUX <= 9;
@@ -920,7 +942,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_0001;
+            wEN <= 15'b000_0000_0000_0001;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 12;
@@ -936,7 +958,7 @@ always @(posedge Clk) begin
         //     iROMREAD <= 0;
         //     memREAD <= 0;              
         //     memWRITE <= 0;
-        //     wEN <= 14'b00_0000_0000_0001;
+        //     wEN <= 15'b000_0000_0000_0001;
         //     selAR <= 0;
         //     coreINC_AR <= 0; 
         //     busMUX <= 0;
@@ -952,7 +974,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_0001;
+            wEN <= 15'b000_0000_0000_0001;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 11;
@@ -968,7 +990,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_0001;
+            wEN <= 15'b000_0000_0000_0001;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 16;
@@ -984,7 +1006,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_0001;
+            wEN <= 15'b000_0000_0000_0001;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 7;
@@ -1000,7 +1022,7 @@ always @(posedge Clk) begin
             iROMREAD <= 0;
             memREAD <= 0;              
             memWRITE <= 0;
-            wEN <= 14'b00_0000_0000_0001;
+            wEN <= 15'b000_0000_0000_0001;
             selAR <= 0;
             coreINC_AR <= 0; 
             busMUX <= 2;
@@ -1166,6 +1188,22 @@ always @(posedge Clk) begin
                 NEXT_STATE <= `FETCH_1;
                 iROMREAD <= 1;           // iROM read before FETCH_1
             end
+        end
+        `GETC1_1 : begin       //MOVE RT4 VAL TO REG C1                C1 <= RT4
+            iROMREAD <= 0;
+            memREAD <= 0;              
+            memWRITE <= 0;
+            wEN <= 15'b000_0000_0000_1000;
+            selAR <= 0;
+            coreINC_AR <= 0; 
+            busMUX <= 17;  //RT4
+            INC <= 0;
+            RST <= 0;
+            compMUX <= 0;
+            aluOP <= 0;
+            coreS <= 0;
+            NEXT_STATE <= `FETCH_1;
+            iROMREAD <= 1;           // iROM read before FETCH_1
         end
     endcase
         

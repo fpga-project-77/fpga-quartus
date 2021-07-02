@@ -1,4 +1,5 @@
 //Write enable signals
+`define RT4_W 14
 `define RR_W 13
 `define PC_W 12
 `define IR_W 11

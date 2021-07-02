@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Project_2
-Thu Jul 01 13:27:56 2021
+Fri Jul 02 18:59:08 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -21,86 +21,98 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  13. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:DR
  14. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RP
  15. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_RW:RT
- 16. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RR
- 17. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RM1
- 18. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RK1
- 19. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RN1
- 20. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_RI:RM2
- 21. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_RI:RK2
- 22. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_RI:RN2
- 23. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RC1
- 24. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_WI:RC2
- 25. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_WI:RC3
- 26. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_RW:AC
- 27. Parameter Settings for User Entity Instance: core:CORE_0|Alu:ALU
- 28. Parameter Settings for User Entity Instance: core:CORE_0|Comp:COMP
- 29. Parameter Settings for User Entity Instance: core:CORE_1
- 30. Parameter Settings for User Entity Instance: core:CORE_1|PC:PC
- 31. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:IR
- 32. Parameter Settings for User Entity Instance: core:CORE_1|AR:AR
- 33. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:DR
- 34. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RP
- 35. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RW:RT
- 36. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RR
- 37. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RM1
- 38. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RK1
- 39. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RN1
- 40. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RI:RM2
- 41. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RI:RK2
- 42. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RI:RN2
- 43. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RC1
- 44. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_WI:RC2
- 45. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_WI:RC3
- 46. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RW:AC
- 47. Parameter Settings for User Entity Instance: core:CORE_1|Alu:ALU
- 48. Parameter Settings for User Entity Instance: core:CORE_1|Comp:COMP
- 49. Parameter Settings for User Entity Instance: core:CORE_2
- 50. Parameter Settings for User Entity Instance: core:CORE_2|PC:PC
- 51. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:IR
- 52. Parameter Settings for User Entity Instance: core:CORE_2|AR:AR
- 53. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:DR
- 54. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RP
- 55. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RW:RT
- 56. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RR
- 57. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RM1
- 58. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RK1
- 59. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RN1
- 60. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RI:RM2
- 61. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RI:RK2
- 62. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RI:RN2
- 63. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RC1
- 64. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_WI:RC2
- 65. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_WI:RC3
- 66. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RW:AC
- 67. Parameter Settings for User Entity Instance: core:CORE_2|Alu:ALU
- 68. Parameter Settings for User Entity Instance: core:CORE_2|Comp:COMP
- 69. Parameter Settings for User Entity Instance: core:CORE_3
- 70. Parameter Settings for User Entity Instance: core:CORE_3|PC:PC
- 71. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:IR
- 72. Parameter Settings for User Entity Instance: core:CORE_3|AR:AR
- 73. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:DR
- 74. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RP
- 75. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RW:RT
- 76. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RR
- 77. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RM1
- 78. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RK1
- 79. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RN1
- 80. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RI:RM2
- 81. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RI:RK2
- 82. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RI:RN2
- 83. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RC1
- 84. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_WI:RC2
- 85. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_WI:RC3
- 86. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RW:AC
- 87. Parameter Settings for User Entity Instance: core:CORE_3|Alu:ALU
- 88. Parameter Settings for User Entity Instance: core:CORE_3|Comp:COMP
- 89. Analysis & Elaboration Settings
- 90. Port Connectivity Checks: "core:CORE_3"
- 91. Port Connectivity Checks: "core:CORE_2"
- 92. Port Connectivity Checks: "core:CORE_1"
- 93. Port Connectivity Checks: "core:CORE_0"
- 94. Analysis & Elaboration Messages
- 95. Analysis & Elaboration Suppressed Messages
+ 16. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RT4
+ 17. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RR
+ 18. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RM1
+ 19. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RK1
+ 20. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RN1
+ 21. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_RI:RM2
+ 22. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_RI:RK2
+ 23. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_RI:RN2
+ 24. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RC1
+ 25. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_WI:RC2
+ 26. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_WI:RC3
+ 27. Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_RW:AC
+ 28. Parameter Settings for User Entity Instance: core:CORE_0|Alu:ALU
+ 29. Parameter Settings for User Entity Instance: core:CORE_0|Comp:COMP
+ 30. Parameter Settings for User Entity Instance: core:CORE_0|Bus_mux:BUSMUX
+ 31. Parameter Settings for User Entity Instance: core:CORE_0|controlunit:CU
+ 32. Parameter Settings for User Entity Instance: core:CORE_1
+ 33. Parameter Settings for User Entity Instance: core:CORE_1|PC:PC
+ 34. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:IR
+ 35. Parameter Settings for User Entity Instance: core:CORE_1|AR:AR
+ 36. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:DR
+ 37. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RP
+ 38. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RW:RT
+ 39. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RT4
+ 40. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RR
+ 41. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RM1
+ 42. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RK1
+ 43. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RN1
+ 44. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RI:RM2
+ 45. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RI:RK2
+ 46. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RI:RN2
+ 47. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RC1
+ 48. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_WI:RC2
+ 49. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_WI:RC3
+ 50. Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RW:AC
+ 51. Parameter Settings for User Entity Instance: core:CORE_1|Alu:ALU
+ 52. Parameter Settings for User Entity Instance: core:CORE_1|Comp:COMP
+ 53. Parameter Settings for User Entity Instance: core:CORE_1|Bus_mux:BUSMUX
+ 54. Parameter Settings for User Entity Instance: core:CORE_1|controlunit:CU
+ 55. Parameter Settings for User Entity Instance: core:CORE_2
+ 56. Parameter Settings for User Entity Instance: core:CORE_2|PC:PC
+ 57. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:IR
+ 58. Parameter Settings for User Entity Instance: core:CORE_2|AR:AR
+ 59. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:DR
+ 60. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RP
+ 61. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RW:RT
+ 62. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RT4
+ 63. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RR
+ 64. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RM1
+ 65. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RK1
+ 66. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RN1
+ 67. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RI:RM2
+ 68. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RI:RK2
+ 69. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RI:RN2
+ 70. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RC1
+ 71. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_WI:RC2
+ 72. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_WI:RC3
+ 73. Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RW:AC
+ 74. Parameter Settings for User Entity Instance: core:CORE_2|Alu:ALU
+ 75. Parameter Settings for User Entity Instance: core:CORE_2|Comp:COMP
+ 76. Parameter Settings for User Entity Instance: core:CORE_2|Bus_mux:BUSMUX
+ 77. Parameter Settings for User Entity Instance: core:CORE_2|controlunit:CU
+ 78. Parameter Settings for User Entity Instance: core:CORE_3
+ 79. Parameter Settings for User Entity Instance: core:CORE_3|PC:PC
+ 80. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:IR
+ 81. Parameter Settings for User Entity Instance: core:CORE_3|AR:AR
+ 82. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:DR
+ 83. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RP
+ 84. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RW:RT
+ 85. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RT4
+ 86. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RR
+ 87. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RM1
+ 88. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RK1
+ 89. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RN1
+ 90. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RI:RM2
+ 91. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RI:RK2
+ 92. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RI:RN2
+ 93. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RC1
+ 94. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_WI:RC2
+ 95. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_WI:RC3
+ 96. Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RW:AC
+ 97. Parameter Settings for User Entity Instance: core:CORE_3|Alu:ALU
+ 98. Parameter Settings for User Entity Instance: core:CORE_3|Comp:COMP
+ 99. Parameter Settings for User Entity Instance: core:CORE_3|Bus_mux:BUSMUX
+100. Parameter Settings for User Entity Instance: core:CORE_3|controlunit:CU
+101. Analysis & Elaboration Settings
+102. Port Connectivity Checks: "core:CORE_3"
+103. Port Connectivity Checks: "core:CORE_2"
+104. Port Connectivity Checks: "core:CORE_1"
+105. Port Connectivity Checks: "core:CORE_0"
+106. Analysis & Elaboration Messages
+107. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -126,7 +138,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Thu Jul 01 13:27:56 2021       ;
+; Analysis & Elaboration Status      ; Successful - Fri Jul 02 18:59:08 2021       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Project_2                                   ;
 ; Top-level Entity Name              ; processor                                   ;
@@ -281,6 +293,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RT4 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +--------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: core:CORE_0|Reg_module_W:RR ;
 +----------------+-------+-------------------------------------------------+
@@ -411,6 +433,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_0|Bus_mux:BUSMUX ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_0|controlunit:CU ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: core:CORE_1 ;
 +----------------+-------+---------------------------------+
@@ -473,6 +515,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +---------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_RW:RT ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_1|Reg_module_W:RT4 ;
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
@@ -611,6 +663,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_1|Bus_mux:BUSMUX ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_1|controlunit:CU ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: core:CORE_2 ;
 +----------------+-------+---------------------------------+
@@ -673,6 +745,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +---------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_RW:RT ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_2|Reg_module_W:RT4 ;
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
@@ -811,6 +893,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_2|Bus_mux:BUSMUX ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_2|controlunit:CU ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: core:CORE_3 ;
 +----------------+-------+---------------------------------+
@@ -873,6 +975,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +---------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_RW:RT ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_3|Reg_module_W:RT4 ;
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
@@ -1008,6 +1120,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; WIDTH          ; 8     ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_3|Bus_mux:BUSMUX ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_3|controlunit:CU ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1154,92 +1286,92 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Jul 01 13:27:45 2021
+    Info: Processing started: Fri Jul 02 18:58:53 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project_2 -c Project_2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file pc.v
-    Info (12023): Found entity 1: PC File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/PC.v Line: 1
+    Info (12023): Found entity 1: PC File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/PC.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file imem_controller.v
-    Info (12023): Found entity 1: imem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/imem_controller.v Line: 1
+    Info (12023): Found entity 1: imem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/imem_controller.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file dmem_controller.v
-    Info (12023): Found entity 1: dmem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/dmem_controller.v Line: 1
+    Info (12023): Found entity 1: dmem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/dmem_controller.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_wi.v
-    Info (12023): Found entity 1: Reg_module_WI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_WI.v Line: 1
+    Info (12023): Found entity 1: Reg_module_WI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_WI.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_w.v
-    Info (12023): Found entity 1: Reg_module_W File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_W.v Line: 1
+    Info (12023): Found entity 1: Reg_module_W File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_W.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_rw.v
-    Info (12023): Found entity 1: Reg_module_RW File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RW.v Line: 1
+    Info (12023): Found entity 1: Reg_module_RW File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RW.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_ri.v
-    Info (12023): Found entity 1: Reg_module_RI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RI.v Line: 1
+    Info (12023): Found entity 1: Reg_module_RI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RI.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file processor.v
-    Info (12023): Found entity 1: processor File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v Line: 1
+    Info (12023): Found entity 1: processor File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 1
 Info (12021): Found 0 design units, including 0 entities, in source file proc_param.v
 Info (12021): Found 1 design units, including 1 entities, in source file mux_3to1_8bit.v
-    Info (12023): Found entity 1: mux_3to1_8bit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/mux_3to1_8bit.v Line: 1
+    Info (12023): Found entity 1: mux_3to1_8bit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/mux_3to1_8bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file ins_mem.v
-    Info (12023): Found entity 1: ins_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/ins_mem.v Line: 1
+    Info (12023): Found entity 1: ins_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file data_mem.v
-    Info (12023): Found entity 1: data_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/data_mem.v Line: 4
+    Info (12023): Found entity 1: data_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v Line: 4
 Info (12021): Found 0 design units, including 0 entities, in source file cu_param.v
 Info (12021): Found 1 design units, including 1 entities, in source file core.v
-    Info (12023): Found entity 1: core File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 3
+    Info (12023): Found entity 1: core File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file controlunit.v
-    Info (12023): Found entity 1: controlunit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/controlunit.v Line: 38
+    Info (12023): Found entity 1: controlunit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/controlunit.v Line: 38
 Info (12021): Found 1 design units, including 1 entities, in source file comp.v
-    Info (12023): Found entity 1: Comp File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Comp.v Line: 1
+    Info (12023): Found entity 1: Comp File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Comp.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus_mux.v
-    Info (12023): Found entity 1: Bus_mux File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 5
+    Info (12023): Found entity 1: Bus_mux File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file ar.v
-    Info (12023): Found entity 1: AR File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/AR.v Line: 2
+    Info (12023): Found entity 1: AR File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/AR.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file alu.v
-    Info (12023): Found entity 1: Alu File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Alu.v Line: 1
+    Info (12023): Found entity 1: Alu File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Alu.v Line: 1
 Info (12127): Elaborating entity "processor" for the top level hierarchy
-Info (12128): Elaborating entity "ins_mem" for hierarchy "ins_mem:ins_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v Line: 48
-Warning (10850): Verilog HDL warning at ins_mem.v(14): number of words (46) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/ins_mem.v Line: 14
-Warning (10030): Net "mem.data_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/ins_mem.v Line: 10
-Warning (10030): Net "mem.waddr_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/ins_mem.v Line: 10
-Warning (10030): Net "mem.we_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/ins_mem.v Line: 10
-Info (12128): Elaborating entity "data_mem" for hierarchy "data_mem:dt_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v Line: 51
-Warning (10850): Verilog HDL warning at data_mem.v(23): number of words (47) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/data_mem.v Line: 23
-Warning (10175): Verilog HDL warning at data_mem.v(36): ignoring unsupported system task File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/data_mem.v Line: 36
-Info (12128): Elaborating entity "imem_controller" for hierarchy "imem_controller:imem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v Line: 56
-Info (12128): Elaborating entity "dmem_controller" for hierarchy "dmem_controller:dmem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v Line: 63
-Info (12128): Elaborating entity "core" for hierarchy "core:CORE_0" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v Line: 69
-Info (12128): Elaborating entity "PC" for hierarchy "core:CORE_0|PC:PC" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 51
-Info (12128): Elaborating entity "Reg_module_W" for hierarchy "core:CORE_0|Reg_module_W:IR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 53
-Info (12128): Elaborating entity "AR" for hierarchy "core:CORE_0|AR:AR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 56
-Info (12128): Elaborating entity "Reg_module_RW" for hierarchy "core:CORE_0|Reg_module_RW:RT" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 63
-Info (12128): Elaborating entity "Reg_module_RI" for hierarchy "core:CORE_0|Reg_module_RI:RM2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 73
-Info (12128): Elaborating entity "Reg_module_WI" for hierarchy "core:CORE_0|Reg_module_WI:RC2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 81
-Info (12128): Elaborating entity "Alu" for hierarchy "core:CORE_0|Alu:ALU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 88
-Info (10264): Verilog HDL Case Statement information at Alu.v(19): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Alu.v Line: 19
-Info (12128): Elaborating entity "mux_3to1_8bit" for hierarchy "core:CORE_0|mux_3to1_8bit:COMPMUX1" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 90
-Info (10264): Verilog HDL Case Statement information at mux_3to1_8bit.v(9): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/mux_3to1_8bit.v Line: 9
-Info (12128): Elaborating entity "Comp" for hierarchy "core:CORE_0|Comp:COMP" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 92
-Info (12128): Elaborating entity "Bus_mux" for hierarchy "core:CORE_0|Bus_mux:BUSMUX" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 94
-Warning (10270): Verilog HDL Case Statement warning at Bus_mux.v(13): incomplete case statement has no default case item File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Warning (10240): Verilog HDL Always Construct warning at Bus_mux.v(13): inferring latch(es) for variable "select", which holds its previous value in one or more paths through the always construct File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Info (10041): Inferred latch for "select[0]" at Bus_mux.v(13) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Info (10041): Inferred latch for "select[1]" at Bus_mux.v(13) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Info (10041): Inferred latch for "select[2]" at Bus_mux.v(13) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Info (10041): Inferred latch for "select[3]" at Bus_mux.v(13) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Info (10041): Inferred latch for "select[4]" at Bus_mux.v(13) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Info (10041): Inferred latch for "select[5]" at Bus_mux.v(13) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Info (10041): Inferred latch for "select[6]" at Bus_mux.v(13) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Info (10041): Inferred latch for "select[7]" at Bus_mux.v(13) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v Line: 13
-Info (12128): Elaborating entity "controlunit" for hierarchy "core:CORE_0|controlunit:CU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v Line: 96
-Info (144001): Generated suppressed messages file D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/output_files/Project_2.map.smsg
+Info (12128): Elaborating entity "ins_mem" for hierarchy "ins_mem:ins_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 48
+Warning (10850): Verilog HDL warning at ins_mem.v(14): number of words (47) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 14
+Warning (10030): Net "mem.data_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
+Warning (10030): Net "mem.waddr_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
+Warning (10030): Net "mem.we_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
+Info (12128): Elaborating entity "data_mem" for hierarchy "data_mem:dt_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 51
+Warning (10850): Verilog HDL warning at data_mem.v(23): number of words (109) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v Line: 23
+Warning (10175): Verilog HDL warning at data_mem.v(36): ignoring unsupported system task File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v Line: 36
+Info (12128): Elaborating entity "imem_controller" for hierarchy "imem_controller:imem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 56
+Info (12128): Elaborating entity "dmem_controller" for hierarchy "dmem_controller:dmem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 63
+Info (12128): Elaborating entity "core" for hierarchy "core:CORE_0" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 69
+Info (12128): Elaborating entity "PC" for hierarchy "core:CORE_0|PC:PC" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 52
+Info (12128): Elaborating entity "Reg_module_W" for hierarchy "core:CORE_0|Reg_module_W:IR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 54
+Info (12128): Elaborating entity "AR" for hierarchy "core:CORE_0|AR:AR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 57
+Info (12128): Elaborating entity "Reg_module_RW" for hierarchy "core:CORE_0|Reg_module_RW:RT" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 64
+Info (12128): Elaborating entity "Reg_module_RI" for hierarchy "core:CORE_0|Reg_module_RI:RM2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 76
+Info (12128): Elaborating entity "Reg_module_WI" for hierarchy "core:CORE_0|Reg_module_WI:RC2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 84
+Info (12128): Elaborating entity "Alu" for hierarchy "core:CORE_0|Alu:ALU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 91
+Info (10264): Verilog HDL Case Statement information at Alu.v(19): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Alu.v Line: 19
+Info (12128): Elaborating entity "mux_3to1_8bit" for hierarchy "core:CORE_0|mux_3to1_8bit:COMPMUX1" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 93
+Info (10264): Verilog HDL Case Statement information at mux_3to1_8bit.v(9): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/mux_3to1_8bit.v Line: 9
+Info (12128): Elaborating entity "Comp" for hierarchy "core:CORE_0|Comp:COMP" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 95
+Info (12128): Elaborating entity "Bus_mux" for hierarchy "core:CORE_0|Bus_mux:BUSMUX" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 97
+Warning (10270): Verilog HDL Case Statement warning at Bus_mux.v(16): incomplete case statement has no default case item File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Warning (10240): Verilog HDL Always Construct warning at Bus_mux.v(16): inferring latch(es) for variable "select", which holds its previous value in one or more paths through the always construct File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[0]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[1]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[2]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[3]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[4]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[5]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[6]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[7]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (12128): Elaborating entity "controlunit" for hierarchy "core:CORE_0|controlunit:CU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 99
+Info (144001): Generated suppressed messages file D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/output_files/Project_2.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 4718 megabytes
-    Info: Processing ended: Thu Jul 01 13:27:56 2021
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:21
+    Info: Peak virtual memory: 4719 megabytes
+    Info: Processing ended: Fri Jul 02 18:59:08 2021
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:31
 
 
 +--------------------------------------------+
 ; Analysis & Elaboration Suppressed Messages ;
 +--------------------------------------------+
-The suppressed messages can be found in D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/output_files/Project_2.map.smsg.
+The suppressed messages can be found in D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/output_files/Project_2.map.smsg.
 
 

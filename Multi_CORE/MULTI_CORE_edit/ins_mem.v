@@ -11,7 +11,7 @@ module ins_mem
 	
 	initial
 	begin
-		$readmemh("D:\\Academic\\ACA\\SEM5 TRONIC ACA\\SEMESTER 5\\CSD\\FPGA\\MULTI_CORE_edit\\ins_mem.txt",mem);
+		$readmemh("D:\\Academic\\ACA\\SEM5 TRONIC ACA\\SEMESTER 5\\CSD\\FPGA\\00 - Git\\fpga-quartus\\Multi_CORE\\MULTI_CORE_edit\\ins_mem.txt",mem);
 			 
 	end
 

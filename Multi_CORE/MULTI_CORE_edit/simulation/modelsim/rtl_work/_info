@@ -7,404 +7,407 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/simulation/modelsim
+Z0 dD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/simulation/modelsim
 vAlu
-Z1 !s110 1625126327
+Z1 !s110 1625231761
 !i10b 1
 !s100 ?4h6K1Tg7PTPZDX0aKe;a1
-I7E]lD29j1DXc;[=Ud91?k1
+I0OUP^U8XoSHh3ZA7P]:SI3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1625089159
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Alu.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Alu.v
+Z3 w1625172429
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Alu.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Alu.v
 L0 1
-Z3 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1625126327.000000
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Alu.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Alu.v|
+Z5 !s108 1625231761.000000
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Alu.v|
 !i113 1
-Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work {+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit}
-Z7 tCvgOpt 0
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit}
+Z8 tCvgOpt 0
 n@alu
 vAR
-R1
+Z9 !s110 1625231760
 !i10b 1
 !s100 JbBRS==CN2^g3g:oGJHK92
-IK8CCkkQ?H^8XDh8m]obX13
+IRVoGojQ:?V^R:a@feT;RS3
 R2
 R0
-w1624965547
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/AR.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/AR.v
-L0 2
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/AR.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/AR.v
+L0 2
+R4
 r1
 !s85 0
 31
-R4
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/AR.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/AR.v|
+Z10 !s108 1625231760.000000
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/AR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/AR.v|
 !i113 1
-R5
 R6
 R7
+R8
 n@a@r
 vBus_mux
-R1
+R9
 !i10b 1
-!s100 VOF;lf8:LK1S2JdZGdR:_0
-I@<7QINLW6e9>ZBTHCWGF72
+!s100 oeDbiB5<hI?o[4KCT[CDP1
+IPdi[AH^ZlhGY6llH6m>LO2
 R2
 R0
-w1625063840
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v
+w1625230066
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v
 L0 5
-R3
+R4
 r1
 !s85 0
 31
-R4
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Bus_mux.v|
+R10
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v|
 !i113 1
-R5
 R6
 R7
+R8
 n@bus_mux
 vComp
-R1
+R9
 !i10b 1
 !s100 ZTIFCJ025N`_V[PiH;`OX2
-Ih^OS5<4zmc[XSRgo@c78E3
+I1G6zJASc5Wgh5M`Mg6i<c1
 R2
 R0
-w1624607036
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Comp.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Comp.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Comp.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Comp.v
+L0 1
+R4
 r1
 !s85 0
 31
-Z8 !s108 1625126326.000000
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Comp.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Comp.v|
+R10
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Comp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Comp.v|
 !i113 1
-R5
 R6
 R7
+R8
 n@comp
 vcontrolunit
-!s110 1625152320
+R1
 !i10b 1
-!s100 mYGGmj^KgYDU=<YHYVU6<3
-I_m;P4>WE:fYMZc:e8cDn92
+!s100 ?b[K7[]h0JKF:7Dk6L9ef3
+IHiZXUPfYzcJQSQQL5kn<D1
 R2
 R0
-w1625152307
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/controlunit.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/controlunit.v
+w1625231553
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/controlunit.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/controlunit.v
 L0 38
-R3
+R4
 r1
 !s85 0
 31
-!s108 1625152318.000000
-!s107 D:\Academic\ACA\SEM5 TRONIC ACA\SEMESTER 5\CSD\FPGA\MULTI_CORE_edit\cu_param.v|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/controlunit.v|
-!s90 -reportprogress|300|-work|work|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/controlunit.v|
+R5
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/cu_param.v|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/controlunit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/controlunit.v|
 !i113 1
-Z9 o-work work
+R6
 R7
+R8
 vcore
 R1
 !i10b 1
-!s100 ZT]0W@NHa>?:c8N[BHn@93
-IIcIbY^T5F6VRj7lmW;Q3c2
+!s100 =I5>bgZQBM1Bo8DaQTIIW3
+I@a=3KZzc3kd2W=b]fCYRO3
 R2
 R0
-w1625063721
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v
+w1625174994
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v
 L0 3
-R3
+R4
 r1
 !s85 0
 31
-R4
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/proc_param.v|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/core.v|
-!i113 1
 R5
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/proc_param.v|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v|
+!i113 1
 R6
 R7
+R8
 vdata_mem
-Z10 !s110 1625164129
+!s110 1625232829
 !i10b 1
-!s100 EYK^<VOQL?=MN`MaIam3U2
-Ijj:llWefnmZC24E=LK=`i2
+!s100 k24IL9TUhXzoJhFz^V`QH2
+I2TOZlNjQbP@6U64lKQ<LT3
 R2
 R0
-w1624916498
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/data_mem.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/data_mem.v
+w1625232040
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v
 L0 4
-R3
+R4
 r1
 !s85 0
 31
-Z11 !s108 1625164129.000000
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/data_mem.v|
-!s90 -reportprogress|300|-work|work|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/data_mem.v|
+!s108 1625232829.000000
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v|
+!s90 -reportprogress|300|-work|work|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v|
 !i113 1
-R9
-R7
+Z11 o-work work
+R8
 vdmem_controller
-!s110 1625164726
+Z12 !s110 1625231759
 !i10b 1
 !s100 aGcmH=U@2o?IoL8RUPDci0
-IV17RzlH8F41:H`b=U<S@01
+IHJJP<nH3fhRG6VNbci_KB0
 R2
 R0
-w1625164715
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/dmem_controller.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/dmem_controller.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/dmem_controller.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/dmem_controller.v
+L0 1
+R4
 r1
 !s85 0
 31
-!s108 1625164726.000000
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/dmem_controller.v|
-!s90 -reportprogress|300|-work|work|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/dmem_controller.v|
+Z13 !s108 1625231759.000000
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/dmem_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/dmem_controller.v|
 !i113 1
-R9
+R6
 R7
+R8
 vimem_controller
-Z12 !s110 1625126326
+Z14 !s110 1625231758
 !i10b 1
 !s100 A@><:XVQmaU_dWTbOA@?b0
-I>d<Z_aUcJ`;8M_KXLmJX21
+I>k58lJ]KB;OXXjBM;=C_:2
 R2
 R0
-w1624976902
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/imem_controller.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/imem_controller.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/imem_controller.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/imem_controller.v
+L0 1
+R4
 r1
 !s85 0
 31
-R8
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/imem_controller.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/imem_controller.v|
+Z15 !s108 1625231758.000000
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/imem_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/imem_controller.v|
 !i113 1
-R5
 R6
 R7
+R8
 vins_mem
-R10
+!s110 1625232082
 !i10b 1
-!s100 an_O`U]z1PMAm4DfNYohQ0
-Ihdd]T`k1<Z89hP=;=4g]e0
+!s100 :MXolf^7kFN_@H_[GC1f@3
+IeeL1WCoGje^03iP4_E1Bz3
 R2
 R0
-w1624949910
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/ins_mem.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/ins_mem.v
+w1625232053
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R11
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/ins_mem.v|
-!s90 -reportprogress|300|-work|work|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/ins_mem.v|
+!s108 1625232082.000000
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v|
+!s90 -reportprogress|300|-work|work|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v|
 !i113 1
-R9
-R7
+R11
+R8
 vmux_3to1_8bit
-R12
+R9
 !i10b 1
 !s100 9IfBBN<B9@gifl^O3RZ7B1
-IeRG>2VRM@5hPeSgB=iLG93
+I88BjW7;3d4`OdaS<=fljD0
 R2
 R0
-w1624901997
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/mux_3to1_8bit.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/mux_3to1_8bit.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/mux_3to1_8bit.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/mux_3to1_8bit.v
+L0 1
+R4
 r1
 !s85 0
 31
-R8
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/mux_3to1_8bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/mux_3to1_8bit.v|
+R10
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/mux_3to1_8bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/mux_3to1_8bit.v|
 !i113 1
-R5
 R6
 R7
+R8
 vPC
-R12
+R14
 !i10b 1
 !s100 VjS7]jDcmTBZNoRl?cC9N0
-IkNlLXFLPYMO3`A7^CWURC0
+IVWa2LA]NmEoD?K64DBd]E1
 R2
 R0
-w1624710873
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/PC.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/PC.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/PC.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/PC.v
+L0 1
+R4
 r1
 !s85 0
 31
-R8
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/PC.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/PC.v|
+R15
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/PC.v|
 !i113 1
-R5
 R6
 R7
+R8
 n@p@c
 vprocessor
-!s110 1625149175
+R9
 !i10b 1
 !s100 aSKTlNK_4gWBhFECUNoa32
-I``OO_iDobz9N;aLniEWkf0
+IZBOz:?]>V4dRT37j5E64d3
 R2
 R0
-w1625148285
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v
+L0 1
+R4
 r1
 !s85 0
 31
-!s108 1625149175.000000
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v|
-!s90 -reportprogress|30|-work|work|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor.v|
+R10
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v|
 !i113 1
-R9
+R6
 R7
+R8
 vprocessor_tb
 R1
 !i10b 1
 !s100 @cz>S0mE>JdC3LF^j]<1S0
-IM0GHVS[Q1SRS3[_io1dSC3
+I?PGDcYYnfZJ3]6cIWc7Qe2
 R2
 R0
-w1625125353
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor_tb.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor_tb.v
-L0 2
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor_tb.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor_tb.v
+L0 2
+R4
 r1
 !s85 0
 31
-R4
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/processor_tb.v|
-!i113 1
 R5
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor_tb.v|
+!i113 1
 R6
 R7
+R8
 vReg_module_RI
-R12
+R9
 !i10b 1
 !s100 9dGQG?SRG`[kTYFj7h]0<2
-I^@jM2hb832VAL]cn]5ghR1
+ImEdjRP0fhN4KVWoo_bzFW0
 R2
 R0
-w1624713689
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RI.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RI.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RI.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RI.v
+L0 1
+R4
 r1
 !s85 0
 31
-R8
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RI.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RI.v|
+R10
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RI.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RI.v|
 !i113 1
-R5
 R6
 R7
+R8
 n@reg_module_@r@i
 vReg_module_RW
-R12
+R9
 !i10b 1
 !s100 <;Sko;nCX<z]D=ZoHHXRO1
-IS8PRK]eF`W@]S5c7N:iNY2
+I[LEK7hF?XoFAkaCzj2cX33
 R2
 R0
-w1624713683
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RW.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RW.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RW.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RW.v
+L0 1
+R4
 r1
 !s85 0
 31
-R8
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RW.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_RW.v|
+R10
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RW.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RW.v|
 !i113 1
-R5
 R6
 R7
+R8
 n@reg_module_@r@w
 vReg_module_W
 R12
 !i10b 1
 !s100 H[k<JVa2HH6FLd0US?8eP1
-I90Kl4FHIYaSW`O>MmiT3J3
+I5Eo4TIGlH9PkCOHOkUcR81
 R2
 R0
-w1624713677
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_W.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_W.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_W.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_W.v
+L0 1
+R4
 r1
 !s85 0
 31
-R8
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_W.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_W.v|
+R13
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_W.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_W.v|
 !i113 1
-R5
 R6
 R7
+R8
 n@reg_module_@w
 vReg_module_WI
 R12
 !i10b 1
 !s100 Ia^_;=632CCjTY4XSJX9J0
-Ib`Zjb1m0PQi[:j4Xi<>8U1
+IBd7kIBDZX5=6N<i36=Meo1
 R2
 R0
-w1624713638
-8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_WI.v
-FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_WI.v
-L0 1
 R3
+8D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_WI.v
+FD:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_WI.v
+L0 1
+R4
 r1
 !s85 0
 31
-R8
-!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_WI.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/MULTI_CORE_edit/Reg_module_WI.v|
+R13
+!s107 D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_WI.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit|D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_WI.v|
 !i113 1
-R5
 R6
 R7
+R8
 n@reg_module_@w@i
