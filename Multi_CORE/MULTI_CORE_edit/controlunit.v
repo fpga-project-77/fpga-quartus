@@ -660,7 +660,7 @@ always @(posedge Clk) begin
             if (INS[3:0]== `ASSIGN_C1) begin             
                 NEXT_STATE <= `ASSIGNC1_3A;
             end
-            else if (INS[3:0]== ``ASSIGN_C2) begin             
+            else if (INS[3:0]== `ASSIGN_C2) begin             
                 NEXT_STATE <= `ASSIGNC2_3;
             end
             // else if (INS[3:0]== `ASSIGN_C3) begin             //not needed in new algo

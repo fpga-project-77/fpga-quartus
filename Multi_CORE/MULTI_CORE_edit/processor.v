@@ -27,9 +27,9 @@ wire [WIDTH-1:0] MEM_1, MEM_2, MEM_3,MEM_4;
 wire memAV1, memAV2, memAV3,memAV4;
 
 localparam MEMID_CORE1 = 8'd127;                                    //DRAM Store starting locations for respective cores
-localparam MEMID_CORE2 = 8'd159;
-localparam MEMID_CORE3 = 8'd191;
-localparam MEMID_CORE4 = 8'd223;
+localparam MEMID_CORE4 = 8'd159;
+localparam MEMID_CORE2 = 8'd191;
+localparam MEMID_CORE3 = 8'd223;
 
 localparam COREID_1 = 3'd0;
 localparam COREID_2 = 3'd1;
