@@ -3,15 +3,15 @@ module dmem_controller#(parameter WIDTH=8)(
     input coreS_1, coreS_2, coreS_3,coreS_4,
     input [WIDTH-1:0] AR_1, AR_2, AR_3,AR_4,
     input [WIDTH-1:0] DR_1, DR_2, DR_3, DR_4,    
-    input [WIDTH-1:0]MEM,  //from DRAM
+    input [WIDTH-1:0]MEM,                                       //from DRAM
     input memREAD_1, memREAD_2, memREAD_3,memREAD_4,
     input memWE_1, memWE_2, memWE_3,memWE_4,
     output reg rEN,
     output reg wEN,
     output reg [WIDTH-1:0] MEM_1, MEM_2, MEM_3,MEM_4,       
-    output reg [WIDTH-1:0] addr, //to DRAM
+    output reg [WIDTH-1:0] addr,                                //to DRAM
     output reg [WIDTH-1:0] DR_OUT,
-    output reg memAV1, memAV2, memAV3,memAV4 //to cores
+    output reg memAV1, memAV2, memAV3,memAV4                    //to cores
 );
 localparam NORM = 4'b0000;
 localparam NORMEND = 4'b0001;

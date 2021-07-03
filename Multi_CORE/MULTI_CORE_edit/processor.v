@@ -3,30 +3,22 @@ module processor
 (
     input clk,
     output proc_state
-    //output [(WIDTH)-1:0]DATA_out,
-    //output [(WIDTH)-1:0]ADDR_out
 );
 // wire clk = CLOCK_50;
-wire [(WIDTH)-1:0] INS;  //iROM output  //t
-wire [(WIDTH)-1:0] PC_addr; 
-wire [(WIDTH)-1:0] MEMWRITE_data;  //writing data to dram
-wire [(WIDTH)-1:0] DRAM_addr;    //dram accessing memory location address
-wire [(WIDTH)-1:0] MEMREAD_data; //dram output
+wire [(WIDTH)-1:0] INS;                                             //iROM output  
+wire [(WIDTH)-1:0] PC_addr;                                         //PC out to imem controller
+wire [(WIDTH)-1:0] MEMWRITE_data;                                   //writing data to dram
+wire [(WIDTH)-1:0] DRAM_addr;                                       //dram accessing memory location address
+wire [(WIDTH)-1:0] MEMREAD_data;                                    //dram output
 
 wire iROMREAD;
 wire memWRITE;
 wire memREAD;
-//wire coreS;
-wire imemAV1;
-wire imemAV2;
-wire imemAV3;
-wire imemAV4;
+wire imemAV1, imemAV2, imemAV3, imemAV4;
 wire iROMREAD_1, iROMREAD_2, iROMREAD_3,iROMREAD_4;
 wire coreS_1, coreS_2, coreS_3,coreS_4;
 wire [WIDTH-1:0] PC_1, PC_2, PC_3,PC_4;
-//wire [WIDTH-1:0]INS;
 wire [WIDTH-1:0]INS_1, INS_2, INS_3,INS_4;
-//wire imemAV1, imemAV2, imemAV3,imemAV4;
 wire [WIDTH-1:0] AR_1, AR_2, AR_3,AR_4;
 wire [WIDTH-1:0] DR_1, DR_2, DR_3, DR_4;  
 wire memREAD_1, memREAD_2, memREAD_3,memREAD_4;
@@ -34,7 +26,7 @@ wire memWE_1, memWE_2, memWE_3,memWE_4;
 wire [WIDTH-1:0] MEM_1, MEM_2, MEM_3,MEM_4;      
 wire memAV1, memAV2, memAV3,memAV4;
 
-localparam MEMID_CORE1 = 8'd127;
+localparam MEMID_CORE1 = 8'd127;                                    //DRAM Store starting locations for respective cores
 localparam MEMID_CORE2 = 8'd159;
 localparam MEMID_CORE3 = 8'd191;
 localparam MEMID_CORE4 = 8'd223;

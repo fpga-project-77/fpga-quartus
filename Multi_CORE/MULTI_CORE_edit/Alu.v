@@ -15,7 +15,7 @@ module Alu #(
     
     reg [WIDTH-1:0] result;
     
-    always @* begin
+    always @(*) begin
     	case (ALU_OP)
             SET: 
                 result<=BusOut;

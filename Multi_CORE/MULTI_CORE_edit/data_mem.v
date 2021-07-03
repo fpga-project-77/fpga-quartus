@@ -35,9 +35,7 @@ module data_mem
 		end
 		$writememh("D:\\Academic\\ACA\\SEM5 TRONIC ACA\\SEMESTER 5\\CSD\\FPGA\\00 - Git\\fpga-quartus\\Multi_CORE\\MULTI_CORE_edit\\result.txt",ram);
 	end
-	// Continuous assignment implies read returns NEW data.
-	// This is the natural behavior of the TriMatrix memory
-	// blocks in Single Port mode.  
+	
 	assign mem_out = ram[addr_reg];
 
 endmodule

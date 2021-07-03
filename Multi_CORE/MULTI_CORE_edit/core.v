@@ -4,14 +4,14 @@ module core
 
 #(parameter WIDTH = 8)(
     input Clk,
-    input [WIDTH-1:0]IROM_dataIn,       // --> IR or --> AR
-    input [WIDTH-1:0]DRAM_dataIn,       // --> DR
+    input [WIDTH-1:0]IROM_dataIn,                               // --> IR or --> AR
+    input [WIDTH-1:0]DRAM_dataIn,                               // --> DR
     input [WIDTH-1:0] MEM_ID,
     input [2:0] coreID,
     input imemAV, memAV,
-    output [WIDTH-1:0]DRAM_dataOut,     // from DR
-    output [WIDTH-1:0]IROM_addr,        //PC
-    output [WIDTH-1:0]DRAM_addr,         //AR
+    output [WIDTH-1:0]DRAM_dataOut,                             // from DR
+    output [WIDTH-1:0]IROM_addr,                                // PC
+    output [WIDTH-1:0]DRAM_addr,                                // AR
     output wire memREAD, memWRITE, iROMREAD, coreS
 );
 
@@ -25,7 +25,7 @@ wire selAR;
 wire [4:0]busMUX;
 wire coreINC_AR;
 
-wire [WIDTH-1:0]INS;  // instruction from iROM
+wire [WIDTH-1:0]INS;                                            // instruction from iROM
 wire [WIDTH-1:0] COMP_IN1;
 wire [WIDTH-1:0] COMP_IN2;
 wire [WIDTH-1:0]PC_OUT;
@@ -48,19 +48,16 @@ wire [WIDTH-1:0]AC_OUT;
 wire [WIDTH-1:0]ALU_OUT;
 wire [WIDTH-1:0]BUSMUX_OUT;
 //PC                                                    15                 5
-//Reg_module_WI #(.WIDTH(WIDTH)) PC (.Clk(Clk), .WEN(wEN[`PC_W]), .INC(INC[`PC_INC]), .BusOut(AR_OUT), .dout(PC_OUT));
 PC #(.WIDTH(WIDTH)) PC (.Clk(Clk), .WEN(wEN[`PC_W]), .INC(INC[`PC_INC]), .BusOut(AR_OUT), .dout(PC_OUT));
-//IR                Reg_module_W                         14
+//IR                                                    14
 Reg_module_W #(.WIDTH(WIDTH)) IR (.Clk(Clk), .WEN(wEN[`IR_W]), .BusOut(IROM_dataIn), .dout(INS));
-
-//AR                NOT DONE!!                                     13
+//AR                                          13
 AR #(.WIDTH(WIDTH)) AR (.Clk(Clk), .WEN(wEN[`AR_W]), .BusOut(BUSMUX_OUT), .IOut(IROM_dataIn), .selAR(selAR), .dout(AR_OUT), .coreID(coreID), .coreINC_AR(coreINC_AR));
-
 //DR                                                    12
 Reg_module_W #(.WIDTH(WIDTH)) DR (.Clk(Clk), .WEN(wEN[`DR_W]), .BusOut(BUSMUX_OUT), .dout(DR_OUT));
 //RP                                                    11
 Reg_module_W #(.WIDTH(WIDTH)) RP (.Clk(Clk), .WEN(wEN[`RP_W]), .BusOut(BUSMUX_OUT), .dout(RP_OUT));
-//RT            to be changed Reg_module_RW             10
+//RT                                                    10
 Reg_module_RW #(.WIDTH(WIDTH)) RT (.Clk(Clk), .WEN(wEN[`RT_W]), .RST(RST[`RT_RST]), .BusOut(BUSMUX_OUT), .dout(RT_OUT));   
 //RT4                                                   16
 Reg_module_W #(.WIDTH(WIDTH)) RT4 (.Clk(Clk), .WEN(wEN[`RT4_W]), .BusOut(BUSMUX_OUT), .dout(RT4_OUT));
@@ -84,7 +81,7 @@ Reg_module_W #(.WIDTH(WIDTH)) RC1 (.Clk(Clk), .WEN(wEN[`RC1_W]), .BusOut(BUSMUX_
 Reg_module_WI #(.WIDTH(WIDTH)) RC2 (.Clk(Clk), .WEN(wEN[`RC2_W]), .INC(INC[`RC2_INC]), .BusOut(BUSMUX_OUT), .dout(C2_OUT));
 //RC3                                                   1                   0
 Reg_module_WI #(.WIDTH(WIDTH)) RC3 (.Clk(Clk), .WEN(wEN[`RC3_W]), .INC(INC[`RC3_INC]), .BusOut(BUSMUX_OUT), .dout(C3_OUT));
-//AC            to be changed Reg_module_RW             0
+//AC                                                     0
 Reg_module_RW #(.WIDTH(WIDTH)) AC (.Clk(Clk), .WEN(wEN[`AC_W]), .RST(RST[`AC_RST]), .BusOut(ALU_OUT), .dout(AC_OUT));   
 
 //ALU

@@ -1,13 +1,13 @@
 module imem_controller#(parameter WIDTH=8)(
     input Clk,
-    input iROMREAD_1, iROMREAD_2, iROMREAD_3,iROMREAD_4,
-    input coreS_1, coreS_2, coreS_3,coreS_4,
-    input [WIDTH-1:0] PC_1, PC_2, PC_3,PC_4,
-    input [WIDTH-1:0]INS, 
-    output reg rEN,
-    output reg [WIDTH-1:0] PC_OUT,
-    output reg [WIDTH-1:0]INS_1, INS_2, INS_3,INS_4,
-    output reg imemAV1, imemAV2, imemAV3,imemAV4
+    input iROMREAD_1, iROMREAD_2, iROMREAD_3,iROMREAD_4,                //rEn signals from each core
+    input coreS_1, coreS_2, coreS_3,coreS_4,                            //core states from each core
+    input [WIDTH-1:0] PC_1, PC_2, PC_3,PC_4,                            //addresses from each core
+    input [WIDTH-1:0]INS,                                               //Instruction from IROM
+    output reg rEN,                                                     //rEn signal to IROM
+    output reg [WIDTH-1:0] PC_OUT,                                      //read address to IROM
+    output reg [WIDTH-1:0]INS_1, INS_2, INS_3,INS_4,                    //read instructions to cores
+    output reg imemAV1, imemAV2, imemAV3,imemAV4                        //IROM read state signal to each core
 );
 localparam NORMI = 3'b000;
 localparam NORMENDI = 3'b001; 
