@@ -1,0 +1,6 @@
+{% comment %} edit AR.v with coreInc_AR.
+edit AR_tb.v
+edit controlunit.v `HOLD_1
+edit ALU_tb.v
+3 cores(core1-->coreid=0, core2-->coreid=1, core3-->coreid==2)
+3 port RAM one clock (assumption) {% endcomment %}

@@ -1,17 +1,17 @@
 //DEFINE OPERATIONS
-`define NO_OP 4'h0
-`define JMP 4'h1
-`define COPY 4'h2
-`define LOAD 4'h3
-`define STORE 4'h4
-`define ASSIGN 4'h5
-`define RESET 4'h6
-`define MOVE 4'h7
-`define SET 4'h8
-`define MUL 4'h9
-`define ADD 4'hA
-`define INC 4'hB
-`define END 4'hC
+`define NO_OP 4'h0              //0000
+`define JMP 4'h1                //0001
+`define COPY 4'h2               //0010
+`define LOAD 4'h3               //0011
+`define STORE 4'h4              //0100
+`define ASSIGN 4'h5             //0101
+`define RESET 4'h6              //0110
+`define MOVE 4'h7               //0111
+`define SET 4'h8                //1000
+`define MUL 4'h9                //1001
+`define ADD 4'hA                //1010
+`define INC 4'hB                //1011
+`define END 4'hC                //1100    
 
 
 //JMP PARAM
@@ -122,3 +122,4 @@
 `define INCK2_1 8'hD3
 `define INCN2_1 8'hD4
 
+`define ENDOP_1 8'hE0
