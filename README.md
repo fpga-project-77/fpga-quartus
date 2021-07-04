@@ -1,4 +1,4 @@
 # fpga-quartus
 
 This branch is for testing purposes
-8 core processor @ MULTI_CORE_EDIT 
+and 8 core processor is @ MULTI_CORE_EDIT 
