@@ -1,9 +1,9 @@
 module mux_3to1_8bit(mux_inN, mux_inK, mux_inM, mux_sel, mux_out);
 input [2:0] mux_sel;
-input [7:0] mux_inN, mux_inK, mux_inM;
-output [7:0] mux_out;
+input [15:0] mux_inN, mux_inK, mux_inM;
+output [15:0] mux_out;
 // The output is defined as register 
-reg [7:0] mux_out;
+reg [15:0] mux_out;
 always @(*)
 begin
     case(mux_sel)
@@ -14,7 +14,7 @@ begin
         3'b100:
             mux_out <= mux_inM;
         default: 
-            mux_out <= 8'bz;
+            mux_out <= 16'bz;
     endcase
 
     

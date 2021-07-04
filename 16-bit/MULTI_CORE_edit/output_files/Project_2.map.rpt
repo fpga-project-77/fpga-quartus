@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Project_2
-Sun Jul 04 20:50:09 2021
+Mon Jul 05 00:54:20 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -235,7 +235,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Sun Jul 04 20:50:09 2021       ;
+; Analysis & Elaboration Status      ; Successful - Mon Jul 05 00:54:20 2021       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Project_2                                   ;
 ; Top-level Entity Name              ; processor                                   ;
@@ -273,7 +273,7 @@ refer to the applicable agreement for further details.
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -283,8 +283,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------+
 ; Parameter Name ; Value ; Type                                ;
 +----------------+-------+-------------------------------------+
-; ADDR_WIDTH     ; 8     ; Signed Integer                      ;
-; INS_WIDTH      ; 8     ; Signed Integer                      ;
+; ADDR_WIDTH     ; 16    ; Signed Integer                      ;
+; INS_WIDTH      ; 16    ; Signed Integer                      ;
 +----------------+-------+-------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -294,8 +294,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------+
 ; Parameter Name ; Value ; Type                                ;
 +----------------+-------+-------------------------------------+
-; DATA_WIDTH     ; 8     ; Signed Integer                      ;
-; ADDR_WIDTH     ; 8     ; Signed Integer                      ;
+; DATA_WIDTH     ; 16    ; Signed Integer                      ;
+; ADDR_WIDTH     ; 16    ; Signed Integer                      ;
 +----------------+-------+-------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -305,7 +305,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------+
 ; Parameter Name ; Value ; Type                                       ;
 +----------------+-------+--------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                             ;
+; WIDTH          ; 16    ; Signed Integer                             ;
 +----------------+-------+--------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -315,7 +315,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------+
 ; Parameter Name ; Value ; Type                                       ;
 +----------------+-------+--------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                             ;
+; WIDTH          ; 16    ; Signed Integer                             ;
 +----------------+-------+--------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -325,7 +325,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; Parameter Name ; Value ; Type                            ;
 +----------------+-------+---------------------------------+
-; WIDTH          ; 8     ; Signed Integer                  ;
+; WIDTH          ; 16    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -335,7 +335,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -345,7 +345,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -355,7 +355,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -365,7 +365,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -375,7 +375,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -385,7 +385,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -395,7 +395,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -405,7 +405,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -415,7 +415,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -425,7 +425,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -435,7 +435,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -445,7 +445,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -455,7 +455,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -465,7 +465,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -475,7 +475,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -485,7 +485,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -495,7 +495,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -505,7 +505,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -515,7 +515,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; Parameter Name ; Value ; Type                                    ;
 +----------------+-------+-----------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                          ;
+; WIDTH          ; 16    ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -525,7 +525,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                            ;
+; WIDTH          ; 16    ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -535,7 +535,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -545,7 +545,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -555,7 +555,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; Parameter Name ; Value ; Type                            ;
 +----------------+-------+---------------------------------+
-; WIDTH          ; 8     ; Signed Integer                  ;
+; WIDTH          ; 16    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -565,7 +565,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -575,7 +575,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -585,7 +585,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -595,7 +595,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -605,7 +605,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -615,7 +615,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -625,7 +625,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -635,7 +635,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -645,7 +645,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -655,7 +655,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -665,7 +665,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -675,7 +675,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -685,7 +685,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -695,7 +695,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -705,7 +705,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -715,7 +715,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -725,7 +725,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -735,7 +735,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -745,7 +745,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; Parameter Name ; Value ; Type                                    ;
 +----------------+-------+-----------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                          ;
+; WIDTH          ; 16    ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -755,7 +755,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                            ;
+; WIDTH          ; 16    ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -765,7 +765,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -775,7 +775,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -785,7 +785,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; Parameter Name ; Value ; Type                            ;
 +----------------+-------+---------------------------------+
-; WIDTH          ; 8     ; Signed Integer                  ;
+; WIDTH          ; 16    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -795,7 +795,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -805,7 +805,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -815,7 +815,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -825,7 +825,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -835,7 +835,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -845,7 +845,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -855,7 +855,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -865,7 +865,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -875,7 +875,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -885,7 +885,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -895,7 +895,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -905,7 +905,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -915,7 +915,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -925,7 +925,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -935,7 +935,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -945,7 +945,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -955,7 +955,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -965,7 +965,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -975,7 +975,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; Parameter Name ; Value ; Type                                    ;
 +----------------+-------+-----------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                          ;
+; WIDTH          ; 16    ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -985,7 +985,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                            ;
+; WIDTH          ; 16    ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -995,7 +995,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1005,7 +1005,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1015,7 +1015,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; Parameter Name ; Value ; Type                            ;
 +----------------+-------+---------------------------------+
-; WIDTH          ; 8     ; Signed Integer                  ;
+; WIDTH          ; 16    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1025,7 +1025,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1035,7 +1035,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1045,7 +1045,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1055,7 +1055,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1065,7 +1065,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1075,7 +1075,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1085,7 +1085,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1095,7 +1095,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1105,7 +1105,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1115,7 +1115,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1125,7 +1125,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1135,7 +1135,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1145,7 +1145,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1155,7 +1155,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1165,7 +1165,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1175,7 +1175,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1185,7 +1185,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1195,7 +1195,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1205,7 +1205,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; Parameter Name ; Value ; Type                                    ;
 +----------------+-------+-----------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                          ;
+; WIDTH          ; 16    ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1215,7 +1215,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                            ;
+; WIDTH          ; 16    ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1225,7 +1225,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1235,7 +1235,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1245,7 +1245,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; Parameter Name ; Value ; Type                            ;
 +----------------+-------+---------------------------------+
-; WIDTH          ; 8     ; Signed Integer                  ;
+; WIDTH          ; 16    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1255,7 +1255,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1265,7 +1265,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1275,7 +1275,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1285,7 +1285,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1295,7 +1295,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1305,7 +1305,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1315,7 +1315,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1325,7 +1325,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1335,7 +1335,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1345,7 +1345,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1355,7 +1355,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1365,7 +1365,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1375,7 +1375,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1385,7 +1385,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1395,7 +1395,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1405,7 +1405,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1415,7 +1415,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1425,7 +1425,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1435,7 +1435,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; Parameter Name ; Value ; Type                                    ;
 +----------------+-------+-----------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                          ;
+; WIDTH          ; 16    ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1445,7 +1445,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                            ;
+; WIDTH          ; 16    ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1455,7 +1455,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1465,7 +1465,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1475,7 +1475,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; Parameter Name ; Value ; Type                            ;
 +----------------+-------+---------------------------------+
-; WIDTH          ; 8     ; Signed Integer                  ;
+; WIDTH          ; 16    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1485,7 +1485,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1495,7 +1495,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1505,7 +1505,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1515,7 +1515,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1525,7 +1525,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1535,7 +1535,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1545,7 +1545,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1555,7 +1555,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1565,7 +1565,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1575,7 +1575,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1585,7 +1585,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1595,7 +1595,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1605,7 +1605,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1615,7 +1615,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1625,7 +1625,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1635,7 +1635,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1645,7 +1645,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1655,7 +1655,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1665,7 +1665,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; Parameter Name ; Value ; Type                                    ;
 +----------------+-------+-----------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                          ;
+; WIDTH          ; 16    ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1675,7 +1675,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                            ;
+; WIDTH          ; 16    ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1685,7 +1685,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1695,7 +1695,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1705,7 +1705,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; Parameter Name ; Value ; Type                            ;
 +----------------+-------+---------------------------------+
-; WIDTH          ; 8     ; Signed Integer                  ;
+; WIDTH          ; 16    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1715,7 +1715,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1725,7 +1725,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1735,7 +1735,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1745,7 +1745,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1755,7 +1755,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1765,7 +1765,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1775,7 +1775,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1785,7 +1785,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1795,7 +1795,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1805,7 +1805,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1815,7 +1815,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1825,7 +1825,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1835,7 +1835,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1845,7 +1845,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1855,7 +1855,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1865,7 +1865,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1875,7 +1875,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1885,7 +1885,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1895,7 +1895,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; Parameter Name ; Value ; Type                                    ;
 +----------------+-------+-----------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                          ;
+; WIDTH          ; 16    ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1905,7 +1905,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                            ;
+; WIDTH          ; 16    ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1915,7 +1915,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1925,7 +1925,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1935,7 +1935,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; Parameter Name ; Value ; Type                            ;
 +----------------+-------+---------------------------------+
-; WIDTH          ; 8     ; Signed Integer                  ;
+; WIDTH          ; 16    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1945,7 +1945,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1955,7 +1955,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1965,7 +1965,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                        ;
+; WIDTH          ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1975,7 +1975,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1985,7 +1985,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1995,7 +1995,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2005,7 +2005,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2015,7 +2015,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                  ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2025,7 +2025,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2035,7 +2035,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2045,7 +2045,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2055,7 +2055,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2065,7 +2065,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2075,7 +2075,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2085,7 +2085,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2095,7 +2095,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2105,7 +2105,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                    ;
+; WIDTH          ; 16    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2115,7 +2115,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                   ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2125,7 +2125,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; Parameter Name ; Value ; Type                                    ;
 +----------------+-------+-----------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                          ;
+; WIDTH          ; 16    ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2135,7 +2135,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------+
 ; Parameter Name ; Value ; Type                                      ;
 +----------------+-------+-------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                            ;
+; WIDTH          ; 16    ; Signed Integer                            ;
 +----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2145,7 +2145,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2155,7 +2155,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                 ;
+; WIDTH          ; 16    ; Signed Integer                                 ;
 +----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2246,109 +2246,104 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_7"        ;
-+--------------+-------+----------+--------------+
-; Port         ; Type  ; Severity ; Details      ;
-+--------------+-------+----------+--------------+
-; MEM_ID[3..0] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[6..4] ; Input ; Info     ; Stuck at GND ;
-; MEM_ID[7]    ; Input ; Info     ; Stuck at VCC ;
-; coreID       ; Input ; Info     ; Stuck at VCC ;
-+--------------+-------+----------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_7"                                                                                                                                      ;
++--------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                                                                                                                          ;
++--------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; MEM_ID ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
+; MEM_ID ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; coreID ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
++--------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_6"        ;
-+--------------+-------+----------+--------------+
-; Port         ; Type  ; Severity ; Details      ;
-+--------------+-------+----------+--------------+
-; MEM_ID[7..6] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[3..0] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[5..4] ; Input ; Info     ; Stuck at GND ;
-; coreID[2..1] ; Input ; Info     ; Stuck at VCC ;
-; coreID[0]    ; Input ; Info     ; Stuck at GND ;
-+--------------+-------+----------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_6"                                                                                                                                            ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
+; MEM_ID       ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; coreID[2..1] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; coreID[0]    ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_5"        ;
-+--------------+-------+----------+--------------+
-; Port         ; Type  ; Severity ; Details      ;
-+--------------+-------+----------+--------------+
-; MEM_ID[7..5] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[3..0] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[4]    ; Input ; Info     ; Stuck at GND ;
-; coreID[2]    ; Input ; Info     ; Stuck at VCC ;
-; coreID[1]    ; Input ; Info     ; Stuck at GND ;
-; coreID[0]    ; Input ; Info     ; Stuck at VCC ;
-+--------------+-------+----------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_5"                                                                                                                                         ;
++-----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                                                                                                          ;
++-----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; MEM_ID    ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
+; MEM_ID    ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; coreID[2] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; coreID[1] ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; coreID[0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
++-----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_4"        ;
-+--------------+-------+----------+--------------+
-; Port         ; Type  ; Severity ; Details      ;
-+--------------+-------+----------+--------------+
-; MEM_ID[3..0] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[7]    ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[6]    ; Input ; Info     ; Stuck at GND ;
-; MEM_ID[5]    ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[4]    ; Input ; Info     ; Stuck at GND ;
-; coreID[1..0] ; Input ; Info     ; Stuck at GND ;
-; coreID[2]    ; Input ; Info     ; Stuck at VCC ;
-+--------------+-------+----------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_4"                                                                                                                                            ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
+; MEM_ID       ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; coreID[1..0] ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; coreID[2]    ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_3"        ;
-+--------------+-------+----------+--------------+
-; Port         ; Type  ; Severity ; Details      ;
-+--------------+-------+----------+--------------+
-; MEM_ID[4..0] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[6..5] ; Input ; Info     ; Stuck at GND ;
-; MEM_ID[7]    ; Input ; Info     ; Stuck at VCC ;
-; coreID[1..0] ; Input ; Info     ; Stuck at VCC ;
-; coreID[2]    ; Input ; Info     ; Stuck at GND ;
-+--------------+-------+----------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_3"                                                                                                                                            ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
+; MEM_ID[6..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; MEM_ID[15]   ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; coreID[1..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; coreID[2]    ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_2"        ;
-+--------------+-------+----------+--------------+
-; Port         ; Type  ; Severity ; Details      ;
-+--------------+-------+----------+--------------+
-; MEM_ID[7..6] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[4..0] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[5]    ; Input ; Info     ; Stuck at GND ;
-; coreID[2]    ; Input ; Info     ; Stuck at GND ;
-; coreID[1]    ; Input ; Info     ; Stuck at VCC ;
-; coreID[0]    ; Input ; Info     ; Stuck at GND ;
-+--------------+-------+----------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_2"                                                                                                                                            ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
+; MEM_ID[6..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; MEM_ID[15]   ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; coreID[2]    ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; coreID[1]    ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; coreID[0]    ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_1"        ;
-+--------------+-------+----------+--------------+
-; Port         ; Type  ; Severity ; Details      ;
-+--------------+-------+----------+--------------+
-; MEM_ID[5..0] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[7]    ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[6]    ; Input ; Info     ; Stuck at GND ;
-; coreID[2..1] ; Input ; Info     ; Stuck at GND ;
-; coreID[0]    ; Input ; Info     ; Stuck at VCC ;
-+--------------+-------+----------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_1"                                                                                                                                            ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
+; MEM_ID[6..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; MEM_ID[15]   ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; coreID[2..1] ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; coreID[0]    ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_0"        ;
-+--------------+-------+----------+--------------+
-; Port         ; Type  ; Severity ; Details      ;
-+--------------+-------+----------+--------------+
-; MEM_ID[6..0] ; Input ; Info     ; Stuck at VCC ;
-; MEM_ID[7]    ; Input ; Info     ; Stuck at GND ;
-; coreID       ; Input ; Info     ; Stuck at GND ;
-+--------------+-------+----------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_0"                                                                                                                                            ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
+; MEM_ID[6..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
+; MEM_ID[15]   ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; coreID       ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
++--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------+
@@ -2366,93 +2361,108 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Jul 04 20:49:58 2021
+    Info: Processing started: Mon Jul 05 00:54:09 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project_2 -c Project_2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file pc.v
-    Info (12023): Found entity 1: PC File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/PC.v Line: 1
+    Info (12023): Found entity 1: PC File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/PC.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file imem_controller.v
-    Info (12023): Found entity 1: imem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/imem_controller.v Line: 1
+    Info (12023): Found entity 1: imem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/imem_controller.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file dmem_controller.v
-    Info (12023): Found entity 1: dmem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/dmem_controller.v Line: 1
+    Info (12023): Found entity 1: dmem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/dmem_controller.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_wi.v
-    Info (12023): Found entity 1: Reg_module_WI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_WI.v Line: 1
+    Info (12023): Found entity 1: Reg_module_WI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Reg_module_WI.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_w.v
-    Info (12023): Found entity 1: Reg_module_W File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_W.v Line: 1
+    Info (12023): Found entity 1: Reg_module_W File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Reg_module_W.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_rw.v
-    Info (12023): Found entity 1: Reg_module_RW File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_RW.v Line: 1
+    Info (12023): Found entity 1: Reg_module_RW File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Reg_module_RW.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_ri.v
-    Info (12023): Found entity 1: Reg_module_RI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_RI.v Line: 1
+    Info (12023): Found entity 1: Reg_module_RI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Reg_module_RI.v Line: 1
+Warning (10229): Verilog HDL Expression warning at processor.v(37): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 37
+Warning (10229): Verilog HDL Expression warning at processor.v(38): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 38
+Warning (10229): Verilog HDL Expression warning at processor.v(39): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 39
+Warning (10229): Verilog HDL Expression warning at processor.v(40): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 40
+Warning (10229): Verilog HDL Expression warning at processor.v(41): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 41
+Warning (10229): Verilog HDL Expression warning at processor.v(42): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 42
 Info (12021): Found 1 design units, including 1 entities, in source file processor.v
-    Info (12023): Found entity 1: processor File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 2
+    Info (12023): Found entity 1: processor File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 2
 Info (12021): Found 0 design units, including 0 entities, in source file proc_param.v
 Info (12021): Found 1 design units, including 1 entities, in source file mux_3to1_8bit.v
-    Info (12023): Found entity 1: mux_3to1_8bit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/mux_3to1_8bit.v Line: 1
+    Info (12023): Found entity 1: mux_3to1_8bit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/mux_3to1_8bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file ins_mem.v
-    Info (12023): Found entity 1: ins_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 1
+    Info (12023): Found entity 1: ins_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/ins_mem.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file data_mem.v
-    Info (12023): Found entity 1: data_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v Line: 4
+    Info (12023): Found entity 1: data_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/data_mem.v Line: 4
 Info (12021): Found 0 design units, including 0 entities, in source file cu_param.v
 Info (12021): Found 1 design units, including 1 entities, in source file core.v
-    Info (12023): Found entity 1: core File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 3
+    Info (12023): Found entity 1: core File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file controlunit.v
-    Info (12023): Found entity 1: controlunit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/controlunit.v Line: 38
+    Info (12023): Found entity 1: controlunit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/controlunit.v Line: 38
 Info (12021): Found 1 design units, including 1 entities, in source file comp.v
-    Info (12023): Found entity 1: Comp File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Comp.v Line: 1
+    Info (12023): Found entity 1: Comp File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Comp.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus_mux.v
-    Info (12023): Found entity 1: Bus_mux File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 5
+    Info (12023): Found entity 1: Bus_mux File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file ar.v
-    Info (12023): Found entity 1: AR File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/AR.v Line: 1
+    Info (12023): Found entity 1: AR File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/AR.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu.v
-    Info (12023): Found entity 1: Alu File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Alu.v Line: 1
+    Info (12023): Found entity 1: Alu File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Alu.v Line: 1
 Info (12127): Elaborating entity "processor" for the top level hierarchy
-Info (12128): Elaborating entity "ins_mem" for hierarchy "ins_mem:ins_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 56
-Warning (10850): Verilog HDL warning at ins_mem.v(14): number of words (47) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 14
-Warning (10030): Net "mem.data_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
-Warning (10030): Net "mem.waddr_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
-Warning (10030): Net "mem.we_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
-Info (12128): Elaborating entity "data_mem" for hierarchy "data_mem:dt_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 59
-Warning (10850): Verilog HDL warning at data_mem.v(23): number of words (117) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v Line: 23
-Warning (10175): Verilog HDL warning at data_mem.v(36): ignoring unsupported system task File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v Line: 36
-Info (12128): Elaborating entity "imem_controller" for hierarchy "imem_controller:imem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 66
-Info (12128): Elaborating entity "dmem_controller" for hierarchy "dmem_controller:dmem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 76
-Info (12128): Elaborating entity "core" for hierarchy "core:CORE_0" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 82
-Info (12128): Elaborating entity "PC" for hierarchy "core:CORE_0|PC:PC" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 51
-Info (12128): Elaborating entity "Reg_module_W" for hierarchy "core:CORE_0|Reg_module_W:IR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 53
-Info (12128): Elaborating entity "AR" for hierarchy "core:CORE_0|AR:AR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 55
-Info (12128): Elaborating entity "Reg_module_RW" for hierarchy "core:CORE_0|Reg_module_RW:RT" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 61
-Info (12128): Elaborating entity "Reg_module_RI" for hierarchy "core:CORE_0|Reg_module_RI:RM2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 73
-Info (12128): Elaborating entity "Reg_module_WI" for hierarchy "core:CORE_0|Reg_module_WI:RC2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 81
-Info (12128): Elaborating entity "Alu" for hierarchy "core:CORE_0|Alu:ALU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 88
-Info (10264): Verilog HDL Case Statement information at Alu.v(19): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Alu.v Line: 19
-Info (12128): Elaborating entity "mux_3to1_8bit" for hierarchy "core:CORE_0|mux_3to1_8bit:COMPMUX1" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 90
-Info (10264): Verilog HDL Case Statement information at mux_3to1_8bit.v(9): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/mux_3to1_8bit.v Line: 9
-Info (12128): Elaborating entity "Comp" for hierarchy "core:CORE_0|Comp:COMP" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 92
-Info (12128): Elaborating entity "Bus_mux" for hierarchy "core:CORE_0|Bus_mux:BUSMUX" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 94
-Warning (10270): Verilog HDL Case Statement warning at Bus_mux.v(16): incomplete case statement has no default case item File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Warning (10240): Verilog HDL Always Construct warning at Bus_mux.v(16): inferring latch(es) for variable "select", which holds its previous value in one or more paths through the always construct File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[0]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[1]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[2]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[3]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[4]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[5]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[6]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[7]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (12128): Elaborating entity "controlunit" for hierarchy "core:CORE_0|controlunit:CU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 96
-Warning (10199): Verilog HDL Case Statement warning at controlunit.v(75): case item expression never matches the case expression File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/controlunit.v Line: 75
-Info (144001): Generated suppressed messages file D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/output_files/Project_2.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 11 warnings
-    Info: Peak virtual memory: 4733 megabytes
-    Info: Processing ended: Sun Jul 04 20:50:09 2021
+Info (12128): Elaborating entity "ins_mem" for hierarchy "ins_mem:ins_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 56
+Warning (10850): Verilog HDL warning at ins_mem.v(14): number of words (47) in memory file does not match the number of elements in the address range [0:127] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/ins_mem.v Line: 14
+Warning (10030): Net "mem.data_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/ins_mem.v Line: 10
+Warning (10030): Net "mem.waddr_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/ins_mem.v Line: 10
+Warning (10030): Net "mem.we_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/ins_mem.v Line: 10
+Info (12128): Elaborating entity "data_mem" for hierarchy "data_mem:dt_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 59
+Warning (10850): Verilog HDL warning at data_mem.v(23): number of words (97) in memory file does not match the number of elements in the address range [0:2047] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/data_mem.v Line: 23
+Warning (10175): Verilog HDL warning at data_mem.v(36): ignoring unsupported system task File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/data_mem.v Line: 36
+Info (12128): Elaborating entity "imem_controller" for hierarchy "imem_controller:imem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 66
+Info (12128): Elaborating entity "dmem_controller" for hierarchy "dmem_controller:dmem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 76
+Info (12128): Elaborating entity "core" for hierarchy "core:CORE_0" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 82
+Info (12128): Elaborating entity "PC" for hierarchy "core:CORE_0|PC:PC" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 51
+Info (12128): Elaborating entity "Reg_module_W" for hierarchy "core:CORE_0|Reg_module_W:IR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 53
+Info (12128): Elaborating entity "AR" for hierarchy "core:CORE_0|AR:AR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 55
+Info (12128): Elaborating entity "Reg_module_RW" for hierarchy "core:CORE_0|Reg_module_RW:RT" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 61
+Info (12128): Elaborating entity "Reg_module_RI" for hierarchy "core:CORE_0|Reg_module_RI:RM2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 73
+Info (12128): Elaborating entity "Reg_module_WI" for hierarchy "core:CORE_0|Reg_module_WI:RC2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 81
+Info (12128): Elaborating entity "Alu" for hierarchy "core:CORE_0|Alu:ALU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 88
+Info (10264): Verilog HDL Case Statement information at Alu.v(19): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Alu.v Line: 19
+Info (12128): Elaborating entity "mux_3to1_8bit" for hierarchy "core:CORE_0|mux_3to1_8bit:COMPMUX1" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 90
+Info (10264): Verilog HDL Case Statement information at mux_3to1_8bit.v(9): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/mux_3to1_8bit.v Line: 9
+Info (12128): Elaborating entity "Comp" for hierarchy "core:CORE_0|Comp:COMP" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 92
+Info (12128): Elaborating entity "Bus_mux" for hierarchy "core:CORE_0|Bus_mux:BUSMUX" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 94
+Warning (10270): Verilog HDL Case Statement warning at Bus_mux.v(16): incomplete case statement has no default case item File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Warning (10240): Verilog HDL Always Construct warning at Bus_mux.v(16): inferring latch(es) for variable "select", which holds its previous value in one or more paths through the always construct File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[0]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[1]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[2]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[3]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[4]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[5]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[6]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[7]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[8]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[9]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[10]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[11]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[12]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[13]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[14]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[15]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (12128): Elaborating entity "controlunit" for hierarchy "core:CORE_0|controlunit:CU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 96
+Warning (10199): Verilog HDL Case Statement warning at controlunit.v(75): case item expression never matches the case expression File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/controlunit.v Line: 75
+Warning (12241): 8 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (144001): Generated suppressed messages file D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/output_files/Project_2.map.smsg
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 18 warnings
+    Info: Peak virtual memory: 4745 megabytes
+    Info: Processing ended: Mon Jul 05 00:54:20 2021
     Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:22
+    Info: Total CPU time (on all processors): 00:00:21
 
 
 +--------------------------------------------+
 ; Analysis & Elaboration Suppressed Messages ;
 +--------------------------------------------+
-The suppressed messages can be found in D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/output_files/Project_2.map.smsg.
+The suppressed messages can be found in D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/output_files/Project_2.map.smsg.
 
 

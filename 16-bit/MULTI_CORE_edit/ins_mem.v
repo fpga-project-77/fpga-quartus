@@ -7,11 +7,11 @@ module ins_mem
       
  );   
     
-    reg [(INS_WIDTH-1):0] mem[2**ADDR_WIDTH-1:0];  // 2**ADDR_WIDTH
+    reg [(INS_WIDTH-1):0] mem[2**(ADDR_WIDTH-9)-1:0];  // 2**ADDR_WIDTH
 	
 	initial
 	begin
-		$readmemh("D:\\Academic\\ACA\\SEM5 TRONIC ACA\\SEMESTER 5\\CSD\\FPGA\\00 - Git\\fpga-quartus\\8_CORE\\MULTI_CORE_edit\\ins_mem.txt",mem);
+		$readmemh("D:\\Academic\\ACA\\SEM5 TRONIC ACA\\SEMESTER 5\\CSD\\FPGA\\00 - Git\\fpga-quartus\\16-bit\\MULTI_CORE_edit\\ins_mem.txt",mem);
 			 
 	end
 

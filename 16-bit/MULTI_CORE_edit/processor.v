@@ -1,6 +1,6 @@
   
 module processor 
-# (parameter WIDTH = 8)
+# (parameter WIDTH = 16)
 (
     input clk,
     output proc_state
@@ -32,14 +32,14 @@ wire memAV1, memAV2, memAV3,memAV4, memAV5, memAV6, memAV7, memAV8;
 // localparam MEMID_CORE2 = 8'd191;
 // localparam MEMID_CORE3 = 8'd223;
 
-localparam MEMID_CORE1 = 8'd127;
-localparam MEMID_CORE8 = 8'd143;
-localparam MEMID_CORE4 = 8'd159;
-localparam MEMID_CORE5 = 8'd175;
-localparam MEMID_CORE2 = 8'd191;
-localparam MEMID_CORE7 = 8'd207;
-localparam MEMID_CORE3 = 8'd223;
-localparam MEMID_CORE6 = 8'd239;
+localparam MEMID_CORE1 = 16'd1023;
+localparam MEMID_CORE8 = 16'd1151;
+localparam MEMID_CORE4 = 16'd1279;
+localparam MEMID_CORE5 = 16'd1407;
+localparam MEMID_CORE2 = 16'd1535;
+localparam MEMID_CORE7 = 16'd1663;
+localparam MEMID_CORE3 = 16'd1791;
+localparam MEMID_CORE6 = 16'd1919;
 
 
 

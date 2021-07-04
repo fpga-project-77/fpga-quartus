@@ -11,7 +11,7 @@ module processor_tb();
         end
     end
 
-    processor # (.WIDTH(8)) proc( .clk(Clk), .proc_state(proc_state));
+    processor # (.WIDTH(16)) proc( .clk(Clk), .proc_state(proc_state));
 
     always @(posedge Clk) begin
         if (proc_state == 1)begin

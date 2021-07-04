@@ -11,7 +11,7 @@ module data_mem
 );
 
 	// Declare the RAM variable
-	reg [DATA_WIDTH-1:0] ram[2**ADDR_WIDTH-1:0];
+	reg [DATA_WIDTH-1:0] ram[2**(ADDR_WIDTH-5) - 1:0];
 
 	// Variable to hold the registered read address
 	reg [ADDR_WIDTH-1:0] addr_reg;
@@ -20,7 +20,7 @@ module data_mem
 	integer outfile;
 
 	initial begin
-		$readmemh("D:\\Academic\\ACA\\SEM5 TRONIC ACA\\SEMESTER 5\\CSD\\FPGA\\00 - Git\\fpga-quartus\\8_CORE\\MULTI_CORE_edit\\data_mem.txt",ram);
+		$readmemh("D:\\Academic\\ACA\\SEM5 TRONIC ACA\\SEMESTER 5\\CSD\\FPGA\\00 - Git\\fpga-quartus\\16-bit\\MULTI_CORE_edit\\data_mem.txt",ram);
 	end
 
 	always @ (negedge clk)
@@ -33,7 +33,7 @@ module data_mem
 		if (rEn) begin	
 			addr_reg <= addr;
 		end
-		$writememh("D:\\Academic\\ACA\\SEM5 TRONIC ACA\\SEMESTER 5\\CSD\\FPGA\\00 - Git\\fpga-quartus\\8_CORE\\MULTI_CORE_edit\\result.txt",ram);
+		$writememh("D:\\Academic\\ACA\\SEM5 TRONIC ACA\\SEMESTER 5\\CSD\\FPGA\\00 - Git\\fpga-quartus\\16-bit\\MULTI_CORE_edit\\result.txt",ram);
 	end
 	
 	assign mem_out = ram[addr_reg];
