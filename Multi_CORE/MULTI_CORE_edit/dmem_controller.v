@@ -40,8 +40,8 @@ localparam DR_1_5 = 5'b10100;
 localparam DR_1_6 = 5'b10101;
 localparam DR_1_7 = 5'b10111;
 
-reg [3:0] NEXT_STATE_DC=NORM;
-reg [3:0] STATE_DC = NORM;
+reg [4:0] NEXT_STATE_DC=NORM;
+reg [4:0] STATE_DC = NORM;
 
 always @(posedge Clk) begin
     STATE_DC=NEXT_STATE_DC;
@@ -73,7 +73,7 @@ always @(posedge Clk) begin
                     memAV8 <= 1;
 
                 end
-                else begin           // Active 4 cores, different addresses
+                else begin           // Active 8 cores, different addresses
                     rEN <= 1;
                     addr <= AR_1;
                     NEXT_STATE_DC <= AR_1_2;
@@ -114,13 +114,17 @@ always @(posedge Clk) begin
                     NEXT_STATE_DC <= AR_1_2;
                 end
               end
-              else if(memWE_1==1 && memWE_2==1 && memWE_3==1) begin
+              else if(memWE_1==1 && memWE_2==1 && memWE_3==1 && memWE_4==1 && memWE_5==1 && memWE_6==1 && memWE_7==1) begin
                   wEN <= 1;
                   addr <= AR_1;
                   DR_OUT <= DR_1;
                   memAV1 <= 0;
                   memAV2 <= 0;
                   memAV3 <= 0;
+                  memAV4 <= 0;
+                  memAV5 <= 0;
+                  memAV6 <= 0;
+                  memAV7 <= 0;
                   NEXT_STATE_DC <= DR_1_1;
               end
               
@@ -145,12 +149,16 @@ always @(posedge Clk) begin
                     NEXT_STATE_DC <= AR_1_2;
                 end
               end
-              else if(memWE_1==1 && memWE_2==1) begin
+              else if(memWE_1==1 && memWE_2==1 && memWE_3==1 && memWE_4==1 && memWE_5==1 && memWE_6==1) begin
                   wEN <= 1;
                   addr <= AR_1;
                   DR_OUT <= DR_1;
                   memAV1 <= 0;
                   memAV2 <= 0;
+                  memAV3 <= 0;
+                  memAV4 <= 0;
+                  memAV5 <= 0;
+                  memAV6 <= 0;
                   NEXT_STATE_DC <= DR_1_1;
               end
               
@@ -175,14 +183,17 @@ always @(posedge Clk) begin
                   end
               end
 
-              else if(memWE_1==1) begin
+              else if(memWE_1==1 && memWE_2==1 && memWE_3==1 && memWE_4==1 && memWE_5==1) begin
                   wEN <= 1;
                   addr <= AR_1;
                   DR_OUT <= DR_1;
-                  memAV1 <= 1;
-                  NEXT_STATE_DC <= NORM;
+                  memAV1 <= 0;
+                  memAV2 <= 0;
+                  memAV3 <= 0;
+                  memAV4 <= 0;
+                  memAV5 <= 0;
+                  NEXT_STATE_DC <= DR_1_1;
               end
-              
           end
           else if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
               if(memREAD_1==1 && memREAD_2==1 && memREAD_3==1 && memREAD_4==1) begin
@@ -202,12 +213,15 @@ always @(posedge Clk) begin
                   end
               end
 
-              else if(memWE_1==1) begin
+              else if(memWE_1==1 && memWE_2==1 && memWE_3==1 && memWE_4==1) begin
                   wEN <= 1;
                   addr <= AR_1;
                   DR_OUT <= DR_1;
-                  memAV1 <= 1;
-                  NEXT_STATE_DC <= NORM;
+                  memAV1 <= 0;
+                  memAV2 <= 0;
+                  memAV3 <= 0;
+                  memAV4 <= 0;
+                  NEXT_STATE_DC <= DR_1_1;
               end
               
           end
@@ -228,12 +242,14 @@ always @(posedge Clk) begin
                   end
               end
 
-              else if(memWE_1==1) begin
+              else if(memWE_1==1 && memWE_2==1 && memWE_3==1) begin
                   wEN <= 1;
                   addr <= AR_1;
                   DR_OUT <= DR_1;
-                  memAV1 <= 1;
-                  NEXT_STATE_DC <= NORM;
+                  memAV1 <= 0;
+                  memAV2 <= 0;
+                  memAV3 <= 0;
+                  NEXT_STATE_DC <= DR_1_1;
               end
               
           end 
@@ -253,12 +269,13 @@ always @(posedge Clk) begin
                     NEXT_STATE_DC <= AR_1_2;      
                   end
               end
-              else if(memWE_1==1) begin
+              else if(memWE_1==1 && memWE_2==1) begin
                   wEN <= 1;
                   addr <= AR_1;
                   DR_OUT <= DR_1;
-                  memAV1 <= 1;
-                  NEXT_STATE_DC <= NORM;
+                  memAV1 <= 0;
+                  memAV2 <= 0;
+                  NEXT_STATE_DC <= DR_1_1;
               end
               
           end 
@@ -400,19 +417,59 @@ always @(posedge Clk) begin
               
           end
 
-          else if (coreS_1==0 && coreS_2==0 && coreS_3==1 && coreS_4==1) begin //TODO
+          if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
+            MEM_1 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0; 
+            memAV5 <= 0;
+            memAV6 <= 0;
+            NEXT_STATE_DC <= AR_2_1;
+              
+          end
+
+          if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_1 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0; 
+            memAV5 <= 0;
+            NEXT_STATE_DC <= AR_2_1;
+              
+          end
+          if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_1 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0;
+            NEXT_STATE_DC <= AR_2_1;
+              
+          end
+          if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==1 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_1 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            memAV3 <= 0;
+            NEXT_STATE_DC <= AR_2_1;
+              
+          end
+          if (coreS_1==0 && coreS_2==0 && coreS_3==1 && coreS_4==1 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
             MEM_1 <= MEM;
             memAV1 <= 0;
             memAV2 <= 0;
             NEXT_STATE_DC <= AR_2_1;
+              
           end
-
-          else if (coreS_1==0 && coreS_2==1 && coreS_3==1 && coreS_4==1) begin //TODO
+          if (coreS_1==0 && coreS_2==1 && coreS_3==1 && coreS_4==1 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
             MEM_1 <= MEM;
             memAV1 <= 0;
             NEXT_STATE_DC <= NORM;
+              
           end
-          ///TODO//////     
+               
       end
 
       AR_2_1: begin
@@ -451,21 +508,47 @@ always @(posedge Clk) begin
             NEXT_STATE_DC <= AR_3_1;     
         end
 
-        if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==1) begin //TODO
+        if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
             MEM_2 <= MEM;
             memAV1 <= 0;
             memAV2 <= 0;
-            memAV3 <= 0; 
-            NEXT_STATE_DC <= AR_3_1;    
+            memAV3 <= 0;
+            memAV4 <= 0;
+            memAV5 <= 0;
+            memAV6 <= 0;
+            NEXT_STATE_DC <= AR_3_1;     
         end
-
-        if (coreS_1==0 && coreS_2==0 && coreS_3==1 && coreS_4==1) begin //TODO
+        if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
             MEM_2 <= MEM;
             memAV1 <= 0;
             memAV2 <= 0;
-            NEXT_STATE_DC <= NORM;   
-        end   
-        ///TODO//////       
+            memAV3 <= 0;
+            memAV4 <= 0;
+            memAV5 <= 0;
+            NEXT_STATE_DC <= AR_3_1;     
+        end 
+        if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_2 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0;
+            NEXT_STATE_DC <= AR_3_1;     
+        end 
+        if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==1 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_2 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            memAV3 <= 0;
+            NEXT_STATE_DC <= AR_3_1;     
+        end 
+        if (coreS_1==0 && coreS_2==0 && coreS_3==1 && coreS_4==1 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_2 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            NEXT_STATE_DC <= NORM;     
+        end 
+               
       end
 
       AR_3_1: begin
@@ -507,14 +590,44 @@ always @(posedge Clk) begin
             NEXT_STATE_DC <= AR_4_1;
           end
 
-        if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==1) begin //TODO
+        if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
             MEM_3 <= MEM;
             memAV1 <= 0;
             memAV2 <= 0;
-            memAV3 <= 0; 
-            NEXT_STATE_DC <= NORM;    
-        end
-        /////////////////TODO////////////////////////
+            memAV3 <= 0;
+            memAV4 <= 0;
+            memAV4 <= 0; 
+            memAV5 <= 0;
+            memAV6 <= 0;
+            NEXT_STATE_DC <= AR_4_1;
+          end
+          if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_3 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0;
+            memAV4 <= 0; 
+            memAV5 <= 0;
+            NEXT_STATE_DC <= AR_4_1;
+          end
+          if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_3 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0;
+            NEXT_STATE_DC <= AR_4_1;
+          end
+          if (coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==1 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_3 <= MEM;
+            memAV1 <= 0;
+            memAV2 <= 0;
+            memAV3 <= 0;
+            NEXT_STATE_DC <= NORM;
+          end
+
+        
 
       end
 
@@ -534,7 +647,7 @@ always @(posedge Clk) begin
       AR_4_2:begin
           if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==0) begin
             MEM_4 <= MEM;
-            memAV1 <= 0;   //added to AR_4_1
+            memAV1 <= 0;   
             memAV2 <= 0;
             memAV3 <= 0;
             memAV4 <= 0;
@@ -547,7 +660,7 @@ always @(posedge Clk) begin
 
           if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==1) begin
             MEM_4 <= MEM;
-            memAV1 <= 0;   //added to AR_4_1
+            memAV1 <= 0;   
             memAV2 <= 0;
             memAV3 <= 0;
             memAV4 <= 0;
@@ -556,7 +669,34 @@ always @(posedge Clk) begin
             memAV7 <= 0;
             NEXT_STATE_DC <= AR_5_1;    
           end
-          ///////////TODO////////////////
+          if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
+            MEM_4 <= MEM;
+            memAV1 <= 0;   
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0;
+            memAV5 <= 0;
+            memAV6 <= 0;
+            NEXT_STATE_DC <= AR_5_1;    
+          end
+          if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_4 <= MEM;
+            memAV1 <= 0;   
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0;
+            memAV5 <= 0;
+            NEXT_STATE_DC <= AR_5_1;    
+          end
+          if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_4 <= MEM;
+            memAV1 <= 0;   
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0;
+            NEXT_STATE_DC <= NORM;    
+          end
+         
       end
 
       AR_5_1: begin
@@ -576,7 +716,7 @@ always @(posedge Clk) begin
        AR_5_2:begin
           if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==0) begin
             MEM_5 <= MEM;
-            memAV1 <= 0;   //added to AR_4_1
+            memAV1 <= 0;   
             memAV2 <= 0;
             memAV3 <= 0;
             memAV4 <= 0;
@@ -588,7 +728,7 @@ always @(posedge Clk) begin
           end
           if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==1) begin
             MEM_5 <= MEM;
-            memAV1 <= 0;   //added to AR_4_1
+            memAV1 <= 0;   
             memAV2 <= 0;
             memAV3 <= 0;
             memAV4 <= 0;
@@ -597,7 +737,25 @@ always @(posedge Clk) begin
             memAV7 <= 0;
             NEXT_STATE_DC <= AR_6_1;    
           end
-          /////////////TODO/////////////////
+          if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
+            MEM_5 <= MEM;
+            memAV1 <= 0;   
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0;
+            memAV5 <= 0;
+            memAV6 <= 0;
+            NEXT_STATE_DC <= AR_6_1;    
+          end
+          if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+            MEM_5 <= MEM;
+            memAV1 <= 0;   
+            memAV2 <= 0;
+            memAV3 <= 0;
+            memAV4 <= 0;
+            memAV5 <= 0;
+            NEXT_STATE_DC <= NORM;    
+          end
       end
 
        AR_6_1: begin
@@ -743,7 +901,54 @@ always @(posedge Clk) begin
          NEXT_STATE_DC <= DR_1_2;
         end
 
-        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==1) begin   //TODO
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_2;
+         DR_OUT <= DR_2;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         memAV6 <= 0;
+         memAV7 <= 0;
+
+         NEXT_STATE_DC <= DR_1_2;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_2;
+         DR_OUT <= DR_2;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         memAV6 <= 0;
+         NEXT_STATE_DC <= DR_1_2;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_2;
+         DR_OUT <= DR_2;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         NEXT_STATE_DC <= DR_1_2;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_2;
+         DR_OUT <= DR_2;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         NEXT_STATE_DC <= DR_1_2;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==1 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
          wEN <= 1;
          addr <= AR_2;
          DR_OUT <= DR_2;
@@ -752,8 +957,7 @@ always @(posedge Clk) begin
          memAV3 <= 0;
          NEXT_STATE_DC <= DR_1_2;
         end
-
-        else if(coreS_1==0 && coreS_2==0 && coreS_3==1 && coreS_4==1) begin //TODO
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==1 && coreS_4==1 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
          wEN <= 1;
          addr <= AR_2;
          DR_OUT <= DR_2;
@@ -762,7 +966,7 @@ always @(posedge Clk) begin
          NEXT_STATE_DC <= NORM;
         end
 
-        ///////////////////TODO////////////////////////////
+        
       end
 
       DR_1_2:begin
@@ -781,19 +985,73 @@ always @(posedge Clk) begin
 
          NEXT_STATE_DC <= DR_1_3;
         end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_3;
+         DR_OUT <= DR_3;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         memAV6 <= 0;
+         memAV7 <= 0;
 
-        if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==1) begin        //TODO
-            wEN <= 1;
-            addr <= AR_3;
-            DR_OUT <= DR_3;
-            memAV1 <= 1;
-            memAV2 <= 1;
-            memAV3 <= 1;
-            NEXT_STATE_DC <= NORM;
+         NEXT_STATE_DC <= DR_1_3;
         end
-
-        ///////////////////////TODO//////////////////////////////////
-        
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_3;
+         DR_OUT <= DR_3;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         memAV6 <= 0;
+         NEXT_STATE_DC <= DR_1_3;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_3;
+         DR_OUT <= DR_3;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         NEXT_STATE_DC <= DR_1_3;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_3;
+         DR_OUT <= DR_3;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         NEXT_STATE_DC <= DR_1_3;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_3;
+         DR_OUT <= DR_3;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         NEXT_STATE_DC <= DR_1_3;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==1 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_3;
+         DR_OUT <= DR_3;
+         memAV1 <= 1;
+         memAV2 <= 1;
+         memAV3 <= 1;
+         NEXT_STATE_DC <= NORM;
+        end        
       end
 
       DR_1_3:begin
@@ -812,7 +1070,52 @@ always @(posedge Clk) begin
 
          NEXT_STATE_DC <= DR_1_4;
         end
-        ///////////////////////////////TODO//////////////////////////
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_4;
+         DR_OUT <= DR_4;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         memAV6 <= 0;
+         memAV7 <= 0;
+         NEXT_STATE_DC <= DR_1_4;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_4;
+         DR_OUT <= DR_4;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         memAV6 <= 0;
+         NEXT_STATE_DC <= DR_1_4;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_4;
+         DR_OUT <= DR_4;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         NEXT_STATE_DC <= DR_1_4;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==1 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_4;
+         DR_OUT <= DR_4;
+         memAV1 <= 1;
+         memAV2 <= 1;
+         memAV3 <= 1;
+         memAV4 <= 1;
+         NEXT_STATE_DC <= NORM;
+        end
       end
 
       DR_1_4:begin
@@ -831,7 +1134,42 @@ always @(posedge Clk) begin
 
          NEXT_STATE_DC <= DR_1_5;
         end
-        ///////////////////////////////TODO//////////////////////////
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_5;
+         DR_OUT <= DR_5;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         memAV6 <= 0;
+         memAV7 <= 0;
+         NEXT_STATE_DC <= DR_1_5;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_5;
+         DR_OUT <= DR_5;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         memAV6 <= 0;
+         NEXT_STATE_DC <= DR_1_5;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==1 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_5;
+         DR_OUT <= DR_5;
+         memAV1 <= 1;
+         memAV2 <= 1;
+         memAV3 <= 1;
+         memAV4 <= 1;
+         memAV5 <= 1;
+         NEXT_STATE_DC <= NORM;
+        end
       end
     DR_1_5:begin
         if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==0) begin
@@ -849,7 +1187,31 @@ always @(posedge Clk) begin
 
          NEXT_STATE_DC <= DR_1_6;
         end
-        ///////////////////////////////TODO//////////////////////////
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_6;
+         DR_OUT <= DR_6;
+         memAV1 <= 0;
+         memAV2 <= 0;
+         memAV3 <= 0;
+         memAV4 <= 0;
+         memAV5 <= 0;
+         memAV6 <= 0;
+         memAV7 <= 0;
+         NEXT_STATE_DC <= DR_1_6;
+        end
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==1 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_6;
+         DR_OUT <= DR_6;
+         memAV1 <= 1;
+         memAV2 <= 1;
+         memAV3 <= 1;
+         memAV4 <= 1;
+         memAV5 <= 1;
+         memAV6 <= 1;
+         NEXT_STATE_DC <= NORM;
+        end
       end
 
     DR_1_6:begin
@@ -868,25 +1230,37 @@ always @(posedge Clk) begin
 
          NEXT_STATE_DC <= DR_1_7;
         end
-        ///////////////////////////////TODO//////////////////////////
+        else if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==1) begin
+         wEN <= 1;
+         addr <= AR_7;
+         DR_OUT <= DR_7;
+         memAV1 <= 1;
+         memAV2 <= 1;
+         memAV3 <= 1;
+         memAV4 <= 1;
+         memAV5 <= 1;
+         memAV6 <= 1;
+         memAV7 <= 1;
+         NEXT_STATE_DC <= NORM;
+        end
+        
       end
     DR_1_7:begin
         if(coreS_1==0 && coreS_2==0 && coreS_3==0 && coreS_4==0 && coreS_5==0 && coreS_6==0 && coreS_7==0 && coreS_8==0) begin
          wEN <= 1;
          addr <= AR_8;
          DR_OUT <= DR_8;
-         memAV1 <= 0;
-         memAV2 <= 0;
-         memAV3 <= 0;
-         memAV4 <= 0;
-         memAV5 <= 0;
-         memAV6 <= 0;
-         memAV7 <= 0;
-         memAV8 <= 0;
+         memAV1 <= 1;
+         memAV2 <= 1;
+         memAV3 <= 1;
+         memAV4 <= 1;
+         memAV5 <= 1;
+         memAV6 <= 1;
+         memAV7 <= 1;
+         memAV8 <= 1;
 
          NEXT_STATE_DC <= NORM;
         end
-        ///////////////////////////////TODO//////////////////////////
       end
 
 
