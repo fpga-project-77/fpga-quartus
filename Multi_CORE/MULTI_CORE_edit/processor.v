@@ -108,5 +108,6 @@ core #(.WIDTH(WIDTH)) CORE_6 (.Clk(clk), .IROM_dataIn(INS_7), .DRAM_dataIn(MEM_7
 core #(.WIDTH(WIDTH)) CORE_7 (.Clk(clk), .IROM_dataIn(INS_8), .DRAM_dataIn(MEM_8),.DRAM_dataOut(DR_8), 
                             .IROM_addr(PC_8), .DRAM_addr(AR_8), .memREAD(memREAD_8), .memWRITE(memWE_8), .iROMREAD(iROMREAD_8), .coreS(coreS_8), 
                             .imemAV(imemAV8), .memAV(memAV8), .MEM_ID(MEMID_CORE8), .coreID(COREID_8));
-//assign proc_state = (coreS_1 && coreS_2 && coreS_3 && coreS_4);
+assign proc_state = (coreS_1 && coreS_2 && coreS_3 && coreS_4 && coreS_5 && coreS_6 && coreS_7 && coreS_8);
 
+endmodule
