@@ -1,0 +1,5 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_3|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_0|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_1|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_2|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
