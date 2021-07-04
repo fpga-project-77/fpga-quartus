@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Project_2
-Sat Jul 03 13:41:15 2021
+Sun Jul 04 20:50:09 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -106,13 +106,110 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  98. Parameter Settings for User Entity Instance: core:CORE_3|Comp:COMP
  99. Parameter Settings for User Entity Instance: core:CORE_3|Bus_mux:BUSMUX
 100. Parameter Settings for User Entity Instance: core:CORE_3|controlunit:CU
-101. Analysis & Elaboration Settings
-102. Port Connectivity Checks: "core:CORE_3"
-103. Port Connectivity Checks: "core:CORE_2"
-104. Port Connectivity Checks: "core:CORE_1"
-105. Port Connectivity Checks: "core:CORE_0"
-106. Analysis & Elaboration Messages
-107. Analysis & Elaboration Suppressed Messages
+101. Parameter Settings for User Entity Instance: core:CORE_4
+102. Parameter Settings for User Entity Instance: core:CORE_4|PC:PC
+103. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:IR
+104. Parameter Settings for User Entity Instance: core:CORE_4|AR:AR
+105. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:DR
+106. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RP
+107. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RW:RT
+108. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RT4
+109. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RR
+110. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RM1
+111. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RK1
+112. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RN1
+113. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RI:RM2
+114. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RI:RK2
+115. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RI:RN2
+116. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RC1
+117. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_WI:RC2
+118. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_WI:RC3
+119. Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RW:AC
+120. Parameter Settings for User Entity Instance: core:CORE_4|Alu:ALU
+121. Parameter Settings for User Entity Instance: core:CORE_4|Comp:COMP
+122. Parameter Settings for User Entity Instance: core:CORE_4|Bus_mux:BUSMUX
+123. Parameter Settings for User Entity Instance: core:CORE_4|controlunit:CU
+124. Parameter Settings for User Entity Instance: core:CORE_5
+125. Parameter Settings for User Entity Instance: core:CORE_5|PC:PC
+126. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:IR
+127. Parameter Settings for User Entity Instance: core:CORE_5|AR:AR
+128. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:DR
+129. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RP
+130. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RW:RT
+131. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RT4
+132. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RR
+133. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RM1
+134. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RK1
+135. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RN1
+136. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RI:RM2
+137. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RI:RK2
+138. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RI:RN2
+139. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RC1
+140. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_WI:RC2
+141. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_WI:RC3
+142. Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RW:AC
+143. Parameter Settings for User Entity Instance: core:CORE_5|Alu:ALU
+144. Parameter Settings for User Entity Instance: core:CORE_5|Comp:COMP
+145. Parameter Settings for User Entity Instance: core:CORE_5|Bus_mux:BUSMUX
+146. Parameter Settings for User Entity Instance: core:CORE_5|controlunit:CU
+147. Parameter Settings for User Entity Instance: core:CORE_6
+148. Parameter Settings for User Entity Instance: core:CORE_6|PC:PC
+149. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:IR
+150. Parameter Settings for User Entity Instance: core:CORE_6|AR:AR
+151. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:DR
+152. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RP
+153. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RW:RT
+154. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RT4
+155. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RR
+156. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RM1
+157. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RK1
+158. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RN1
+159. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RI:RM2
+160. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RI:RK2
+161. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RI:RN2
+162. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RC1
+163. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_WI:RC2
+164. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_WI:RC3
+165. Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RW:AC
+166. Parameter Settings for User Entity Instance: core:CORE_6|Alu:ALU
+167. Parameter Settings for User Entity Instance: core:CORE_6|Comp:COMP
+168. Parameter Settings for User Entity Instance: core:CORE_6|Bus_mux:BUSMUX
+169. Parameter Settings for User Entity Instance: core:CORE_6|controlunit:CU
+170. Parameter Settings for User Entity Instance: core:CORE_7
+171. Parameter Settings for User Entity Instance: core:CORE_7|PC:PC
+172. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:IR
+173. Parameter Settings for User Entity Instance: core:CORE_7|AR:AR
+174. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:DR
+175. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RP
+176. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RW:RT
+177. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RT4
+178. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RR
+179. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RM1
+180. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RK1
+181. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RN1
+182. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RI:RM2
+183. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RI:RK2
+184. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RI:RN2
+185. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RC1
+186. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_WI:RC2
+187. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_WI:RC3
+188. Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RW:AC
+189. Parameter Settings for User Entity Instance: core:CORE_7|Alu:ALU
+190. Parameter Settings for User Entity Instance: core:CORE_7|Comp:COMP
+191. Parameter Settings for User Entity Instance: core:CORE_7|Bus_mux:BUSMUX
+192. Parameter Settings for User Entity Instance: core:CORE_7|controlunit:CU
+193. Analysis & Elaboration Settings
+194. Port Connectivity Checks: "core:CORE_7"
+195. Port Connectivity Checks: "core:CORE_6"
+196. Port Connectivity Checks: "core:CORE_5"
+197. Port Connectivity Checks: "core:CORE_4"
+198. Port Connectivity Checks: "core:CORE_3"
+199. Port Connectivity Checks: "core:CORE_2"
+200. Port Connectivity Checks: "core:CORE_1"
+201. Port Connectivity Checks: "core:CORE_0"
+202. Port Connectivity Checks: "imem_controller:imem_c"
+203. Analysis & Elaboration Messages
+204. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -138,7 +235,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Sat Jul 03 13:41:15 2021       ;
+; Analysis & Elaboration Status      ; Successful - Sun Jul 04 20:50:09 2021       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Project_2                                   ;
 ; Top-level Entity Name              ; processor                                   ;
@@ -1143,6 +1240,926 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; WIDTH          ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|PC:PC ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:IR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|AR:AR ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:DR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RP ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RW:RT ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RT4 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RM1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RK1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RN1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RI:RM2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RI:RK2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RI:RN2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_W:RC1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_WI:RC2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_WI:RC3 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Reg_module_RW:AC ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Alu:ALU ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Comp:COMP ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                            ;
++----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|Bus_mux:BUSMUX ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_4|controlunit:CU ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; WIDTH          ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|PC:PC ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:IR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|AR:AR ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:DR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RP ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RW:RT ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RT4 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RM1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RK1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RN1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RI:RM2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RI:RK2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RI:RN2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_W:RC1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_WI:RC2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_WI:RC3 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Reg_module_RW:AC ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Alu:ALU ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Comp:COMP ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                            ;
++----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|Bus_mux:BUSMUX ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_5|controlunit:CU ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; WIDTH          ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|PC:PC ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:IR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|AR:AR ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:DR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RP ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RW:RT ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RT4 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RM1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RK1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RN1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RI:RM2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RI:RK2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RI:RN2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_W:RC1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_WI:RC2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_WI:RC3 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Reg_module_RW:AC ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Alu:ALU ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Comp:COMP ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                            ;
++----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|Bus_mux:BUSMUX ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_6|controlunit:CU ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; WIDTH          ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|PC:PC ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:IR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|AR:AR ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:DR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RP ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RW:RT ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RT4 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RR ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RM1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RK1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RN1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RI:RM2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RI:RK2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RI:RN2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_W:RC1 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_WI:RC2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_WI:RC3 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Reg_module_RW:AC ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Alu:ALU ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Comp:COMP ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                            ;
++----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|Bus_mux:BUSMUX ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: core:CORE_7|controlunit:CU ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Settings                                                                            ;
 +------------------------------------------------------------------+--------------------+--------------------+
@@ -1230,6 +2247,60 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_7"        ;
++--------------+-------+----------+--------------+
+; Port         ; Type  ; Severity ; Details      ;
++--------------+-------+----------+--------------+
+; MEM_ID[3..0] ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[6..4] ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[7]    ; Input ; Info     ; Stuck at VCC ;
+; coreID       ; Input ; Info     ; Stuck at VCC ;
++--------------+-------+----------+--------------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_6"        ;
++--------------+-------+----------+--------------+
+; Port         ; Type  ; Severity ; Details      ;
++--------------+-------+----------+--------------+
+; MEM_ID[7..6] ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[3..0] ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[5..4] ; Input ; Info     ; Stuck at GND ;
+; coreID[2..1] ; Input ; Info     ; Stuck at VCC ;
+; coreID[0]    ; Input ; Info     ; Stuck at GND ;
++--------------+-------+----------+--------------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_5"        ;
++--------------+-------+----------+--------------+
+; Port         ; Type  ; Severity ; Details      ;
++--------------+-------+----------+--------------+
+; MEM_ID[7..5] ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[3..0] ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[4]    ; Input ; Info     ; Stuck at GND ;
+; coreID[2]    ; Input ; Info     ; Stuck at VCC ;
+; coreID[1]    ; Input ; Info     ; Stuck at GND ;
+; coreID[0]    ; Input ; Info     ; Stuck at VCC ;
++--------------+-------+----------+--------------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_4"        ;
++--------------+-------+----------+--------------+
+; Port         ; Type  ; Severity ; Details      ;
++--------------+-------+----------+--------------+
+; MEM_ID[3..0] ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[7]    ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[6]    ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[5]    ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[4]    ; Input ; Info     ; Stuck at GND ;
+; coreID[1..0] ; Input ; Info     ; Stuck at GND ;
+; coreID[2]    ; Input ; Info     ; Stuck at VCC ;
++--------------+-------+----------+--------------+
+
+
++------------------------------------------------+
 ; Port Connectivity Checks: "core:CORE_3"        ;
 +--------------+-------+----------+--------------+
 ; Port         ; Type  ; Severity ; Details      ;
@@ -1280,99 +2351,108 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------------+-------+----------+--------------+
 
 
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "imem_controller:imem_c"                                                                ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; imemAV7 ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Jul 03 13:41:03 2021
+    Info: Processing started: Sun Jul 04 20:49:58 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project_2 -c Project_2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file pc.v
-    Info (12023): Found entity 1: PC File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/PC.v Line: 1
+    Info (12023): Found entity 1: PC File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/PC.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file imem_controller.v
-    Info (12023): Found entity 1: imem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/imem_controller.v Line: 1
+    Info (12023): Found entity 1: imem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/imem_controller.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file dmem_controller.v
-    Info (12023): Found entity 1: dmem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/dmem_controller.v Line: 1
+    Info (12023): Found entity 1: dmem_controller File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/dmem_controller.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_wi.v
-    Info (12023): Found entity 1: Reg_module_WI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_WI.v Line: 1
+    Info (12023): Found entity 1: Reg_module_WI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_WI.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_w.v
-    Info (12023): Found entity 1: Reg_module_W File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_W.v Line: 1
+    Info (12023): Found entity 1: Reg_module_W File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_W.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_rw.v
-    Info (12023): Found entity 1: Reg_module_RW File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RW.v Line: 1
+    Info (12023): Found entity 1: Reg_module_RW File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_RW.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_ri.v
-    Info (12023): Found entity 1: Reg_module_RI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Reg_module_RI.v Line: 1
+    Info (12023): Found entity 1: Reg_module_RI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_RI.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file processor.v
-    Info (12023): Found entity 1: processor File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 1
+    Info (12023): Found entity 1: processor File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 2
 Info (12021): Found 0 design units, including 0 entities, in source file proc_param.v
 Info (12021): Found 1 design units, including 1 entities, in source file mux_3to1_8bit.v
-    Info (12023): Found entity 1: mux_3to1_8bit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/mux_3to1_8bit.v Line: 1
+    Info (12023): Found entity 1: mux_3to1_8bit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/mux_3to1_8bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file ins_mem.v
-    Info (12023): Found entity 1: ins_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 1
+    Info (12023): Found entity 1: ins_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file data_mem.v
-    Info (12023): Found entity 1: data_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v Line: 4
+    Info (12023): Found entity 1: data_mem File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v Line: 4
 Info (12021): Found 0 design units, including 0 entities, in source file cu_param.v
 Info (12021): Found 1 design units, including 1 entities, in source file core.v
-    Info (12023): Found entity 1: core File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 3
+    Info (12023): Found entity 1: core File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file controlunit.v
-    Info (12023): Found entity 1: controlunit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/controlunit.v Line: 38
+    Info (12023): Found entity 1: controlunit File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/controlunit.v Line: 38
 Info (12021): Found 1 design units, including 1 entities, in source file comp.v
-    Info (12023): Found entity 1: Comp File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Comp.v Line: 1
+    Info (12023): Found entity 1: Comp File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Comp.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus_mux.v
-    Info (12023): Found entity 1: Bus_mux File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 5
+    Info (12023): Found entity 1: Bus_mux File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file ar.v
-    Info (12023): Found entity 1: AR File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/AR.v Line: 1
+    Info (12023): Found entity 1: AR File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/AR.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu.v
-    Info (12023): Found entity 1: Alu File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Alu.v Line: 1
+    Info (12023): Found entity 1: Alu File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Alu.v Line: 1
 Info (12127): Elaborating entity "processor" for the top level hierarchy
-Info (12128): Elaborating entity "ins_mem" for hierarchy "ins_mem:ins_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 40
-Warning (10850): Verilog HDL warning at ins_mem.v(14): number of words (47) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 14
-Warning (10030): Net "mem.data_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
-Warning (10030): Net "mem.waddr_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
-Warning (10030): Net "mem.we_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
-Info (12128): Elaborating entity "data_mem" for hierarchy "data_mem:dt_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 43
-Warning (10850): Verilog HDL warning at data_mem.v(23): number of words (109) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v Line: 23
-Warning (10175): Verilog HDL warning at data_mem.v(36): ignoring unsupported system task File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/data_mem.v Line: 36
-Info (12128): Elaborating entity "imem_controller" for hierarchy "imem_controller:imem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 48
-Info (12128): Elaborating entity "dmem_controller" for hierarchy "dmem_controller:dmem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 55
-Info (12128): Elaborating entity "core" for hierarchy "core:CORE_0" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/processor.v Line: 61
-Info (12128): Elaborating entity "PC" for hierarchy "core:CORE_0|PC:PC" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 51
-Info (12128): Elaborating entity "Reg_module_W" for hierarchy "core:CORE_0|Reg_module_W:IR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 53
-Info (12128): Elaborating entity "AR" for hierarchy "core:CORE_0|AR:AR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 55
-Info (12128): Elaborating entity "Reg_module_RW" for hierarchy "core:CORE_0|Reg_module_RW:RT" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 61
-Info (12128): Elaborating entity "Reg_module_RI" for hierarchy "core:CORE_0|Reg_module_RI:RM2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 73
-Info (12128): Elaborating entity "Reg_module_WI" for hierarchy "core:CORE_0|Reg_module_WI:RC2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 81
-Info (12128): Elaborating entity "Alu" for hierarchy "core:CORE_0|Alu:ALU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 88
-Info (10264): Verilog HDL Case Statement information at Alu.v(19): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Alu.v Line: 19
-Info (12128): Elaborating entity "mux_3to1_8bit" for hierarchy "core:CORE_0|mux_3to1_8bit:COMPMUX1" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 90
-Info (10264): Verilog HDL Case Statement information at mux_3to1_8bit.v(9): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/mux_3to1_8bit.v Line: 9
-Info (12128): Elaborating entity "Comp" for hierarchy "core:CORE_0|Comp:COMP" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 92
-Info (12128): Elaborating entity "Bus_mux" for hierarchy "core:CORE_0|Bus_mux:BUSMUX" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 94
-Warning (10270): Verilog HDL Case Statement warning at Bus_mux.v(16): incomplete case statement has no default case item File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Warning (10240): Verilog HDL Always Construct warning at Bus_mux.v(16): inferring latch(es) for variable "select", which holds its previous value in one or more paths through the always construct File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[0]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[1]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[2]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[3]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[4]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[5]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[6]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (10041): Inferred latch for "select[7]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
-Info (12128): Elaborating entity "controlunit" for hierarchy "core:CORE_0|controlunit:CU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/core.v Line: 96
-Warning (10199): Verilog HDL Case Statement warning at controlunit.v(75): case item expression never matches the case expression File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/controlunit.v Line: 75
-Info (144001): Generated suppressed messages file D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/output_files/Project_2.map.smsg
+Info (12128): Elaborating entity "ins_mem" for hierarchy "ins_mem:ins_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 56
+Warning (10850): Verilog HDL warning at ins_mem.v(14): number of words (47) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 14
+Warning (10030): Net "mem.data_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
+Warning (10030): Net "mem.waddr_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
+Warning (10030): Net "mem.we_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v Line: 10
+Info (12128): Elaborating entity "data_mem" for hierarchy "data_mem:dt_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 59
+Warning (10850): Verilog HDL warning at data_mem.v(23): number of words (117) in memory file does not match the number of elements in the address range [0:255] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v Line: 23
+Warning (10175): Verilog HDL warning at data_mem.v(36): ignoring unsupported system task File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v Line: 36
+Info (12128): Elaborating entity "imem_controller" for hierarchy "imem_controller:imem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 66
+Info (12128): Elaborating entity "dmem_controller" for hierarchy "dmem_controller:dmem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 76
+Info (12128): Elaborating entity "core" for hierarchy "core:CORE_0" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v Line: 82
+Info (12128): Elaborating entity "PC" for hierarchy "core:CORE_0|PC:PC" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 51
+Info (12128): Elaborating entity "Reg_module_W" for hierarchy "core:CORE_0|Reg_module_W:IR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 53
+Info (12128): Elaborating entity "AR" for hierarchy "core:CORE_0|AR:AR" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 55
+Info (12128): Elaborating entity "Reg_module_RW" for hierarchy "core:CORE_0|Reg_module_RW:RT" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 61
+Info (12128): Elaborating entity "Reg_module_RI" for hierarchy "core:CORE_0|Reg_module_RI:RM2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 73
+Info (12128): Elaborating entity "Reg_module_WI" for hierarchy "core:CORE_0|Reg_module_WI:RC2" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 81
+Info (12128): Elaborating entity "Alu" for hierarchy "core:CORE_0|Alu:ALU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 88
+Info (10264): Verilog HDL Case Statement information at Alu.v(19): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Alu.v Line: 19
+Info (12128): Elaborating entity "mux_3to1_8bit" for hierarchy "core:CORE_0|mux_3to1_8bit:COMPMUX1" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 90
+Info (10264): Verilog HDL Case Statement information at mux_3to1_8bit.v(9): all case item expressions in this case statement are onehot File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/mux_3to1_8bit.v Line: 9
+Info (12128): Elaborating entity "Comp" for hierarchy "core:CORE_0|Comp:COMP" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 92
+Info (12128): Elaborating entity "Bus_mux" for hierarchy "core:CORE_0|Bus_mux:BUSMUX" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 94
+Warning (10270): Verilog HDL Case Statement warning at Bus_mux.v(16): incomplete case statement has no default case item File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Warning (10240): Verilog HDL Always Construct warning at Bus_mux.v(16): inferring latch(es) for variable "select", which holds its previous value in one or more paths through the always construct File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[0]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[1]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[2]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[3]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[4]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[5]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[6]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (10041): Inferred latch for "select[7]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v Line: 16
+Info (12128): Elaborating entity "controlunit" for hierarchy "core:CORE_0|controlunit:CU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v Line: 96
+Warning (10199): Verilog HDL Case Statement warning at controlunit.v(75): case item expression never matches the case expression File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/controlunit.v Line: 75
+Info (144001): Generated suppressed messages file D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/output_files/Project_2.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 11 warnings
-    Info: Peak virtual memory: 4719 megabytes
-    Info: Processing ended: Sat Jul 03 13:41:15 2021
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Peak virtual memory: 4733 megabytes
+    Info: Processing ended: Sun Jul 04 20:50:09 2021
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:22
 
 
 +--------------------------------------------+
 ; Analysis & Elaboration Suppressed Messages ;
 +--------------------------------------------+
-The suppressed messages can be found in D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/Multi_CORE/MULTI_CORE_edit/output_files/Project_2.map.smsg.
+The suppressed messages can be found in D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/output_files/Project_2.map.smsg.
 
 

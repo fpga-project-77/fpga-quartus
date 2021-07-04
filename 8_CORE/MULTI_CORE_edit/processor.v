@@ -63,10 +63,10 @@ imem_controller #(.WIDTH(WIDTH)) imem_c(.Clk(clk), .INS(INS), .rEN(iROMREAD), .P
  .coreS_1(coreS_1), .coreS_2(coreS_2), .coreS_3(coreS_3), .coreS_4(coreS_4), .coreS_5(coreS_5), .coreS_6(coreS_6), .coreS_7(coreS_7), .coreS_8(coreS_8),
  .PC_1(PC_1), .PC_2(PC_2), .PC_3(PC_3), .PC_4(PC_4), .PC_5(PC_5), .PC_6(PC_6), .PC_7(PC_7), .PC_8(PC_8),
  .INS_1(INS_1), .INS_2(INS_2), .INS_3(INS_3), .INS_4(INS_4), .INS_5(INS_5), .INS_6(INS_6), .INS_7(INS_7), .INS_8(INS_8), 
- .imemAV1(imemAV1), .imemAV2(imemAV2), .imemAV3(imemAV3), .imemAV4(imemAV4), .imemAV5(imemAV5), .imemAV6(imemAV6), .imemAV7(imemAV7), .imemAV8(imemAV8), );
+ .imemAV1(imemAV1), .imemAV2(imemAV2), .imemAV3(imemAV3), .imemAV4(imemAV4), .imemAV5(imemAV5), .imemAV6(imemAV6), .imemAV7(imemAV7), .imemAV8(imemAV8));
 
 
-dmem_controller #(.WIDTH(WIDTH)) dmem_c (.Clk(clk), .MEM(MEMREAD_data), .rEN(memREAD), .wEN(memWRITE), .DR_OUT(MEMWRITE_data) .addr(DRAM_addr),
+dmem_controller #(.WIDTH(WIDTH)) dmem_c (.Clk(clk), .MEM(MEMREAD_data), .rEN(memREAD), .wEN(memWRITE), .DR_OUT(MEMWRITE_data), .addr(DRAM_addr),
 .coreS_1(coreS_1), .coreS_2(coreS_2), .coreS_3(coreS_3), .coreS_4(coreS_4), .coreS_5(coreS_5), .coreS_6(coreS_6), .coreS_7(coreS_7), .coreS_8(coreS_8),
 .memAV1(memAV1), .memAV2(memAV2), .memAV3(memAV3), .memAV4(memAV4), .memAV5(memAV5), .memAV6(memAV6), .memAV7(memAV7), .memAV8(memAV8),
 .AR_1(AR_1), .AR_2(AR_2), .AR_3(AR_3), .AR_4(AR_4), .AR_5(AR_5), .AR_6(AR_6), .AR_7(AR_7), .AR_8(AR_8),

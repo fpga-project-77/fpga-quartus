@@ -33,11 +33,11 @@ localparam AR_8_1 = 5'b01111;
 localparam AR_8_2 = 5'b10000;
 
 localparam DR_1_1 = 5'b10001;
-localparam DR_1_2 = 5'b10001;
-localparam DR_1_3 = 5'b10010;
-localparam DR_1_4 = 5'b10011;
-localparam DR_1_5 = 5'b10100;
-localparam DR_1_6 = 5'b10101;
+localparam DR_1_2 = 5'b10010;
+localparam DR_1_3 = 5'b10011;
+localparam DR_1_4 = 5'b10100;
+localparam DR_1_5 = 5'b10101;
+localparam DR_1_6 = 5'b10110;
 localparam DR_1_7 = 5'b10111;
 
 reg [4:0] NEXT_STATE_DC=NORM;
