@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Project_2
-Mon Jul 05 00:54:20 2021
+Tue Jul 06 19:39:06 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -235,7 +235,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Mon Jul 05 00:54:20 2021       ;
+; Analysis & Elaboration Status      ; Successful - Tue Jul 06 19:39:06 2021       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Project_2                                   ;
 ; Top-level Entity Name              ; processor                                   ;
@@ -2246,104 +2246,116 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_7"                                                                                                                                      ;
-+--------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type  ; Severity ; Details                                                                                                                                          ;
-+--------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; MEM_ID ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
-; MEM_ID ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; coreID ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-+--------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_7"          ;
++----------------+-------+----------+--------------+
+; Port           ; Type  ; Severity ; Details      ;
++----------------+-------+----------+--------------+
+; MEM_ID[6..0]   ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[15..11] ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[9..7]   ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[10]     ; Input ; Info     ; Stuck at VCC ;
+; coreID         ; Input ; Info     ; Stuck at VCC ;
++----------------+-------+----------+--------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_6"                                                                                                                                            ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
-; MEM_ID       ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; coreID[2..1] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; coreID[0]    ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_6"          ;
++----------------+-------+----------+--------------+
+; Port           ; Type  ; Severity ; Details      ;
++----------------+-------+----------+--------------+
+; MEM_ID[10..9]  ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[6..0]   ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[15..11] ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[8..7]   ; Input ; Info     ; Stuck at GND ;
+; coreID[2..1]   ; Input ; Info     ; Stuck at VCC ;
+; coreID[0]      ; Input ; Info     ; Stuck at GND ;
++----------------+-------+----------+--------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_5"                                                                                                                                         ;
-+-----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port      ; Type  ; Severity ; Details                                                                                                                                          ;
-+-----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; MEM_ID    ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
-; MEM_ID    ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; coreID[2] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; coreID[1] ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-; coreID[0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-+-----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_5"          ;
++----------------+-------+----------+--------------+
+; Port           ; Type  ; Severity ; Details      ;
++----------------+-------+----------+--------------+
+; MEM_ID[10..8]  ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[6..0]   ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[15..11] ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[7]      ; Input ; Info     ; Stuck at GND ;
+; coreID[2]      ; Input ; Info     ; Stuck at VCC ;
+; coreID[1]      ; Input ; Info     ; Stuck at GND ;
+; coreID[0]      ; Input ; Info     ; Stuck at VCC ;
++----------------+-------+----------+--------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_4"                                                                                                                                            ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
-; MEM_ID       ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; coreID[1..0] ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-; coreID[2]    ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_4"          ;
++----------------+-------+----------+--------------+
+; Port           ; Type  ; Severity ; Details      ;
++----------------+-------+----------+--------------+
+; MEM_ID[6..0]   ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[15..11] ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[10]     ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[9]      ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[8]      ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[7]      ; Input ; Info     ; Stuck at GND ;
+; coreID[1..0]   ; Input ; Info     ; Stuck at GND ;
+; coreID[2]      ; Input ; Info     ; Stuck at VCC ;
++----------------+-------+----------+--------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_3"                                                                                                                                            ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
-; MEM_ID[6..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; MEM_ID[15]   ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-; coreID[1..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; coreID[2]    ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_3"          ;
++----------------+-------+----------+--------------+
+; Port           ; Type  ; Severity ; Details      ;
++----------------+-------+----------+--------------+
+; MEM_ID[7..0]   ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[15..11] ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[9..8]   ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[10]     ; Input ; Info     ; Stuck at VCC ;
+; coreID[1..0]   ; Input ; Info     ; Stuck at VCC ;
+; coreID[2]      ; Input ; Info     ; Stuck at GND ;
++----------------+-------+----------+--------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_2"                                                                                                                                            ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
-; MEM_ID[6..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; MEM_ID[15]   ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-; coreID[2]    ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-; coreID[1]    ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; coreID[0]    ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_2"          ;
++----------------+-------+----------+--------------+
+; Port           ; Type  ; Severity ; Details      ;
++----------------+-------+----------+--------------+
+; MEM_ID[10..9]  ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[7..0]   ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[15..11] ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[8]      ; Input ; Info     ; Stuck at GND ;
+; coreID[2]      ; Input ; Info     ; Stuck at GND ;
+; coreID[1]      ; Input ; Info     ; Stuck at VCC ;
+; coreID[0]      ; Input ; Info     ; Stuck at GND ;
++----------------+-------+----------+--------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_1"                                                                                                                                            ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
-; MEM_ID[6..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; MEM_ID[15]   ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-; coreID[2..1] ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-; coreID[0]    ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_1"          ;
++----------------+-------+----------+--------------+
+; Port           ; Type  ; Severity ; Details      ;
++----------------+-------+----------+--------------+
+; MEM_ID[8..0]   ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[15..11] ; Input ; Info     ; Stuck at GND ;
+; MEM_ID[10]     ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[9]      ; Input ; Info     ; Stuck at GND ;
+; coreID[2..1]   ; Input ; Info     ; Stuck at GND ;
+; coreID[0]      ; Input ; Info     ; Stuck at VCC ;
++----------------+-------+----------+--------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "core:CORE_0"                                                                                                                                            ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port         ; Type  ; Severity ; Details                                                                                                                                          ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; MEM_ID       ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "MEM_ID[15..8]" will be connected to GND. ;
-; MEM_ID[6..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
-; MEM_ID[15]   ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-; coreID       ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
-+--------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "core:CORE_0"          ;
++----------------+-------+----------+--------------+
+; Port           ; Type  ; Severity ; Details      ;
++----------------+-------+----------+--------------+
+; MEM_ID[9..0]   ; Input ; Info     ; Stuck at VCC ;
+; MEM_ID[15..10] ; Input ; Info     ; Stuck at GND ;
+; coreID         ; Input ; Info     ; Stuck at GND ;
++----------------+-------+----------+--------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------+
@@ -2361,7 +2373,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Jul 05 00:54:09 2021
+    Info: Processing started: Tue Jul 06 19:38:53 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project_2 -c Project_2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -2379,12 +2391,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file reg_mod
     Info (12023): Found entity 1: Reg_module_RW File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Reg_module_RW.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_module_ri.v
     Info (12023): Found entity 1: Reg_module_RI File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Reg_module_RI.v Line: 1
-Warning (10229): Verilog HDL Expression warning at processor.v(37): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 37
-Warning (10229): Verilog HDL Expression warning at processor.v(38): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 38
-Warning (10229): Verilog HDL Expression warning at processor.v(39): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 39
-Warning (10229): Verilog HDL Expression warning at processor.v(40): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 40
-Warning (10229): Verilog HDL Expression warning at processor.v(41): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 41
-Warning (10229): Verilog HDL Expression warning at processor.v(42): truncated literal to match 8 bits File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 42
 Info (12021): Found 1 design units, including 1 entities, in source file processor.v
     Info (12023): Found entity 1: processor File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 2
 Info (12021): Found 0 design units, including 0 entities, in source file proc_param.v
@@ -2414,7 +2420,7 @@ Warning (10030): Net "mem.data_a" at ins_mem.v(10) has no driver or initial valu
 Warning (10030): Net "mem.waddr_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/ins_mem.v Line: 10
 Warning (10030): Net "mem.we_a" at ins_mem.v(10) has no driver or initial value, using a default initial value '0' File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/ins_mem.v Line: 10
 Info (12128): Elaborating entity "data_mem" for hierarchy "data_mem:dt_mem" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 59
-Warning (10850): Verilog HDL warning at data_mem.v(23): number of words (97) in memory file does not match the number of elements in the address range [0:2047] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/data_mem.v Line: 23
+Warning (10850): Verilog HDL warning at data_mem.v(23): number of words (305) in memory file does not match the number of elements in the address range [0:2047] File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/data_mem.v Line: 23
 Warning (10175): Verilog HDL warning at data_mem.v(36): ignoring unsupported system task File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/data_mem.v Line: 36
 Info (12128): Elaborating entity "imem_controller" for hierarchy "imem_controller:imem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 66
 Info (12128): Elaborating entity "dmem_controller" for hierarchy "dmem_controller:dmem_c" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/processor.v Line: 76
@@ -2451,13 +2457,12 @@ Info (10041): Inferred latch for "select[14]" at Bus_mux.v(16) File: D:/Academic
 Info (10041): Inferred latch for "select[15]" at Bus_mux.v(16) File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/Bus_mux.v Line: 16
 Info (12128): Elaborating entity "controlunit" for hierarchy "core:CORE_0|controlunit:CU" File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/core.v Line: 96
 Warning (10199): Verilog HDL Case Statement warning at controlunit.v(75): case item expression never matches the case expression File: D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/controlunit.v Line: 75
-Warning (12241): 8 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/16-bit/MULTI_CORE_edit/output_files/Project_2.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 18 warnings
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 11 warnings
     Info: Peak virtual memory: 4745 megabytes
-    Info: Processing ended: Mon Jul 05 00:54:20 2021
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:21
+    Info: Processing ended: Tue Jul 06 19:39:06 2021
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:22
 
 
 +--------------------------------------------+

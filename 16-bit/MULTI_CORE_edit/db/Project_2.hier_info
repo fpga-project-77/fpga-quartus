@@ -1,6 +1,6 @@
 |processor
 clk => clk.IN12
-proc_state << proc_state.DB_MAX_OUTPUT_PORT_TYPE
+proc_state <= proc_state.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |processor|ins_mem:ins_mem
