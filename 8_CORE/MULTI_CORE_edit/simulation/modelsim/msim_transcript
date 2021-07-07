@@ -14,201 +14,201 @@
 # 
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/PC.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:31 on Jul 06,2021
+# Start time: 12:45:12 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/PC.v 
 # -- Compiling module PC
 # 
 # Top level modules:
 # 	PC
-# End time: 11:12:31 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:12 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/imem_controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:31 on Jul 06,2021
+# Start time: 12:45:12 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/imem_controller.v 
 # -- Compiling module imem_controller
 # 
 # Top level modules:
 # 	imem_controller
-# End time: 11:12:31 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:12 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/dmem_controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:32 on Jul 06,2021
+# Start time: 12:45:12 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/dmem_controller.v 
 # -- Compiling module dmem_controller
 # 
 # Top level modules:
 # 	dmem_controller
-# End time: 11:12:32 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:12 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_WI.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:32 on Jul 06,2021
+# Start time: 12:45:12 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_WI.v 
 # -- Compiling module Reg_module_WI
 # 
 # Top level modules:
 # 	Reg_module_WI
-# End time: 11:12:32 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:12 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_W.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:32 on Jul 06,2021
+# Start time: 12:45:12 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_W.v 
 # -- Compiling module Reg_module_W
 # 
 # Top level modules:
 # 	Reg_module_W
-# End time: 11:12:32 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:12 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_RW.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:32 on Jul 06,2021
+# Start time: 12:45:12 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_RW.v 
 # -- Compiling module Reg_module_RW
 # 
 # Top level modules:
 # 	Reg_module_RW
-# End time: 11:12:32 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_RI.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:32 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Reg_module_RI.v 
 # -- Compiling module Reg_module_RI
 # 
 # Top level modules:
 # 	Reg_module_RI
-# End time: 11:12:32 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:32 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor.v 
 # -- Compiling module processor
 # 
 # Top level modules:
 # 	processor
-# End time: 11:12:32 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/proc_param.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:32 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/proc_param.v 
-# End time: 11:12:32 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/mux_3to1_8bit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:32 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/mux_3to1_8bit.v 
 # -- Compiling module mux_3to1_8bit
 # 
 # Top level modules:
 # 	mux_3to1_8bit
-# End time: 11:12:33 on Jul 06,2021, Elapsed time: 0:00:01
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/cu_param.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:33 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/cu_param.v 
-# End time: 11:12:33 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Comp.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:33 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Comp.v 
 # -- Compiling module Comp
 # 
 # Top level modules:
 # 	Comp
-# End time: 11:12:33 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:33 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Bus_mux.v 
 # -- Compiling module Bus_mux
 # 
 # Top level modules:
 # 	Bus_mux
-# End time: 11:12:33 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/AR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:33 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/AR.v 
 # -- Compiling module AR
 # 
 # Top level modules:
 # 	AR
-# End time: 11:12:33 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:33 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/Alu.v 
 # -- Compiling module Alu
 # 
 # Top level modules:
 # 	Alu
-# End time: 11:12:33 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:33 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
 # -- Compiling module ins_mem
 # 
 # Top level modules:
 # 	ins_mem
-# End time: 11:12:33 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:33 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
 # -- Compiling module data_mem
 # 
 # Top level modules:
 # 	data_mem
-# End time: 11:12:33 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:13 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:33 on Jul 06,2021
+# Start time: 12:45:13 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/core.v 
 # -- Compiling module core
 # 
 # Top level modules:
 # 	core
-# End time: 11:12:33 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:14 on Jul 07,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/controlunit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:34 on Jul 06,2021
+# Start time: 12:45:14 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/controlunit.v 
 # -- Compiling module controlunit
 # 
 # Top level modules:
 # 	controlunit
-# End time: 11:12:34 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:14 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/Academic/ACA/SEM5\ TRONIC\ ACA/SEMESTER\ 5/CSD/FPGA/00\ -\ Git/fpga-quartus/8_CORE/MULTI_CORE_edit {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:12:34 on Jul 06,2021
+# Start time: 12:45:14 on Jul 07,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit" D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v 
 # -- Compiling module processor_tb
 # 
 # Top level modules:
 # 	processor_tb
-# End time: 11:12:34 on Jul 06,2021, Elapsed time: 0:00:00
+# End time: 12:45:14 on Jul 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  processor_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" processor_tb 
-# Start time: 11:12:34 on Jul 06,2021
+# Start time: 12:45:14 on Jul 07,2021
 # Loading work.processor_tb
 # Loading work.processor
 # Loading work.ins_mem
@@ -233,394 +233,31 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: User  Hostname: LAPTOP-ATP98  ProcessID: 89616
-#           Attempting to use alternate WLF file "./wlftk6wj5f".
+#           Attempting to use alternate WLF file "./wlftd7a0sx".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftk6wj5f
+#           Using alternate file: ./wlftd7a0sx
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 111980 ns  Iteration: 1  Instance: /processor_tb
+#    Time: 99680 ns  Iteration: 1  Instance: /processor_tb
 # Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:13:44 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:13:44 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:13:44 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:13:44 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 restart
-# Loading work.ins_mem
-# Loading work.data_mem
 run
 # ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 130380 ns  Iteration: 1  Instance: /processor_tb
+#    Time: 63320 ns  Iteration: 1  Instance: /processor_tb
 # Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:18:04 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:18:04 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:18:04 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:18:04 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 restart
-# Loading work.ins_mem
-# Loading work.data_mem
 run
 # ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 68780 ns  Iteration: 1  Instance: /processor_tb
+#    Time: 88420 ns  Iteration: 1  Instance: /processor_tb
 # Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:20:18 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:20:18 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:20:18 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:20:18 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 restart
-# Loading work.ins_mem
-# Loading work.data_mem
 run
 # ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 79980 ns  Iteration: 1  Instance: /processor_tb
+#    Time: 113420 ns  Iteration: 1  Instance: /processor_tb
 # Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:22:10 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:22:10 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:22:10 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:22:10 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 79940 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:24:50 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:24:51 on Jul 06,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:24:51 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:24:51 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 102340 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:26:49 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:26:49 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:26:49 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:26:49 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 113520 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:37 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:28:37 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:37 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:28:38 on Jul 06,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 147140 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:30:33 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:30:33 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:30:34 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:30:34 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 214420 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:17 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:32:17 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:17 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:32:17 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 416340 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:42:12 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:42:12 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:42:12 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:42:12 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 84580 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:32 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:43:33 on Jul 06,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:43:33 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:43:33 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 44260 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:44:23 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:44:23 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:44:23 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:44:23 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 44300 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:45:20 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:45:20 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:45:20 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:45:20 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 24160 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:46:34 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/data_mem.v 
-# -- Compiling module data_mem
-# 
-# Top level modules:
-# 	data_mem
-# End time: 11:46:34 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:46:34 on Jul 06,2021
-# vlog -reportprogress 300 -work work D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/ins_mem.v 
-# -- Compiling module ins_mem
-# 
-# Top level modules:
-# 	ins_mem
-# End time: 11:46:34 on Jul 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.ins_mem
-# Loading work.data_mem
-run
-# ** Note: $stop    : D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v(18)
-#    Time: 24160 ns  Iteration: 1  Instance: /processor_tb
-# Break in Module processor_tb at D:/Academic/ACA/SEM5 TRONIC ACA/SEMESTER 5/CSD/FPGA/00 - Git/fpga-quartus/8_CORE/MULTI_CORE_edit/processor_tb.v line 18
-# End time: 13:27:39 on Jul 06,2021, Elapsed time: 2:15:05
+# End time: 01:20:36 on Jul 08,2021, Elapsed time: 12:35:22
 # Errors: 0, Warnings: 2
