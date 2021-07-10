@@ -1,5 +1,10 @@
 v1
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_3|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
 DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_0|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
 DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_1|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
 DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_2|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_3|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_4|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_5|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_6|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,core:CORE_7|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,core:CORE_0|Alu:ALU|lpm_mult:Mult0|mult_aat:auto_generated|mac_mult1,

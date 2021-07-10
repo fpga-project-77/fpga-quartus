@@ -2,4 +2,328 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -8.336
+TNS   : -6175.650
+
+Type  : Slow 1200mV 85C Model Setup 'core:CORE_6|controlunit:CU|busMUX[0]'
+Slack : -7.323
+TNS   : -53.422
+
+Type  : Slow 1200mV 85C Model Setup 'core:CORE_5|controlunit:CU|busMUX[0]'
+Slack : -7.269
+TNS   : -54.475
+
+Type  : Slow 1200mV 85C Model Setup 'core:CORE_0|controlunit:CU|busMUX[0]'
+Slack : -7.016
+TNS   : -51.969
+
+Type  : Slow 1200mV 85C Model Setup 'core:CORE_1|controlunit:CU|busMUX[0]'
+Slack : -6.770
+TNS   : -49.993
+
+Type  : Slow 1200mV 85C Model Setup 'core:CORE_7|controlunit:CU|busMUX[0]'
+Slack : -6.639
+TNS   : -49.789
+
+Type  : Slow 1200mV 85C Model Setup 'core:CORE_2|controlunit:CU|busMUX[0]'
+Slack : -6.518
+TNS   : -49.215
+
+Type  : Slow 1200mV 85C Model Setup 'core:CORE_3|controlunit:CU|busMUX[0]'
+Slack : -6.152
+TNS   : -48.108
+
+Type  : Slow 1200mV 85C Model Setup 'core:CORE_4|controlunit:CU|busMUX[0]'
+Slack : -5.622
+TNS   : -44.097
+
+Type  : Slow 1200mV 85C Model Hold 'core:CORE_1|controlunit:CU|busMUX[0]'
+Slack : -1.140
+TNS   : -1.140
+
+Type  : Slow 1200mV 85C Model Hold 'core:CORE_6|controlunit:CU|busMUX[0]'
+Slack : -0.223
+TNS   : -0.268
+
+Type  : Slow 1200mV 85C Model Hold 'core:CORE_4|controlunit:CU|busMUX[0]'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'core:CORE_2|controlunit:CU|busMUX[0]'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'core:CORE_3|controlunit:CU|busMUX[0]'
+Slack : 0.495
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'core:CORE_0|controlunit:CU|busMUX[0]'
+Slack : 0.531
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'core:CORE_5|controlunit:CU|busMUX[0]'
+Slack : 0.590
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'core:CORE_7|controlunit:CU|busMUX[0]'
+Slack : 0.882
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2768.935
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'core:CORE_6|controlunit:CU|busMUX[0]'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'core:CORE_1|controlunit:CU|busMUX[0]'
+Slack : 0.376
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'core:CORE_0|controlunit:CU|busMUX[0]'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'core:CORE_2|controlunit:CU|busMUX[0]'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'core:CORE_4|controlunit:CU|busMUX[0]'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'core:CORE_3|controlunit:CU|busMUX[0]'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'core:CORE_5|controlunit:CU|busMUX[0]'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'core:CORE_7|controlunit:CU|busMUX[0]'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -7.578
+TNS   : -5459.122
+
+Type  : Slow 1200mV 0C Model Setup 'core:CORE_6|controlunit:CU|busMUX[0]'
+Slack : -6.914
+TNS   : -50.296
+
+Type  : Slow 1200mV 0C Model Setup 'core:CORE_5|controlunit:CU|busMUX[0]'
+Slack : -6.810
+TNS   : -51.226
+
+Type  : Slow 1200mV 0C Model Setup 'core:CORE_0|controlunit:CU|busMUX[0]'
+Slack : -6.606
+TNS   : -49.055
+
+Type  : Slow 1200mV 0C Model Setup 'core:CORE_1|controlunit:CU|busMUX[0]'
+Slack : -6.384
+TNS   : -47.085
+
+Type  : Slow 1200mV 0C Model Setup 'core:CORE_7|controlunit:CU|busMUX[0]'
+Slack : -6.239
+TNS   : -46.688
+
+Type  : Slow 1200mV 0C Model Setup 'core:CORE_2|controlunit:CU|busMUX[0]'
+Slack : -6.163
+TNS   : -46.476
+
+Type  : Slow 1200mV 0C Model Setup 'core:CORE_3|controlunit:CU|busMUX[0]'
+Slack : -5.766
+TNS   : -44.950
+
+Type  : Slow 1200mV 0C Model Setup 'core:CORE_4|controlunit:CU|busMUX[0]'
+Slack : -5.232
+TNS   : -41.409
+
+Type  : Slow 1200mV 0C Model Hold 'core:CORE_1|controlunit:CU|busMUX[0]'
+Slack : -0.938
+TNS   : -0.938
+
+Type  : Slow 1200mV 0C Model Hold 'core:CORE_6|controlunit:CU|busMUX[0]'
+Slack : -0.154
+TNS   : -0.154
+
+Type  : Slow 1200mV 0C Model Hold 'core:CORE_4|controlunit:CU|busMUX[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.336
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'core:CORE_3|controlunit:CU|busMUX[0]'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'core:CORE_0|controlunit:CU|busMUX[0]'
+Slack : 0.501
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'core:CORE_5|controlunit:CU|busMUX[0]'
+Slack : 0.570
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'core:CORE_2|controlunit:CU|busMUX[0]'
+Slack : 0.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'core:CORE_7|controlunit:CU|busMUX[0]'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2768.715
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'core:CORE_7|controlunit:CU|busMUX[0]'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'core:CORE_5|controlunit:CU|busMUX[0]'
+Slack : 0.371
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'core:CORE_4|controlunit:CU|busMUX[0]'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'core:CORE_3|controlunit:CU|busMUX[0]'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'core:CORE_2|controlunit:CU|busMUX[0]'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'core:CORE_0|controlunit:CU|busMUX[0]'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'core:CORE_6|controlunit:CU|busMUX[0]'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'core:CORE_1|controlunit:CU|busMUX[0]'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -3.720
+TNS   : -2181.906
+
+Type  : Fast 1200mV 0C Model Setup 'core:CORE_6|controlunit:CU|busMUX[0]'
+Slack : -3.336
+TNS   : -24.458
+
+Type  : Fast 1200mV 0C Model Setup 'core:CORE_0|controlunit:CU|busMUX[0]'
+Slack : -3.267
+TNS   : -23.575
+
+Type  : Fast 1200mV 0C Model Setup 'core:CORE_5|controlunit:CU|busMUX[0]'
+Slack : -3.244
+TNS   : -24.334
+
+Type  : Fast 1200mV 0C Model Setup 'core:CORE_1|controlunit:CU|busMUX[0]'
+Slack : -3.069
+TNS   : -22.756
+
+Type  : Fast 1200mV 0C Model Setup 'core:CORE_7|controlunit:CU|busMUX[0]'
+Slack : -3.042
+TNS   : -22.858
+
+Type  : Fast 1200mV 0C Model Setup 'core:CORE_2|controlunit:CU|busMUX[0]'
+Slack : -2.955
+TNS   : -22.123
+
+Type  : Fast 1200mV 0C Model Setup 'core:CORE_3|controlunit:CU|busMUX[0]'
+Slack : -2.755
+TNS   : -21.256
+
+Type  : Fast 1200mV 0C Model Setup 'core:CORE_4|controlunit:CU|busMUX[0]'
+Slack : -2.456
+TNS   : -19.135
+
+Type  : Fast 1200mV 0C Model Hold 'core:CORE_1|controlunit:CU|busMUX[0]'
+Slack : -0.853
+TNS   : -0.853
+
+Type  : Fast 1200mV 0C Model Hold 'core:CORE_0|controlunit:CU|busMUX[0]'
+Slack : -0.107
+TNS   : -0.107
+
+Type  : Fast 1200mV 0C Model Hold 'core:CORE_3|controlunit:CU|busMUX[0]'
+Slack : -0.073
+TNS   : -0.073
+
+Type  : Fast 1200mV 0C Model Hold 'core:CORE_6|controlunit:CU|busMUX[0]'
+Slack : 0.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'core:CORE_2|controlunit:CU|busMUX[0]'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'core:CORE_4|controlunit:CU|busMUX[0]'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'core:CORE_5|controlunit:CU|busMUX[0]'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'core:CORE_7|controlunit:CU|busMUX[0]'
+Slack : 0.515
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2340.200
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'core:CORE_6|controlunit:CU|busMUX[0]'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'core:CORE_0|controlunit:CU|busMUX[0]'
+Slack : 0.225
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'core:CORE_1|controlunit:CU|busMUX[0]'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'core:CORE_2|controlunit:CU|busMUX[0]'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'core:CORE_7|controlunit:CU|busMUX[0]'
+Slack : 0.272
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'core:CORE_4|controlunit:CU|busMUX[0]'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'core:CORE_3|controlunit:CU|busMUX[0]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'core:CORE_5|controlunit:CU|busMUX[0]'
+Slack : 0.330
+TNS   : 0.000
+
 ------------------------------------------------------------

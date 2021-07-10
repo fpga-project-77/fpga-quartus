@@ -1,5 +1,5 @@
 Flow report for Project_2
-Wed Jul 07 12:44:19 2021
+Sat Jul 10 18:42:38 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Jul 07 12:44:19 2021       ;
+; Flow Status                        ; Successful - Sat Jul 10 18:42:38 2021       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Project_2                                   ;
 ; Top-level Entity Name              ; processor                                   ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/07/2021 12:44:08 ;
+; Start date & time ; 07/10/2021 18:42:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Project_2           ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 13870901925308.162564204728104         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 13870901925308.162592274513540         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; core_tb        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; data_mem_tb    ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; processor_tb   ;
@@ -111,8 +111,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:13     ; 1.0                     ; 4733 MB             ; 00:00:22                           ;
-; Total                  ; 00:00:13     ; --                      ; --                  ; 00:00:22                           ;
+; Analysis & Elaboration ; 00:00:14     ; 1.0                     ; 4740 MB             ; 00:00:24                           ;
+; Total                  ; 00:00:14     ; --                      ; --                  ; 00:00:24                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
